@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "generated": "2026-08-03",
+    "anchor": "Premier League = 1.0000",
+    "confidence_levels": {
+      "high": "Derived from Transfermarkt 5-year UEFA coefficient 2026. Trust these.",
+      "medium": "Non-UEFA league, weight proxied from club squad values vs EPL average.",
+      "low": "Manual estimate. Structurally reasonable, not measured. Calibrate or replace."
+    },
+    "source_uefa": "https://www.transfermarkt.co.id/uefa/5jahreswertung/statistik/stat/plus/0?saison_id=2026",
+    "refresh": "python -m src.scrape_league_weights",
+    "notes": [
+      "Only leagues that actually matter for 2026/27 are listed: manager prior stints, and source leagues of incoming transfers. Padding the file to 105 entries would add fake precision, not information.",
+      "Russian Premier League values are stale -- UEFA suspension since 2022 means no valid coefficient. Marked unusable.",
+      "'International' has no club league to scale against and is handled as a special case in features.py."
+    ]
+  },
+
+  "leagues": {
+    "Premier League":          {"weight": 1.0000, "confidence": "high",   "country": "England",     "uefa": true},
+    "Serie A":                 {"weight": 0.8800, "confidence": "low",    "country": "Italy",       "uefa": true},
+    "La Liga":                 {"weight": 0.8500, "confidence": "low",    "country": "Spain",       "uefa": true},
+    "Bundesliga":              {"weight": 0.7866, "confidence": "high",   "country": "Germany",     "uefa": true},
+    "Ligue 1":                 {"weight": 0.6642, "confidence": "high",   "country": "France",      "uefa": true},
+    "Eredivisie":              {"weight": 0.5200, "confidence": "low",    "country": "Netherlands", "uefa": true},
+    "Primeira Liga":           {"weight": 0.5000, "confidence": "low",    "country": "Portugal",    "uefa": true},
+    "Belgian Pro League":      {"weight": 0.4100, "confidence": "low",    "country": "Belgium",     "uefa": true},
+    "Super Lig":               {"weight": 0.3900, "confidence": "low",    "country": "Turkey",      "uefa": true},
+    "Championship":            {"weight": 0.3436, "confidence": "low",    "country": "England",     "uefa": false},
+    "Czech First League":      {"weight": 0.2900, "confidence": "low",    "country": "Czechia",     "uefa": true},
+    "Super League Greece":     {"weight": 0.2850, "confidence": "low",    "country": "Greece",      "uefa": true},
+    "Swiss Super League":      {"weight": 0.2700, "confidence": "low",    "country": "Switzerland", "uefa": true},
+    "Austrian Bundesliga":     {"weight": 0.2420, "confidence": "high",   "country": "Austria",     "uefa": true},
+    "Scottish Premiership":    {"weight": 0.2350, "confidence": "low",    "country": "Scotland",    "uefa": true},
+    "Danish Superliga":        {"weight": 0.2300, "confidence": "low",    "country": "Denmark",     "uefa": true},
+    "Croatian HNL":            {"weight": 0.2100, "confidence": "low",    "country": "Croatia",     "uefa": true},
+    "Serbian SuperLiga":       {"weight": 0.2000, "confidence": "low",    "country": "Serbia",      "uefa": true},
+    "Norwegian Eliteserien":   {"weight": 0.1900, "confidence": "low",    "country": "Norway",      "uefa": true},
+    "Polish Ekstraklasa":      {"weight": 0.1850, "confidence": "low",    "country": "Poland",      "uefa": true},
+    "Ukrainian Premier League":{"weight": 0.1800, "confidence": "low",    "country": "Ukraine",     "uefa": true},
+    "Swedish Allsvenskan":     {"weight": 0.1700, "confidence": "low",    "country": "Sweden",      "uefa": true},
+
+    "2. Bundesliga":           {"weight": 0.3100, "confidence": "low",    "country": "Germany",     "uefa": false},
+    "Serie B":                 {"weight": 0.2800, "confidence": "low",    "country": "Italy",       "uefa": false},
+    "La Liga 2":               {"weight": 0.2750, "confidence": "low",    "country": "Spain",       "uefa": false},
+    "Ligue 2":                 {"weight": 0.2400, "confidence": "low",    "country": "France",      "uefa": false},
+    "League One":              {"weight": 0.1400, "confidence": "low",    "country": "England",     "uefa": false},
+
+    "Brazilian Serie A":       {"weight": 0.2749, "confidence": "medium", "country": "Brazil",      "uefa": false},
+    "Argentine Primera":       {"weight": 0.2400, "confidence": "medium", "country": "Argentina",   "uefa": false},
+    "Liga MX":                 {"weight": 0.2000, "confidence": "medium", "country": "Mexico",      "uefa": false},
+    "Saudi Pro League":        {"weight": 0.1767, "confidence": "medium", "country": "Saudi Arabia","uefa": false},
+    "MLS":                     {"weight": 0.1700, "confidence": "medium", "country": "USA",         "uefa": false},
+    "J1 League":               {"weight": 0.1500, "confidence": "medium", "country": "Japan",       "uefa": false},
+    "K League 1":              {"weight": 0.1350, "confidence": "medium", "country": "South Korea", "uefa": false},
+
+    "Youth/B Team":            {"weight": 0.0589, "confidence": "low",    "country": "-",           "uefa": false},
+    "International":           {"weight": null,   "confidence": "none",   "country": "-",           "uefa": false},
+    "Russian Premier League":  {"weight": null,   "confidence": "none",   "country": "Russia",      "uefa": false,
+                                "note": "UEFA-suspended since 2022; coefficient and market values both stale. Excluded."}
+  }
+}

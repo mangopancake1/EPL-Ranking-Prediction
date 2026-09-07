@@ -1,0 +1,2536 @@
+[
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "James Trafford",
+  "position": "Kiper",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Arijanet Murić",
+  "position": "Kiper",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Lawrence Vigouroux",
+  "position": "Kiper",
+  "market_value_m": 0.3
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Denis Franchi",
+  "position": "Kiper",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Jordan Beyer",
+  "position": "Bek Tengah",
+  "market_value_m": 13.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Ameen Al-Dakhil",
+  "position": "Bek Tengah",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Dara O'Shea",
+  "position": "Bek Tengah",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Hjalmar Ekdal",
+  "position": "Bek Tengah",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Maxime Estève",
+  "position": "Bek Tengah",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Hannes Delcroix",
+  "position": "Bek Tengah",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Luke McNally",
+  "position": "Bek Tengah",
+  "market_value_m": 3.8
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "CJ Egan-Riley",
+  "position": "Bek Tengah",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Charlie Taylor",
+  "position": "Bek Kiri",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Lorenz Assignon",
+  "position": "Bek Kanan",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Connor Roberts",
+  "position": "Bek Kanan",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Vitinho",
+  "position": "Bek Kanan",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Sander Berge",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Jack Cork",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 0.8
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Josh Brownhill",
+  "position": "Gelandang Tengah",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Josh Cullen",
+  "position": "Gelandang Tengah",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Han-Noah Massengo",
+  "position": "Gelandang Tengah",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Aaron Ramsey",
+  "position": "Gelandang Serang",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Mike Tresor",
+  "position": "Gelandang Serang",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Scott Twine",
+  "position": "Gelandang Serang",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Wilson Odobert",
+  "position": "Sayap Kiri",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Anass Zaroury",
+  "position": "Sayap Kiri",
+  "market_value_m": 9.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Jacob Bruun Larsen",
+  "position": "Sayap Kiri",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Darko Churlinov",
+  "position": "Sayap Kiri",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Dara Costelloe",
+  "position": "Sayap Kiri",
+  "market_value_m": 0.325
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Luca Koleosho",
+  "position": "Sayap Kanan",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Manuel Benson",
+  "position": "Sayap Kanan",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Nathan Redmond",
+  "position": "Sayap Kanan",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Jóhann Berg Gudmundsson",
+  "position": "Sayap Kanan",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Enock Agyei",
+  "position": "Sayap Kanan",
+  "market_value_m": 0.8
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Lyle Foster",
+  "position": "Penyerang Tengah",
+  "market_value_m": 13.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "David Datro Fofana",
+  "position": "Penyerang Tengah",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Zeki Amdouni",
+  "position": "Penyerang Tengah",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Michael Obafemi",
+  "position": "Penyerang Tengah",
+  "market_value_m": 2.2
+ },
+ {
+  "club": "Burnley FC",
+  "season": "23/24",
+  "player": "Jay Rodríguez",
+  "position": "Penyerang Tengah",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Ivo Grbic",
+  "position": "Kiper",
+  "market_value_m": 3.5
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Wes Foderingham",
+  "position": "Kiper",
+  "market_value_m": 0.9
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Adam Davies",
+  "position": "Kiper",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Jordan Amissah",
+  "position": "Kiper",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Anel Ahmedhodzic",
+  "position": "Bek Tengah",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Auston Trusty",
+  "position": "Bek Tengah",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Mason Holgate",
+  "position": "Bek Tengah",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "John Egan",
+  "position": "Bek Tengah",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Jack Robinson",
+  "position": "Bek Tengah",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Chris Basham",
+  "position": "Bek Tengah",
+  "market_value_m": 0.3
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Luke Thomas",
+  "position": "Bek Kiri",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Yasser Larouci",
+  "position": "Bek Kiri",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Max Lowe",
+  "position": "Bek Kiri",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Rhys Norrington-Davies",
+  "position": "Bek Kiri",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Jili Buyabu",
+  "position": "Bek Kiri",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Jayden Bogle",
+  "position": "Bek Kanan",
+  "market_value_m": 3.8
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "George Baldock",
+  "position": "Bek Kanan",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Femi Seriki",
+  "position": "Bek Kanan",
+  "market_value_m": 0.3
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Sam Curtis",
+  "position": "Bek Kanan",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Vini Souza",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Gustavo Hamer",
+  "position": "Gelandang Tengah",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Tom Davies",
+  "position": "Gelandang Tengah",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Andre Brooks",
+  "position": "Gelandang Tengah",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Oliver Norwood",
+  "position": "Gelandang Tengah",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Ismaila Coulibaly",
+  "position": "Gelandang Tengah",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Ben Osborn",
+  "position": "Gelandang Tengah",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "John Fleck",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.9
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Oliver Arblaster",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.45
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Sydie Peck",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Billy Blacker",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.1
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "James McAtee",
+  "position": "Gelandang Serang",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Anis Ben Slimane",
+  "position": "Gelandang Serang",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Bénie Traoré",
+  "position": "Sayap Kiri",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Louie Marsh",
+  "position": "Second Striker",
+  "market_value_m": 0.1
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Cameron Archer",
+  "position": "Penyerang Tengah",
+  "market_value_m": 13.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Ben Brereton Díaz",
+  "position": "Penyerang Tengah",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Oli McBurnie",
+  "position": "Penyerang Tengah",
+  "market_value_m": 4.5
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Rhian Brewster",
+  "position": "Penyerang Tengah",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "William Osula",
+  "position": "Penyerang Tengah",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Daniel Jebbison",
+  "position": "Penyerang Tengah",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Antwoine Hackford",
+  "position": "Penyerang Tengah",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "Sheffield United",
+  "season": "23/24",
+  "player": "Ryan Oné",
+  "position": "Penyerang Tengah",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Thomas Kaminski",
+  "position": "Kiper",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Tim Krul",
+  "position": "Kiper",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Jack Walton",
+  "position": "Kiper",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "James Shea",
+  "position": "Kiper",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Teden Mengi",
+  "position": "Bek Tengah",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Tom Holmes",
+  "position": "Bek Tengah",
+  "market_value_m": 3.5
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Gabriel Osho",
+  "position": "Bek Tengah",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Mads Andersen",
+  "position": "Bek Tengah",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Tom Lockyer",
+  "position": "Bek Tengah",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Amari'i Bell",
+  "position": "Bek Tengah",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Reece Burke",
+  "position": "Bek Tengah",
+  "market_value_m": 1.8
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Dan Potts",
+  "position": "Bek Tengah",
+  "market_value_m": 0.9
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Ryan Giles",
+  "position": "Bek Kiri",
+  "market_value_m": 4.5
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Joe Johnson",
+  "position": "Bek Kiri",
+  "market_value_m": 0.1
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Issa Kaboré",
+  "position": "Bek Kanan",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Daiki Hashioka",
+  "position": "Bek Kanan",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Marvelous Nakamba",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Pelly Ruddock Mpanzu",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Albert Sambi Lokonga",
+  "position": "Gelandang Tengah",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Ross Barkley",
+  "position": "Gelandang Tengah",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Allan Campbell",
+  "position": "Gelandang Tengah",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Luke Berry",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Elliot Thorpe",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Axel Piesold",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Fred Onyedinma",
+  "position": "Gelandang Kanan",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Alfie Doughty",
+  "position": "Gelandang Kiri",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Tahith Chong",
+  "position": "Gelandang Serang",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Jordan Clark",
+  "position": "Gelandang Serang",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Louie Watson",
+  "position": "Gelandang Serang",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Zack Nelson",
+  "position": "Gelandang Serang",
+  "market_value_m": 0.1
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Dion Pereira",
+  "position": "Sayap Kiri",
+  "market_value_m": 0.17500000000000002
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Chiedozie Ogbene",
+  "position": "Sayap Kanan",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Andros Townsend",
+  "position": "Sayap Kanan",
+  "market_value_m": 1.8
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "John McAtee",
+  "position": "Second Striker",
+  "market_value_m": 0.3
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Carlton Morris",
+  "position": "Penyerang Tengah",
+  "market_value_m": 13.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Elijah Adebayo",
+  "position": "Penyerang Tengah",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Jacob Brown",
+  "position": "Penyerang Tengah",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Cauley Woodrow",
+  "position": "Penyerang Tengah",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Joe Taylor",
+  "position": "Penyerang Tengah",
+  "market_value_m": 0.35000000000000003
+ },
+ {
+  "club": "Luton Town",
+  "season": "23/24",
+  "player": "Admiral Muskwe",
+  "position": "Penyerang Tengah",
+  "market_value_m": 0.275
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Dean Henderson",
+  "position": "Kiper",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Keylor Navas",
+  "position": "Kiper",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Wayne Hennessey",
+  "position": "Kiper",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Jordan Smith",
+  "position": "Kiper",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Adnan Kanuric",
+  "position": "Kiper",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Moussa Niakhaté",
+  "position": "Bek Tengah",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Loïc Badé",
+  "position": "Bek Tengah",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Joe Worrall",
+  "position": "Bek Tengah",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Scott McKenna",
+  "position": "Bek Tengah",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Giulian Biancone",
+  "position": "Bek Tengah",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Jonathan Panzo",
+  "position": "Bek Tengah",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Willy Boly",
+  "position": "Bek Tengah",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Loïc Mbe Soh",
+  "position": "Bek Tengah",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Felipe",
+  "position": "Bek Tengah",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Steve Cook",
+  "position": "Bek Tengah",
+  "market_value_m": 1.8
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Aaron Donnelly",
+  "position": "Bek Tengah",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Zach Abbott",
+  "position": "Bek Tengah",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Neco Williams",
+  "position": "Bek Kiri",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Renan Lodi",
+  "position": "Bek Kiri",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Omar Richards",
+  "position": "Bek Kiri",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Harry Toffolo",
+  "position": "Bek Kiri",
+  "market_value_m": 3.5
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Serge Aurier",
+  "position": "Bek Kanan",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Orel Mangala",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Cheikhou Kouyaté",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Jack Colback",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 0.6
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Danilo",
+  "position": "Gelandang Tengah",
+  "market_value_m": 28.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Ryan Yates",
+  "position": "Gelandang Tengah",
+  "market_value_m": 11.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Lewis O'Brien",
+  "position": "Gelandang Tengah",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Remo Freuler",
+  "position": "Gelandang Tengah",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Jonjo Shelvey",
+  "position": "Gelandang Tengah",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Cafú",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.6
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Harry Arter",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Oliver Hammond",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Alex Gibson-Hammond",
+  "position": "Gelandang Kanan",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Morgan Gibbs-White",
+  "position": "Gelandang Serang",
+  "market_value_m": 40.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Gustavo Scarpa",
+  "position": "Gelandang Serang",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Jesse Lingard",
+  "position": "Gelandang Serang",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Alex Mighten",
+  "position": "Sayap Kiri",
+  "market_value_m": 0.6
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Brennan Johnson",
+  "position": "Sayap Kanan",
+  "market_value_m": 38.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Josh Bowler",
+  "position": "Sayap Kanan",
+  "market_value_m": 1.8
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Taiwo Awoniyi",
+  "position": "Penyerang Tengah",
+  "market_value_m": 25.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Emmanuel Dennis",
+  "position": "Penyerang Tengah",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Chris Wood",
+  "position": "Penyerang Tengah",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Sam Surridge",
+  "position": "Penyerang Tengah",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "André Ayew",
+  "position": "Penyerang Tengah",
+  "market_value_m": 1.8
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Dale Taylor",
+  "position": "Penyerang Tengah",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "Nottingham Forest",
+  "season": "22/23",
+  "player": "Lyle Taylor",
+  "position": "Penyerang Tengah",
+  "market_value_m": 0.3
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Bernd Leno",
+  "position": "Kiper",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Paulo Gazzaniga",
+  "position": "Kiper",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Marek Rodák",
+  "position": "Kiper",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "George Wickens",
+  "position": "Kiper",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Issa Diop",
+  "position": "Bek Tengah",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Tosin Adarabioyo",
+  "position": "Bek Tengah",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Shane Duffy",
+  "position": "Bek Tengah",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Tim Ream",
+  "position": "Bek Tengah",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Connor McAvoy",
+  "position": "Bek Tengah",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Antonee Robinson",
+  "position": "Bek Kiri",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Layvin Kurzawa",
+  "position": "Bek Kiri",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Joe Bryan",
+  "position": "Bek Kiri",
+  "market_value_m": 2.2
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Stefan Parkes",
+  "position": "Bek Kiri",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Kenny Tete",
+  "position": "Bek Kanan",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Kevin Mbabu",
+  "position": "Bek Kanan",
+  "market_value_m": 3.5
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Cédric Soares",
+  "position": "Bek Kanan",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Marlon Fossey",
+  "position": "Bek Kanan",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Steven Sessegnon",
+  "position": "Bek Kanan",
+  "market_value_m": 0.8
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Luciano D'Auria-Henry",
+  "position": "Bek Kanan",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "João Palhinha",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 40.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Nathaniel Chalobah",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 1.8
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Adrion Pajaziti",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Harrison Reed",
+  "position": "Gelandang Tengah",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Andreas Pereira",
+  "position": "Gelandang Tengah",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Saša Lukić",
+  "position": "Gelandang Tengah",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Tom Cairney",
+  "position": "Gelandang Tengah",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Josh Onomah",
+  "position": "Gelandang Tengah",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Tyrese Francois",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Bobby De Cordova-Reid",
+  "position": "Gelandang Serang",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Luke Harris",
+  "position": "Gelandang Serang",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Kristian Sekularac",
+  "position": "Gelandang Serang",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Manor Solomon",
+  "position": "Sayap Kiri",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Willian",
+  "position": "Sayap Kiri",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Neeskens Kebano",
+  "position": "Sayap Kiri",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Ollie O'Neill",
+  "position": "Sayap Kiri",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Martial Godo",
+  "position": "Sayap Kiri",
+  "market_value_m": 0.1
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Harry Wilson",
+  "position": "Sayap Kanan",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Daniel James",
+  "position": "Sayap Kanan",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Anthony Knockaert",
+  "position": "Sayap Kanan",
+  "market_value_m": 0.9
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Aleksandar Mitrović",
+  "position": "Penyerang Tengah",
+  "market_value_m": 28.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Carlos Vinícius",
+  "position": "Penyerang Tengah",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Rodrigo Muniz",
+  "position": "Penyerang Tengah",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Jay Stansfield",
+  "position": "Penyerang Tengah",
+  "market_value_m": 1.2
+ },
+ {
+  "club": "Fulham FC",
+  "season": "22/23",
+  "player": "Terry Ablade",
+  "position": "Penyerang Tengah",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Neto",
+  "position": "Kiper",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Mark Travers",
+  "position": "Kiper",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Darren Randolph",
+  "position": "Kiper",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Will Dennis",
+  "position": "Kiper",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Cameron Plain",
+  "position": "Kiper",
+  "market_value_m": 0.1
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Marcos Senesi",
+  "position": "Bek Tengah",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Ilya Zabarnyi",
+  "position": "Bek Tengah",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Lloyd Kelly",
+  "position": "Bek Tengah",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Chris Mepham",
+  "position": "Bek Tengah",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Jack Stephens",
+  "position": "Bek Tengah",
+  "market_value_m": 3.5
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "James Hill",
+  "position": "Bek Tengah",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Matías Viña",
+  "position": "Bek Kiri",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Jordan Zemura",
+  "position": "Bek Kiri",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Ben Greenwood",
+  "position": "Bek Kiri",
+  "market_value_m": 0.1
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Jack Stacey",
+  "position": "Bek Kanan",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Ryan Fredericks",
+  "position": "Bek Kanan",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Adam Smith",
+  "position": "Bek Kanan",
+  "market_value_m": 1.2
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Brooklyn Genesini",
+  "position": "Bek Kanan",
+  "market_value_m": 0.05
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Jefferson Lerma",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Ben Pearson",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 2.2
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Philip Billing",
+  "position": "Gelandang Tengah",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Lewis Cook",
+  "position": "Gelandang Tengah",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Ryan Christie",
+  "position": "Gelandang Tengah",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Joe Rothwell",
+  "position": "Gelandang Tengah",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Gavin Kilkenny",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Jack Wadham",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.1
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Marcus Tavernier",
+  "position": "Gelandang Serang",
+  "market_value_m": 17.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Emiliano Marcondes",
+  "position": "Gelandang Serang",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Hamed Traoré",
+  "position": "Sayap Kiri",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Jaidon Anthony",
+  "position": "Sayap Kiri",
+  "market_value_m": 9.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Siriki Dembélé",
+  "position": "Sayap Kiri",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Junior Stanislas",
+  "position": "Sayap Kiri",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Dango Ouattara",
+  "position": "Sayap Kanan",
+  "market_value_m": 25.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "David Brooks",
+  "position": "Sayap Kanan",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Antoine Semenyo",
+  "position": "Sayap Kanan",
+  "market_value_m": 9.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Dominic Sadi",
+  "position": "Sayap Kanan",
+  "market_value_m": 0.1
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Dominic Solanke",
+  "position": "Penyerang Tengah",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Kieffer Moore",
+  "position": "Penyerang Tengah",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Jamal Lowe",
+  "position": "Penyerang Tengah",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "AFC Bournemouth",
+  "season": "22/23",
+  "player": "Christian Saydee",
+  "position": "Penyerang Tengah",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Alphonse Areola",
+  "position": "Kiper",
+  "market_value_m": 17.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Marek Rodák",
+  "position": "Kiper",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Marcus Bettinelli",
+  "position": "Kiper",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Fabri",
+  "position": "Kiper",
+  "market_value_m": 0.6
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Joachim Andersen",
+  "position": "Bek Tengah",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Tosin Adarabioyo",
+  "position": "Bek Tengah",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Alfie Mawson",
+  "position": "Bek Tengah",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Michael Hector",
+  "position": "Bek Tengah",
+  "market_value_m": 3.5
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Terence Kongolo",
+  "position": "Bek Tengah",
+  "market_value_m": 3.5
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Maxime Le Marchand",
+  "position": "Bek Tengah",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Denis Odoi",
+  "position": "Bek Tengah",
+  "market_value_m": 0.6
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Tim Ream",
+  "position": "Bek Tengah",
+  "market_value_m": 0.6
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Antonee Robinson",
+  "position": "Bek Kiri",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Joe Bryan",
+  "position": "Bek Kiri",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Ola Aina",
+  "position": "Bek Kanan",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Kenny Tete",
+  "position": "Bek Kanan",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Steven Sessegnon",
+  "position": "Bek Kanan",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Cyrus Christie",
+  "position": "Bek Kanan",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Mario Lemina",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Jean Michaël Seri",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Kevin McDonald",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 0.8
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Frank Anguissa",
+  "position": "Gelandang Tengah",
+  "market_value_m": 25.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Ruben Loftus-Cheek",
+  "position": "Gelandang Tengah",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Harrison Reed",
+  "position": "Gelandang Tengah",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Tom Cairney",
+  "position": "Gelandang Tengah",
+  "market_value_m": 9.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Josh Onomah",
+  "position": "Gelandang Tengah",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Stefan Johansen",
+  "position": "Gelandang Tengah",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Tyrese Francois",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Bobby De Cordova-Reid",
+  "position": "Gelandang Serang",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Fábio Carvalho",
+  "position": "Gelandang Serang",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Ademola Lookman",
+  "position": "Sayap Kiri",
+  "market_value_m": 11.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Ivan Cavaleiro",
+  "position": "Sayap Kiri",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Neeskens Kebano",
+  "position": "Sayap Kiri",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Sylvester Jasper",
+  "position": "Sayap Kiri",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Anthony Knockaert",
+  "position": "Sayap Kanan",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Aleksandar Mitrović",
+  "position": "Penyerang Tengah",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Josh Maja",
+  "position": "Penyerang Tengah",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Fulham FC",
+  "season": "20/21",
+  "player": "Aboubakar Kamara",
+  "position": "Penyerang Tengah",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Illan Meslier",
+  "position": "Kiper",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Kiko Casilla",
+  "position": "Kiper",
+  "market_value_m": 0.8
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Elia Caprile",
+  "position": "Kiper",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Diego Llorente",
+  "position": "Bek Tengah",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Robin Koch",
+  "position": "Bek Tengah",
+  "market_value_m": 17.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Pascal Struijk",
+  "position": "Bek Tengah",
+  "market_value_m": 9.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Liam Cooper",
+  "position": "Bek Tengah",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Oliver Casey",
+  "position": "Bek Tengah",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Charlie Cresswell",
+  "position": "Bek Tengah",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Ezgjan Alioski",
+  "position": "Bek Kiri",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Barry Douglas",
+  "position": "Bek Kiri",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Leif Davis",
+  "position": "Bek Kiri",
+  "market_value_m": 0.8
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Luke Ayling",
+  "position": "Bek Kanan",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Jamie Shackleton",
+  "position": "Bek Kanan",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Gaetano Berardi",
+  "position": "Bek Kanan",
+  "market_value_m": 0.3
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Niall Huggins",
+  "position": "Bek Kanan",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Kalvin Phillips",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 30.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Mateusz Klich",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Ouasim Bouy",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Jack Jenkins",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Adam Forshaw",
+  "position": "Gelandang Tengah",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Robbie Gotts",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Eunan O'Kane",
+  "position": "Gelandang Tengah",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Stuart Dallas",
+  "position": "Gelandang Kiri",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Mateusz Bogusz",
+  "position": "Gelandang Serang",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Sam Greenwood",
+  "position": "Gelandang Serang",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Raphinha",
+  "position": "Sayap Kiri",
+  "market_value_m": 30.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Jack Harrison",
+  "position": "Sayap Kiri",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Crysencio Summerville",
+  "position": "Sayap Kiri",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Hélder Costa",
+  "position": "Sayap Kanan",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Ian Poveda",
+  "position": "Sayap Kanan",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Pablo Hernández",
+  "position": "Sayap Kanan",
+  "market_value_m": 0.8
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Tyler Roberts",
+  "position": "Second Striker",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Patrick Bamford",
+  "position": "Penyerang Tengah",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Rodrigo",
+  "position": "Penyerang Tengah",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Joe Gelhardt",
+  "position": "Penyerang Tengah",
+  "market_value_m": 1.3
+ },
+ {
+  "club": "Leeds United",
+  "season": "20/21",
+  "player": "Jordan Stevens",
+  "position": "Penyerang Tengah",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Sam Johnstone",
+  "position": "Kiper",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "David Button",
+  "position": "Kiper",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Jonathan Bond",
+  "position": "Kiper",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Alex Palmer",
+  "position": "Kiper",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Andy Lonergan",
+  "position": "Kiper",
+  "market_value_m": 0.25
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Semi Ajayi",
+  "position": "Bek Tengah",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Ahmed Hegazy",
+  "position": "Bek Tengah",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Dara O'Shea",
+  "position": "Bek Tengah",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Kyle Bartley",
+  "position": "Bek Tengah",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Cédric Kipré",
+  "position": "Bek Tengah",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Kieran Gibbs",
+  "position": "Bek Kiri",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Conor Townsend",
+  "position": "Bek Kiri",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Ainsley Maitland-Niles",
+  "position": "Bek Kanan",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Darnell Furlong",
+  "position": "Bek Kanan",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Branislav Ivanovic",
+  "position": "Bek Kanan",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Lee Peltier",
+  "position": "Bek Kanan",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Okay Yokuşlu",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 7.5
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Filip Krovinovic",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Jake Livermore",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Sam Field",
+  "position": "Gelandang Bertahan",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Conor Gallagher",
+  "position": "Gelandang Tengah",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Rekeem Harper",
+  "position": "Gelandang Tengah",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Romaine Sawyers",
+  "position": "Gelandang Tengah",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Matheus Pereira",
+  "position": "Gelandang Serang",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Kamil Grosicki",
+  "position": "Sayap Kiri",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Kyle Edwards",
+  "position": "Sayap Kiri",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Grady Diangana",
+  "position": "Sayap Kanan",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Matt Phillips",
+  "position": "Sayap Kanan",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Robert Snodgrass",
+  "position": "Sayap Kanan",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Karlan Grant",
+  "position": "Penyerang Tengah",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Callum Robinson",
+  "position": "Penyerang Tengah",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Mbaye Diagne",
+  "position": "Penyerang Tengah",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Kenneth Zohore",
+  "position": "Penyerang Tengah",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Charlie Austin",
+  "position": "Penyerang Tengah",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "West Bromwich Albion",
+  "season": "20/21",
+  "player": "Hal Robson-Kanu",
+  "position": "Penyerang Tengah",
+  "market_value_m": 1.5
+ }
+]

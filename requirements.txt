@@ -1,0 +1,12 @@
+numpy>=1.26
+scipy>=1.14
+pandas>=2.2
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# dashboard saja -- pipeline dan backtest tidak membutuhkannya
+streamlit>=1.40
+altair>=5.4
+streamlit-echarts>=0.7
+pillow>=10.0

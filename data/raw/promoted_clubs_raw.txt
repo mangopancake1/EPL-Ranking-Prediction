@@ -1,0 +1,82 @@
+1    Oliver Dovin    Goalkeeper    24    Coventry City    2.00
+13    Ben Wilson    Goalkeeper    33    Coventry City    0.30
+4    Bobby Thomas    Centre-Back    25    Coventry City    16.00
+15    Liam Kitching    Centre-Back    26    Coventry City    14.00
+0    Aurele Amenda    Centre-Back    23    Coventry City    10.00
+22    Joel Latibeaudiere    Centre-Back    26    Coventry City    3.00
+26    Luke Woolfenden    Centre-Back    27    Coventry City    2.00
+3    Jay Dasilva    Left-Back    28    Coventry City    9.00
+33    Miguel Angel Brau    Left-Back    24    Coventry City    1.00
+21    Jake Bidwell    Left-Back    33    Coventry City    0.60
+27    Milan van Ewijk    Right-Back    25    Coventry City    22.00
+20    Kaine Kesler-Hayden    Right-Back    23    Coventry City    3.00
+6    Matt Grimes    Defensive Midfield    31    Coventry City    5.00
+29    Victor Torp    Central Midfield    27    Coventry City    14.00
+28    Josh Eccles    Central Midfield    26    Coventry City    9.00
+16    Frank Onyeka    Central Midfield    28    Coventry City    8.00
+0    Kai Andrews    Central Midfield    19    Coventry City    0.50
+10    Ephron Mason-Clark    Left Midfield    26    Coventry City    16.00
+5    Jack Rudoni    Attacking Midfield    25    Coventry City    20.00
+0    Raphael Borges Rodrigues    Left Winger    22    Coventry City    0.45
+0    Loum Tchaouna    Right Winger    22    Coventry City    13.00
+7    Tatsuhiro Sakamoto    Right Winger    29    Coventry City    4.50
+24    Jahnoah Markelo    Right Winger    23    Coventry City    3.50
+11    Haji Wright    Centre-Forward    28    Coventry City    16.00
+23    Brandon Thomas-Asante    Centre-Forward    27    Coventry City    16.00
+9    Ellis Simms    Centre-Forward    25    Coventry City    12.00
+1    Jack Butland    Goalkeeper    33    Hull City    1.50
+32    Thimothee Lo-Tutala    Goalkeeper    23    Hull City    0.40
+12    Dillon Phillips    Goalkeeper    31    Hull City    0.20
+4    Charlie Hughes    Centre-Back    22    Hull City    10.00
+37    Paddy McNair    Centre-Back    31    Hull City    1.50
+15    John Egan    Centre-Back    33    Hull City    1.00
+6    Semi Ajayi    Centre-Back    32    Hull City    0.70
+3    Ryan Giles    Left-Back    26    Hull City    12.00
+0    Matt Targett    Left-Back    30    Hull City    3.00
+16    Matty Jacob    Left-Back    25    Hull City    0.40
+18    Cody Drameh    Right-Back    24    Hull City    3.00
+2    Lewie Coyle    Right-Back    30    Hull City    1.20
+27    Regan Slater    Defensive Midfield    26    Hull City    5.50
+0    Oscar Zambrano    Defensive Midfield    22    Hull City    1.50
+0    Hidemasa Morita    Central Midfield    31    Hull City    8.00
+24    Darko Gyabi    Central Midfield    22    Hull City    2.00
+8    Eliot Matazo    Central Midfield    24    Hull City    1.50
+25    Matt Crooks    Central Midfield    32    Hull City    0.70
+33    Abdulkadir Omur    Right Midfield    27    Hull City    1.50
+26    Kieran Dowell    Attacking Midfield    28    Hull City    0.60
+7    Liam Millar    Left Winger    26    Hull City    5.00
+10    Mohamed Belloumi    Right Winger    24    Hull City    6.00
+17    Abu Kamara    Right Winger    23    Hull City    2.50
+11    David Akintola    Right Winger    30    Hull City    1.00
+9    Oli McBurnie    Centre-Forward    30    Hull City    5.00
+28    Enis Destan    Centre-Forward    24    Hull City    2.00
+0    Kjell Scherpen    Goalkeeper    26    Ipswich Town    8.00
+28    Christian Walton    Goalkeeper    30    Ipswich Town    2.50
+0    Kayne van Oevelen    Goalkeeper    22    Ipswich Town    2.00
+1    Alex Palmer    Goalkeeper    29    Ipswich Town    1.00
+27    David Button    Goalkeeper    37    Ipswich Town    0.05
+26    Dara O'Shea    Centre-Back    27    Ipswich Town    16.00
+24    Jacob Greaves    Centre-Back    25    Ipswich Town    14.00
+0    Issa Diop    Centre-Back    29    Ipswich Town    8.00
+4    Cedric Kipre    Centre-Back    29    Ipswich Town    2.00
+3    Leif Davis    Left-Back    26    Ipswich Town    20.00
+18    Ben Johnson    Right-Back    26    Ipswich Town    6.00
+2    Harry Clarke    Right-Back    25    Ipswich Town    2.50
+19    Darnell Furlong    Right-Back    30    Ipswich Town    2.50
+5    Azor Matusiwa    Defensive Midfield    28    Ipswich Town    12.00
+32    Marcelino Nunez    Central Midfield    26    Ipswich Town    14.00
+14    Jack Taylor    Central Midfield    28    Ipswich Town    3.00
+30    Cameron Humphreys    Central Midfield    22    Ipswich Town    0.60
+20    Kasey McAteer    Right Midfield    24    Ipswich Town    10.00
+7    Wes Burns    Right Midfield    31    Ipswich Town    1.50
+33    Anis Mehmeti    Attacking Midfield    25    Ipswich Town    15.00
+11    Jaden Philogene    Left Winger    24    Ipswich Town    20.00
+47    Jack Clarke    Left Winger    25    Ipswich Town    20.00
+0    Daizen Maeda    Left Winger    28    Ipswich Town    13.00
+0    Abdul Fatawu    Right Winger    22    Ipswich Town    20.00
+8    Sindre Walle Egeli    Right Winger    20    Ipswich Town    15.00
+21    Chiedozie Ogbene    Right Winger    29    Ipswich Town    4.00
+9    George Hirst    Centre-Forward    27    Ipswich Town    10.00
+0    Emersonn    Centre-Forward    22    Ipswich Town    8.00
+29    Chuba Akpom    Centre-Forward    30    Ipswich Town    3.50
+16    Ali Al-Hamadi    Centre-Forward    24    Ipswich Town    1.50

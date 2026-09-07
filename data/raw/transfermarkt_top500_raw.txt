@@ -1,0 +1,500 @@
+1    Erling Haaland    Centre-Forward    26    Norway    Manchester City    220.00
+2    Lamine Yamal    Right Winger    19    Spain    FC Barcelona    220.00
+3    Kylian Mbappé    Centre-Forward    27    France    Real Madrid    200.00
+4    Michael Olise    Right Winger    24    France    Bayern Munich    170.00
+5    Jude Bellingham    Attacking Midfield    23    England    Real Madrid    160.00
+6    Pedri    Central Midfield    23    Spain    FC Barcelona    150.00
+7    Vinicius Junior    Left Winger    26    Brazil    Real Madrid    140.00
+8    Vitinha    Defensive Midfield    26    Portugal    Paris Saint-Germain    140.00
+9    Khvicha Kvaratskhelia    Left Winger    25    Georgia    Paris Saint-Germain    140.00
+10    João Neves    Central Midfield    21    Portugal    Paris Saint-Germain    140.00
+11    Declan Rice    Central Midfield    27    England    Arsenal FC    120.00
+12    Julián Alvarez    Centre-Forward    26    Argentina    Atlético de Madrid    120.00
+13    Désiré Doué    Right Winger    21    France    Paris Saint-Germain    120.00
+14    Bukayo Saka    Right Winger    24    England    Arsenal FC    110.00
+15    Morgan Rogers    Attacking Midfield    24    England    Chelsea FC    110.00
+16    Elliot Anderson    Central Midfield    23    England    Manchester City    110.00
+17    Ousmane Dembélé    Centre-Forward    29    France    Paris Saint-Germain    100.00
+18    Dominik Szoboszlai    Attacking Midfield    25    Hungary    Liverpool FC    100.00
+19    William Saliba    Centre-Back    25    France    Arsenal FC    100.00
+20    Cole Palmer    Attacking Midfield    24    England    Chelsea FC    100.00
+21    Jamal Musiala    Attacking Midfield    23    Germany    Bayern Munich    100.00
+22    Florian Wirtz    Attacking Midfield    23    Germany    Liverpool FC    100.00
+23    Fermín López    Attacking Midfield    23    Spain    FC Barcelona    100.00
+24    Enzo Fernández    Central Midfield    25    Argentina    Chelsea FC    100.00
+25    Moisés Caicedo    Defensive Midfield    24    Ecuador    Chelsea FC    100.00
+26    Pau Cubarsí    Centre-Back    19    Spain    FC Barcelona    100.00
+27    Federico Valverde    Central Midfield    28    Uruguay    Real Madrid    90.00
+28    Rayan Cherki    Attacking Midfield    22    France    Manchester City    90.00
+29    Bradley Barcola    Left Winger    23    France    Paris Saint-Germain    90.00
+30    Aleksandar Pavlovic    Defensive Midfield    22    Germany    Bayern Munich    90.00
+31    Arda Güler    Attacking Midfield    21    Türkiye    Real Madrid    90.00
+32    Yan Diomande    Right Winger    19    Cote d'Ivoire    RB Leipzig    90.00
+33    Alexander Isak    Centre-Forward    26    Sweden    Liverpool FC    85.00
+34    Lautaro Martínez    Centre-Forward    28    Argentina    Inter Milan    85.00
+35    Sandro Tonali    Defensive Midfield    26    Italy    Tottenham Hotspur    80.00
+36    Achraf Hakimi    Right-Back    27    Morocco    Paris Saint-Germain    80.00
+37    Ryan Gravenberch    Defensive Midfield    24    Netherlands    Liverpool FC    80.00
+38    Anthony Gordon    Left Winger    25    England    FC Barcelona    80.00
+39    Antoine Semenyo    Right Winger    26    Ghana    Manchester City    80.00
+40    Nuno Mendes    Left-Back    24    Portugal    Paris Saint-Germain    80.00
+41    João Pedro    Centre-Forward    24    Brazil    Chelsea FC    80.00
+42    Willian Pacho    Centre-Back    24    Ecuador    Paris Saint-Germain    80.00
+43    Hugo Ekitiké    Centre-Forward    24    France    Liverpool FC    80.00
+44    Warren Zaïre-Emery    Central Midfield    20    France    Paris Saint-Germain    80.00
+45    Nico Paz    Attacking Midfield    21    Argentina    Como 1907    80.00
+46    Estêvão    Right Winger    19    Brazil    Chelsea FC    80.00
+47    Ayyoub Bouaddi    Central Midfield    18    Morocco    LOSC Lille    80.00
+48    Dayot Upamecano    Centre-Back    27    France    Bayern Munich    75.00
+49    Victor Osimhen    Centre-Forward    27    Nigeria    Galatasaray    75.00
+50    Bryan Mbeumo    Right Winger    26    Cameroon    Manchester United    75.00
+51    Martín Zubimendi    Defensive Midfield    27    Spain    Arsenal FC    75.00
+52    Gabriel    Centre-Back    28    Brazil    Arsenal FC    75.00
+53    Jérémy Doku    Left Winger    24    Belgium    Manchester City    75.00
+54    Matheus Cunha    Centre-Forward    27    Brazil    Manchester United    75.00
+55    Benjamin Sesko    Centre-Forward    23    Slovenia    Manchester United    75.00
+56    Kenan Yıldız    Left Winger    21    Türkiye    Juventus FC    75.00
+57    Martin Ødegaard    Attacking Midfield    27    Norway    Arsenal FC    70.00
+58    Marc Guéhi    Centre-Back    26    England    Manchester City    70.00
+59    Phil Foden    Attacking Midfield    26    England    Manchester City    70.00
+60    Raphinha    Left Winger    29    Brazil    FC Barcelona    70.00
+61    Aurélien Tchouaméni    Defensive Midfield    26    France    Real Madrid    70.00
+62    Jurriën Timber    Right-Back    25    Netherlands    Arsenal FC    70.00
+63    Morgan Gibbs-White    Attacking Midfield    26    England    Nottingham Forest    70.00
+64    Josko Gvardiol    Centre-Back    24    Croatia    Manchester City    70.00
+65    Luis Díaz    Left Winger    29    Colombia    Bayern Munich    70.00
+66    Bruno Guimarães    Central Midfield    28    Brazil    Newcastle United    70.00
+67    Alexis Mac Allister    Central Midfield    27    Argentina    Liverpool FC    70.00
+68    Nico O'Reilly    Left-Back    21    England    Manchester City    70.00
+69    Adam Wharton    Defensive Midfield    22    England    Crystal Palace    70.00
+70    Kobbie Mainoo    Central Midfield    21    England    Manchester United    70.00
+71    Junior Kroupi    Centre-Forward    20    France    AFC Bournemouth    70.00
+72    Alessandro Bastoni    Centre-Back    27    Italy    Inter Milan    65.00
+73    Viktor Gyökeres    Centre-Forward    28    Sweden    Arsenal FC    65.00
+74    Eberechi Eze    Attacking Midfield    28    England    Arsenal FC    65.00
+75    Igor Thiago    Centre-Forward    25    Brazil    Brentford FC    65.00
+76    Johan Manzambi    Attacking Midfield    20    Switzerland    Aston Villa    65.00
+77    Harry Kane    Centre-Forward    33    England    Bayern Munich    60.00
+78    Marc Cucurella    Left-Back    28    Spain    Real Madrid    60.00
+79    Dani Olmo    Attacking Midfield    28    Spain    FC Barcelona    60.00
+80    Trent Alexander-Arnold    Right-Back    27    England    Real Madrid    60.00
+81    Jules Koundé    Right-Back    27    France    FC Barcelona    60.00
+82    Cody Gakpo    Left Winger    27    Netherlands    Liverpool FC    60.00
+83    Reece James    Right-Back    26    England    Chelsea FC    60.00
+84    Pedro Neto    Right Winger    26    Portugal    Chelsea FC    60.00
+85    Jan Paul van Hecke    Centre-Back    26    Netherlands    Tottenham Hotspur    60.00
+86    Rasmus Højlund    Centre-Forward    23    Denmark    SSC Napoli    60.00
+87    Dean Huijsen    Centre-Back    21    Spain    Real Madrid    60.00
+88    Luka Vuskovic    Centre-Back    19    Croatia    Brighton & Hove Albion    60.00
+89    Rayan    Right Winger    20    Brazil    AFC Bournemouth    60.00
+90    Lennart Karl    Attacking Midfield    18    Germany    Bayern Munich    60.00
+91    Rúben Dias    Centre-Back    29    Portugal    Manchester City    55.00
+92    Kai Havertz    Centre-Forward    27    Germany    Arsenal FC    55.00
+93    Rodri    Defensive Midfield    30    Spain    Manchester City    55.00
+94    Nico Schlotterbeck    Centre-Back    26    Germany    Borussia Dortmund    55.00
+95    Ferran Torres    Centre-Forward    26    Spain    FC Barcelona    55.00
+96    Felix Nmecha    Central Midfield    25    Germany    Borussia Dortmund    55.00
+97    Nick Woltemade    Centre-Forward    24    Germany    Newcastle United    55.00
+98    Riccardo Calafiori    Left-Back    24    Italy    Arsenal FC    55.00
+99    Mason Greenwood    Right Winger    24    England    Fenerbahce    55.00
+100    Iliman Ndiaye    Right Winger    26    Senegal    Everton FC    55.00
+101    Ismael Saibari    Attacking Midfield    25    Morocco    Bayern Munich    55.00
+102    Pablo Barrios    Central Midfield    23    Spain    Atlético de Madrid    55.00
+103    Carlos Baleba    Defensive Midfield    22    Cameroon    Brighton & Hove Albion    55.00
+104    Jérémy Jacquet    Centre-Back    21    France    Liverpool FC    55.00
+105    Federico Dimarco    Left-Back    28    Italy    Inter Milan    50.00
+106    Nicolò Barella    Central Midfield    29    Italy    Inter Milan    50.00
+107    Marcus Thuram    Centre-Forward    28    France    Inter Milan    50.00
+108    Cristian Romero    Centre-Back    28    Argentina    Tottenham Hotspur    50.00
+109    Rafael Leão    Left Winger    27    Portugal    AC Milan    50.00
+110    Maxence Lacroix    Centre-Back    26    France    Chelsea FC    50.00
+111    Yann Bisseck    Centre-Back    25    Germany    Inter Milan    50.00
+112    Omar Marmoush    Centre-Forward    27    Egypt    Manchester City    50.00
+113    Tijjani Reijnders    Central Midfield    28    Netherlands    Manchester City    50.00
+114    Folarin Balogun    Centre-Forward    25    United States    AS Monaco    50.00
+115    Noni Madueke    Right Winger    24    England    Arsenal FC    50.00
+116    Mohammed Kudus    Right Winger    26    Ghana    Tottenham Hotspur    50.00
+117    Gonçalo Ramos    Centre-Forward    25    Portugal    AC Milan    50.00
+118    Micky van de Ven    Centre-Back    25    Netherlands    Tottenham Hotspur    50.00
+119    Matheus Nunes    Right-Back    27    Portugal    Manchester City    50.00
+120    Levi Colwill    Centre-Back    23    England    Chelsea FC    50.00
+121    Castello Lukeba    Centre-Back    23    France    RB Leipzig    50.00
+122    Manu Koné    Central Midfield    25    France    AS Roma    50.00
+123    Alejandro Balde    Left-Back    22    Spain    FC Barcelona    50.00
+124    Eduardo Camavinga    Central Midfield    23    France    Real Madrid    50.00
+125    Kaishu Sano    Defensive Midfield    25    Japan    1.FSV Mainz 05    50.00
+126    Piero Hincapié    Centre-Back    24    Ecuador    Arsenal FC    50.00
+127    Nathaniel Brown    Left-Back    23    Germany    Bayern Munich    50.00
+128    Alberto Moleiro    Left Winger    22    Spain    Villarreal CF    50.00
+129    Maghnes Akliouche    Right Winger    24    France    AS Monaco    50.00
+130    Abdukodir Khusanov    Centre-Back    22    Uzbekistan    Manchester City    50.00
+131    Álvaro Carreras    Left-Back    23    Spain    Real Madrid    50.00
+132    Alex Scott    Central Midfield    22    England    AFC Bournemouth    50.00
+133    Mateus Fernandes    Central Midfield    22    Portugal    Tottenham Hotspur    50.00
+134    Leny Yoro    Centre-Back    20    France    Manchester United    50.00
+135    Victor Froholdt    Central Midfield    20    Denmark    FC Porto    50.00
+136    Murillo    Centre-Back    24    Brazil    Nottingham Forest    50.00
+137    Bazoumana Touré    Left Winger    20    Cote d'Ivoire    Newcastle United    50.00
+138    Gianluigi Donnarumma    Goalkeeper    27    Italy    Manchester City    45.00
+139    Donyell Malen    Centre-Forward    27    Netherlands    AS Roma    45.00
+140    Ibrahima Konaté    Centre-Back    27    France    Real Madrid    45.00
+141    Ismaïla Sarr    Right Winger    28    Senegal    Crystal Palace    45.00
+142    Rodrygo    Right Winger    25    Brazil    Real Madrid    45.00
+143    Ezri Konsa    Centre-Back    28    England    Aston Villa    45.00
+144    Angelo Stiller    Defensive Midfield    25    Germany    VfB Stuttgart    45.00
+145    Morten Hjulmand    Defensive Midfield    27    Denmark    Atlético de Madrid    45.00
+146    Crysencio Summerville    Left Winger    24    Netherlands    Al-Hilal SFC    45.00
+147    Lisandro Martínez    Centre-Back    28    Argentina    Manchester United    45.00
+148    Amadou Onana    Defensive Midfield    24    Belgium    Aston Villa    45.00
+149    Tino Livramento    Right-Back    23    England    Newcastle United    45.00
+150    James Garner    Defensive Midfield    25    England    Everton FC    45.00
+151    Malick Thiaw    Centre-Back    24    Germany    Newcastle United    45.00
+152    Amad Diallo    Right Winger    24    Cote d'Ivoire    Manchester United    45.00
+153    Pedro Porro    Right-Back    26    Spain    Tottenham Hotspur    45.00
+154    Joan García    Goalkeeper    25    Spain    FC Barcelona    45.00
+155    Martin Baturina    Attacking Midfield    23    Croatia    Como 1907    45.00
+156    Éderson    Central Midfield    27    Brazil    Atalanta BC    45.00
+157    Jarell Quansah    Centre-Back    23    England    Bayer 04 Leverkusen    45.00
+158    Gabriel Martinelli    Left Winger    25    Brazil    Arsenal FC    45.00
+159    Petar Sučić    Central Midfield    22    Croatia    Inter Milan    45.00
+160    Can Uzun    Attacking Midfield    20    Türkiye    Eintracht Frankfurt    45.00
+161    Myles Lewis-Skelly    Left-Back    19    England    Arsenal FC    45.00
+162    Ibrahim Maza    Attacking Midfield    20    Algeria    Bayer 04 Leverkusen    45.00
+163    Pio Esposito    Centre-Forward    21    Italy    Inter Milan    45.00
+164    Samu Aghehowa    Centre-Forward    22    Spain    FC Porto    45.00
+165    Yankuba Minteh    Right Winger    22    The Gambia    Brighton & Hove Albion    45.00
+166    Franco Mastantuono    Right Winger    18    Argentina    Real Madrid    45.00
+167    Said El Mala    Left Winger    19    Germany    1.FC Köln    45.00
+168    Ousmane Diomande    Centre-Back    22    Cote d'Ivoire    Sporting CP    42.00
+169    Geovany Quenda    Right Winger    19    Portugal    Chelsea FC    42.00
+170    Youri Tielemans    Central Midfield    29    Belgium    Manchester United    40.00
+171    Gregor Kobel    Goalkeeper    28    Switzerland    Borussia Dortmund    40.00
+172    Marcus Rashford    Left Winger    28    England    Manchester United    40.00
+173    Christian Pulisic    Right Winger    27    United States    AC Milan    40.00
+174    Scott McTominay    Central Midfield    29    Scotland    SSC Napoli    40.00
+175    Christoph Baumgartner    Attacking Midfield    27    Austria    RB Leipzig    40.00
+176    Trevoh Chalobah    Centre-Back    27    England    Chelsea FC    40.00
+177    Diogo Costa    Goalkeeper    26    Portugal    FC Porto    40.00
+178    Boubacar Kamara    Defensive Midfield    26    France    Aston Villa    40.00
+179    Ademola Lookman    Left Winger    28    Nigeria    Atlético de Madrid    40.00
+180    Francisco Trincão    Right Winger    26    Portugal    Al-Ahli SFC    40.00
+181    Alphonso Davies    Left-Back    25    Canada    Bayern Munich    40.00
+182    Jørgen Strand Larsen    Centre-Forward    26    Norway    Crystal Palace    40.00
+183    Christos Tzolis    Left Winger    24    Greece    Arsenal FC    40.00
+184    Eric García    Centre-Back    25    Spain    FC Barcelona    40.00
+185    Nico González    Defensive Midfield    24    Spain    Manchester City    40.00
+186    Brian Brobbey    Centre-Forward    24    Netherlands    Sunderland AFC    40.00
+187    Josip Stanisic    Right-Back    26    Croatia    Bayern Munich    40.00
+188    Djed Spence    Right-Back    25    England    Tottenham Hotspur    40.00
+189    Pape Gueye    Central Midfield    27    Senegal    Villarreal CF    40.00
+190    Karim Adeyemi    Right Winger    24    Germany    FC Barcelona    40.00
+191    Jamie Leweling    Right Winger    25    Germany    VfB Stuttgart    40.00
+192    Álex Baena    Left Winger    25    Spain    Atlético de Madrid    40.00
+193    Gonçalo Inácio    Centre-Back    24    Portugal    Sporting CP    40.00
+194    Bart Verbruggen    Goalkeeper    23    Netherlands    Brighton & Hove Albion    40.00
+195    Xavi Simons    Attacking Midfield    23    Netherlands    Tottenham Hotspur    40.00
+196    Maxi Araújo    Left-Back    26    Uruguay    Sporting CP    40.00
+197    Strahinja Pavlović    Centre-Back    25    Serbia    AC Milan    40.00
+198    Rayan Aït-Nouri    Left-Back    25    Algeria    Manchester City    40.00
+199    Maximilian Beier    Centre-Forward    23    Germany    Borussia Dortmund    40.00
+200    Antony    Right Winger    26    Brazil    Real Betis Balompié    40.00
+201    Cristhian Mosquera    Centre-Back    22    Spain    Arsenal FC    40.00
+202    Ilya Zabarnyi    Centre-Back    23    Ukraine    Paris Saint-Germain    40.00
+203    Jarrad Branthwaite    Centre-Back    24    England    Everton FC    40.00
+204    Yasin Ayari    Central Midfield    22    Sweden    Brighton & Hove Albion    40.00
+205    Andreas Schjelderup    Left Winger    22    Norway    SL Benfica    40.00
+206    Lewis Hall    Left-Back    21    England    Newcastle United    40.00
+207    Nico Williams    Left Winger    24    Spain    Athletic Bilbao    40.00
+208    Abde Ezzalzouli    Left Winger    24    Morocco    Real Betis Balompié    40.00
+209    João Gomes    Central Midfield    25    Brazil    Aston Villa    40.00
+210    Giuliano Simeone    Right Winger    23    Argentina    Atlético de Madrid    40.00
+211    Andrey Santos    Defensive Midfield    22    Brazil    Manchester United    40.00
+212    Nicolas Jackson    Centre-Forward    25    Senegal    Chelsea FC    40.00
+213    Jobe Bellingham    Central Midfield    20    England    Borussia Dortmund    40.00
+214    Mamadou Sangaré    Central Midfield    24    Mali    Brentford FC    40.00
+215    Tom Bischof    Central Midfield    21    Germany    Bayern Munich    40.00
+216    Michael Kayode    Right-Back    22    Italy    Brentford FC    40.00
+217    Valentín Barco    Central Midfield    22    Argentina    Chelsea FC    40.00
+218    Senny Mayulu    Central Midfield    20    France    Paris Saint-Germain    40.00
+219    Jorrel Hato    Left-Back    20    Netherlands    Chelsea FC    40.00
+220    Lamine Camara    Central Midfield    22    Senegal    AS Monaco    40.00
+221    Wesley    Right-Back    22    Brazil    AS Roma    40.00
+222    Endrick    Centre-Forward    20    Brazil    Real Madrid    40.00
+223    Christian Kofane    Centre-Forward    20    Cameroon    Bayer 04 Leverkusen    40.00
+224    Khéphren Thuram    Central Midfield    25    France    Juventus FC    38.00
+225    Giorgio Scalvini    Centre-Back    22    Italy    Atalanta BC    38.00
+226    Vitor Roque    Centre-Forward    21    Brazil    Sociedade Esportiva Palmeiras    38.00
+227    Rodrigo Mora    Attacking Midfield    19    Portugal    FC Porto    38.00
+228    Joshua Kimmich    Defensive Midfield    31    Germany    Bayern Munich    35.00
+229    Bruno Fernandes    Attacking Midfield    31    Portugal    Manchester United    35.00
+230    Brahim Díaz    Right Winger    27    Morocco    Real Madrid    35.00
+231    Frenkie de Jong    Central Midfield    29    Netherlands    FC Barcelona    35.00
+232    Mile Svilar    Goalkeeper    26    Serbia    AS Roma    35.00
+233    Dušan Vlahović    Centre-Forward    26    Serbia    Without Club    35.00
+234    Sven Botman    Centre-Back    26    Netherlands    Newcastle United    35.00
+235    Ferdi Kadıoğlu    Left-Back    26    Türkiye    Brighton & Hove Albion    35.00
+236    Evan Ndicka    Centre-Back    26    Cote d'Ivoire    AS Roma    35.00
+237    Dávid Hancko    Centre-Back    28    Slovakia    Atlético de Madrid    35.00
+238    Jakub Kiwior    Centre-Back    26    Poland    FC Porto    35.00
+239    Curtis Jones    Central Midfield    25    England    Liverpool FC    35.00
+240    Charles De Ketelaere    Attacking Midfield    25    Belgium    Atalanta BC    35.00
+241    Estéban Lepaul    Centre-Forward    26    France    Stade Rennais FC    35.00
+242    Kevin Schade    Left Winger    24    Germany    Brentford FC    35.00
+243    Kiernan Dewsbury-Hall    Central Midfield    27    England    Everton FC    35.00
+244    Jeremie Frimpong    Right-Back    25    Netherlands    Liverpool FC    35.00
+245    Jacob Ramsey    Central Midfield    25    England    Newcastle United    35.00
+246    Senne Lammens    Goalkeeper    24    Belgium    Manchester United    35.00
+247    Bremer    Centre-Back    29    Brazil    Juventus FC    35.00
+248    Fisnik Asllani    Centre-Forward    23    Kosovo    TSG 1899 Hoffenheim    35.00
+249    Edmond Tapsoba    Centre-Back    27    Burkina Faso    Bayer 04 Leverkusen    35.00
+250    Malo Gusto    Right-Back    23    France    Chelsea FC    35.00
+251    Igor Paixão    Left Winger    26    Brazil    Olympique Marseille    35.00
+252    Bilal El Khannouss    Attacking Midfield    22    Morocco    VfB Stuttgart    35.00
+253    Máximo Perrone    Defensive Midfield    23    Argentina    Como 1907    35.00
+254    Matías Soulé    Right Winger    23    Argentina    AS Roma    35.00
+255    Tarik Muharemović    Centre-Back    23    Bosnia-Herzegovina    Leeds United    35.00
+256    Gerard Martín    Centre-Back    24    Spain    FC Barcelona    35.00
+257    Evanilson    Centre-Forward    26    Brazil    AFC Bournemouth    35.00
+258    Matias Fernandez-Pardo    Centre-Forward    21    Belgium    LOSC Lille    35.00
+259    Noah Sadiki    Central Midfield    21    DR Congo    Sunderland AFC    35.00
+260    Milos Kerkez    Left-Back    22    Hungary    Liverpool FC    35.00
+261    Savinho    Left Winger    22    Brazil    Manchester City    35.00
+262    Mika Godts    Left Winger    21    Belgium    Ajax Amsterdam    35.00
+263    Dango Ouattara    Right Winger    24    Burkina Faso    Brentford FC    35.00
+264    Ange-Yoan Bonny    Centre-Forward    22    Cote d'Ivoire    Inter Milan    35.00
+265    Marc Pubill    Centre-Back    23    Spain    Atlético de Madrid    35.00
+266    Lucas Bergvall    Central Midfield    20    Sweden    Tottenham Hotspur    35.00
+267    Habib Diarra    Central Midfield    22    Senegal    Sunderland AFC    35.00
+268    Ethan Nwaneri    Attacking Midfield    19    England    Arsenal FC    35.00
+269    Marco Palestra    Right-Back    21    Italy    Chelsea FC    35.00
+270    Archie Gray    Defensive Midfield    20    England    Tottenham Hotspur    35.00
+271    Finn Jeltsch    Centre-Back    20    Germany    VfB Stuttgart    35.00
+272    Patrick Dorgu    Left-Back    21    Denmark    Manchester United    35.00
+273    Konstantinos Karetsas    Attacking Midfield    18    Greece    Borussia Dortmund    35.00
+274    Joaquín Panichelli    Centre-Forward    23    Argentina    RC Strasbourg Alsace    35.00
+275    Joel Ordóñez    Centre-Back    22    Ecuador    Club Brugge KV    33.00
+276    Konrad Laimer    Right-Back    29    Austria    Bayern Munich    32.00
+277    Serhou Guirassy    Centre-Forward    30    Guinea    Borussia Dortmund    32.00
+278    Moise Kean    Centre-Forward    26    Italy    ACF Fiorentina    32.00
+279    Dan Ndoye    Right Winger    25    Switzerland    Nottingham Forest    32.00
+280    Harvey Barnes    Left Winger    28    England    Newcastle United    32.00
+281    Lucas Paquetá    Attacking Midfield    28    Brazil    CR Flamengo    32.00
+282    Conor Gallagher    Central Midfield    26    England    Tottenham Hotspur    32.00
+283    Hayden Hackney    Defensive Midfield    24    England    Everton FC    32.00
+284    Sepp van den Berg    Centre-Back    24    Netherlands    Brentford FC    32.00
+285    Anthony Elanga    Right Winger    24    Sweden    Newcastle United    32.00
+286    Pierre Kalulu    Centre-Back    26    France    Juventus FC    32.00
+287    Yegor Yarmolyuk    Central Midfield    22    Ukraine    Brentford FC    32.00
+288    Alan Varela    Defensive Midfield    25    Argentina    FC Porto    32.00
+289    Aleksandar Stanković    Defensive Midfield    21    Serbia    Inter Milan    32.00
+290    Danilo    Central Midfield    25    Brazil    Botafogo de Futebol e Regatas    32.00
+291    Santiago Castro    Centre-Forward    21    Argentina    AS Roma    32.00
+292    Antonio Nusa    Left Winger    21    Norway    RB Leipzig    32.00
+293    David Raya    Goalkeeper    30    Spain    Arsenal FC    30.00
+294    Jarrod Bowen    Right Winger    29    England    West Ham United    30.00
+295    Matvey Safonov    Goalkeeper    27    Russia    Paris Saint-Germain    30.00
+296    Matthijs de Ligt    Centre-Back    26    Netherlands    Manchester United    30.00
+297    Weston McKennie    Central Midfield    27    United States    Juventus FC    30.00
+298    Jonathan Burkardt    Centre-Forward    26    Germany    Eintracht Frankfurt    30.00
+299    Ben White    Right-Back    28    England    Arsenal FC    30.00
+300    Fabián Ruiz    Central Midfield    30    Spain    Paris Saint-Germain    30.00
+301    Diogo Dalot    Right-Back    27    Portugal    Manchester United    30.00
+302    Alessandro Buongiorno    Centre-Back    27    Italy    SSC Napoli    30.00
+303    Callum Hudson-Odoi    Left Winger    25    England    Nottingham Forest    30.00
+304    Ethan Ampadu    Defensive Midfield    25    Wales    Leeds United    30.00
+305    Jean-Philippe Mateta    Centre-Forward    29    France    Crystal Palace    30.00
+306    Luis Suárez    Centre-Forward    28    Colombia    Sporting CP    30.00
+307    Zion Suzuki    Goalkeeper    23    Japan    Parma Calcio 1913    30.00
+308    Nikola Krstović    Centre-Forward    26    Montenegro    Atalanta BC    30.00
+309    Marco Carnesecchi    Goalkeeper    26    Italy    Atalanta BC    30.00
+310    Malik Tillman    Attacking Midfield    24    United States    Bayer 04 Leverkusen    30.00
+311    Nathan Collins    Centre-Back    25    Ireland    Brentford FC    30.00
+312    Brennan Johnson    Right Winger    25    Wales    Crystal Palace    30.00
+313    Ian Maatsen    Left-Back    24    Netherlands    Aston Villa    30.00
+314    Francisco Conceição    Right Winger    23    Portugal    Juventus FC    30.00
+315    Tomás Araújo    Centre-Back    24    Portugal    SL Benfica    30.00
+316    Jonathan David    Centre-Forward    26    Canada    Juventus FC    30.00
+317    Georginio Rutter    Centre-Forward    24    France    Brighton & Hove Albion    30.00
+318    Mikkel Damsgaard    Attacking Midfield    26    Denmark    Brentford FC    30.00
+319    Barış Alper Yılmaz    Left Winger    26    Türkiye    Galatasaray    30.00
+320    Mateo Retegui    Centre-Forward    27    Italy    Al-Qadsiah FC    30.00
+321    Destiny Udogie    Left-Back    23    Italy    Tottenham Hotspur    30.00
+322    Yéremy Pino    Right Winger    23    Spain    Crystal Palace    30.00
+323    Pape Matar Sarr    Central Midfield    23    Senegal    Tottenham Hotspur    30.00
+324    Rodrigo Zalazar    Attacking Midfield    26    Uruguay    Sporting CP    30.00
+325    Mario Gila    Centre-Back    25    Spain    AC Milan    30.00
+326    Tyler Morton    Defensive Midfield    23    England    Olympique Lyon    30.00
+327    Ricardo Pepi    Centre-Forward    23    United States    PSV Eindhoven    30.00
+328    Gavi    Central Midfield    21    Spain    FC Barcelona    30.00
+329    Adrien Truffert    Left-Back    24    France    AFC Bournemouth    30.00
+330    Leon Avdullahu    Defensive Midfield    22    Kosovo    TSG 1899 Hoffenheim    30.00
+331    Jamie Gittens    Left Winger    21    England    Chelsea FC    30.00
+332    Gabri Veiga    Attacking Midfield    24    Spain    FC Porto    30.00
+333    Georges Mikautadze    Centre-Forward    25    Georgia    Villarreal CF    30.00
+334    Omari Hutchinson    Right Winger    22    England    Nottingham Forest    30.00
+335    Malick Fofana    Left Winger    21    Belgium    Olympique Lyon    30.00
+336    Robin Risser    Goalkeeper    21    France    RC Lens    30.00
+337    Renato Veiga    Centre-Back    23    Portugal    Villarreal CF    30.00
+338    Niccolò Pisilli    Central Midfield    21    Italy    AS Roma    30.00
+339    Neil El Aynaoui    Central Midfield    25    Morocco    AS Roma    30.00
+340    Gonzalo García    Centre-Forward    22    Spain    Real Madrid    30.00
+341    Víctor Muñoz    Left Winger    23    Spain    Liverpool FC    30.00
+342    Thierno Barry    Centre-Forward    23    France    Everton FC    30.00
+343    Mikel Jauregizar    Central Midfield    22    Spain    Athletic Bilbao    30.00
+344    Jacobo Ramón    Centre-Back    21    Spain    Como 1907    30.00
+345    Rômulo    Centre-Forward    24    Brazil    RB Leipzig    30.00
+346    Vitor Reis    Centre-Back    20    Brazil    Manchester City    30.00
+347    Marc Bernal    Defensive Midfield    19    Spain    FC Barcelona    30.00
+348    Assane Diao    Left Winger    20    Senegal    Como 1907    30.00
+349    Honest Ahanor    Centre-Back    18    Italy    Atalanta BC    30.00
+350    Ayden Heaven    Centre-Back    19    England    Manchester United    30.00
+351    Rio Ngumoha    Left Winger    17    England    Liverpool FC    30.00
+352    Ibrahim Mbaye    Right Winger    18    Senegal    Paris Saint-Germain    30.00
+353    Max Dowman    Right Winger    16    England    Arsenal FC    30.00
+354    Jesús Rodríguez    Left Winger    20    Spain    Como 1907    30.00
+355    Marquinhos    Centre-Back    32    Brazil    Paris Saint-Germain    28.00
+356    Jonathan Tah    Centre-Back    30    Germany    Bayern Munich    28.00
+357    Dominic Solanke    Centre-Forward    28    England    Tottenham Hotspur    28.00
+358    Dean Henderson    Goalkeeper    29    England    Crystal Palace    28.00
+359    Vangelis Pavlidis    Centre-Forward    27    Greece    SL Benfica    28.00
+360    Caoimhín Kelleher    Goalkeeper    27    Ireland    Brentford FC    28.00
+361    Anton Stach    Defensive Midfield    27    Germany    Leeds United    28.00
+362    Nikola Milenković    Centre-Back    28    Serbia    Nottingham Forest    28.00
+363    Amine Gouiri    Centre-Forward    26    Algeria    Olympique Marseille    28.00
+364    Calvin Bassey    Centre-Back    26    Nigeria    Fulham FC    28.00
+365    João Félix    Second Striker    26    Portugal    Al-Nassr FC    28.00
+366    Djordje Petrovic    Goalkeeper    26    Serbia    AFC Bournemouth    28.00
+367    Wesley Fofana    Centre-Back    25    France    Chelsea FC    28.00
+368    Giorgi Mamardashvili    Goalkeeper    25    Georgia    Liverpool FC    28.00
+369    Neco Williams    Left-Back    25    Wales    Nottingham Forest    28.00
+370    Taty Castellanos    Centre-Forward    27    Argentina    West Ham United    28.00
+371    Dilane Bakwa    Right Winger    23    France    Nottingham Forest    28.00
+372    Zeno Debast    Centre-Back    22    Belgium    Sporting CP    28.00
+373    Kang-in Lee    Attacking Midfield    25    Korea, South    Atlético de Madrid    28.00
+374    Chris Richards    Centre-Back    26    United States    Crystal Palace    28.00
+375    William Osula    Centre-Forward    22    Denmark    Newcastle United    28.00
+376    Liam Delap    Centre-Forward    23    England    Chelsea FC    28.00
+377    Matteo Ruggeri    Left-Back    24    Italy    Atlético de Madrid    28.00
+378    Enzo Le Fée    Central Midfield    26    France    Sunderland AFC    28.00
+379    Robin Roefs    Goalkeeper    23    Netherlands    Sunderland AFC    28.00
+380    Oscar Bobb    Right Winger    23    Norway    Fulham FC    28.00
+381    Jonathan Rowe    Left Winger    23    England    Bologna FC 1909    28.00
+382    Brajan Gruda    Attacking Midfield    22    Germany    RB Leipzig    28.00
+383    Rico Lewis    Right-Back    21    England    Manchester City    28.00
+384    Aleksey Batrakov    Attacking Midfield    21    Russia    Lokomotiv Moscow    28.00
+385    Alejandro Garnacho    Left Winger    22    Argentina    Aston Villa    28.00
+386    Alisson Santos    Left Winger    23    Brazil    SSC Napoli    28.00
+387    Maxime Estève    Centre-Back    24    France    RB Leipzig    28.00
+388    Jack Hinshelwood    Defensive Midfield    21    England    Brighton & Hove Albion    28.00
+389    Assan Ouédraogo    Central Midfield    20    Germany    RB Leipzig    28.00
+390    Hugo Larsson    Central Midfield    22    Sweden    Eintracht Frankfurt    28.00
+391    Jaydee Canvot    Centre-Back    20    France    Crystal Palace    28.00
+392    Karim Coulibaly    Centre-Back    19    Germany    SV Werder Bremen    28.00
+393    El Hadji Malick Diouf    Left-Back    21    Senegal    West Ham United    28.00
+394    Christ Inao Oulaï    Central Midfield    20    Cote d'Ivoire    ACF Fiorentina    28.00
+395    Mattéo Guendouzi    Central Midfield    27    France    Fenerbahce    27.00
+396    Gabriel Sara    Central Midfield    27    Brazil    Galatasaray    27.00
+397    Nathan De Cat    Central Midfield    18    Belgium    TSG 1899 Hoffenheim    27.00
+398    Rúben Neves    Defensive Midfield    29    Portugal    Al-Hilal SFC    25.00
+399    Manuel Locatelli    Defensive Midfield    28    Italy    Juventus FC    25.00
+400    Harry Wilson    Right Winger    29    Wales    Leeds United    25.00
+401    Gianluca Scamacca    Centre-Forward    27    Italy    Atalanta BC    25.00
+402    David Raum    Left-Back    28    Germany    RB Leipzig    25.00
+403    Denzel Dumfries    Right-Back    30    Netherlands    Real Madrid    25.00
+404    Ollie Watkins    Centre-Forward    30    England    Aston Villa    25.00
+405    Justin Kluivert    Attacking Midfield    27    Netherlands    AFC Bournemouth    25.00
+406    Tyler Adams    Defensive Midfield    27    United States    AFC Bournemouth    25.00
+407    Sander Berge    Defensive Midfield    28    Norway    Fulham FC    25.00
+408    Joelinton    Central Midfield    29    Brazil    Newcastle United    25.00
+409    Denis Zakaria    Defensive Midfield    29    Switzerland    AS Monaco    25.00
+410    Mikel Merino    Central Midfield    30    Spain    Arsenal FC    25.00
+411    Christopher Nkunku    Centre-Forward    28    France    AC Milan    25.00
+412    Mason Mount    Attacking Midfield    27    England    Manchester United    25.00
+413    Noah Okafor    Left Winger    26    Switzerland    Leeds United    25.00
+414    Mikel Oyarzabal    Centre-Forward    29    Spain    Real Sociedad    25.00
+415    Loïs Openda    Centre-Forward    26    Belgium    Olympique Lyon    25.00
+416    Julian Ryerson    Right-Back    28    Norway    Borussia Dortmund    25.00
+417    Richarlison    Centre-Forward    29    Brazil    Tottenham Hotspur    25.00
+418    Yoane Wissa    Centre-Forward    29    DR Congo    Newcastle United    25.00
+419    Moussa Diaby    Right Winger    27    France    Al-Ittihad Club    25.00
+420    Marcus Tavernier    Attacking Midfield    27    England    AFC Bournemouth    25.00
+421    Exequiel Palacios    Central Midfield    27    Argentina    Bayer 04 Leverkusen    25.00
+422    Vitaliy Mykolenko    Left-Back    27    Ukraine    Everton FC    25.00
+423    Nicolas Seiwald    Defensive Midfield    25    Austria    RB Leipzig    25.00
+424    Joey Veerman    Central Midfield    27    Netherlands    PSV Eindhoven    25.00
+425    Mats Wieffer    Right-Back    26    Netherlands    Brighton & Hove Albion    25.00
+426    Quinten Timber    Central Midfield    25    Netherlands    Olympique Marseille    25.00
+427    Pedro Gonçalves    Left Winger    28    Portugal    Sporting CP    25.00
+428    Igor Jesus    Centre-Forward    25    Brazil    Nottingham Forest    25.00
+429    Ramon Hendriks    Centre-Back    25    Netherlands    VfB Stuttgart    25.00
+430    Orkun Kökçü    Central Midfield    25    Türkiye    Besiktas JK    25.00
+431    Lucas Chevalier    Goalkeeper    24    France    Paris Saint-Germain    25.00
+432    Bafodé Diakité    Centre-Back    25    France    AFC Bournemouth    25.00
+433    Marcos Senesi    Centre-Back    29    Argentina    Tottenham Hotspur    25.00
+434    Kenneth Taylor    Central Midfield    24    Netherlands    SS Lazio    25.00
+435    Manuel Ugarte    Defensive Midfield    25    Uruguay    Manchester United    25.00
+436    Evann Guessand    Right Winger    25    Cote d'Ivoire    Aston Villa    25.00
+437    Eduard Spertsyan    Attacking Midfield    26    Armenia    Al-Ahli SFC    25.00
+438    Anastasios Douvikas    Centre-Forward    27    Greece    Como 1907    25.00
+439    Noah Atubolu    Goalkeeper    24    Germany    SC Freiburg    25.00
+440    Anatoliy Trubin    Goalkeeper    25    Ukraine    SL Benfica    25.00
+441    Nathan Ngoy    Centre-Back    23    Belgium    LOSC Lille    25.00
+442    Troy Parrott    Centre-Forward    24    Ireland    AZ Alkmaar    25.00
+443    Emmanuel Emegha    Centre-Forward    23    Netherlands    Chelsea FC    25.00
+444    James Trafford    Goalkeeper    23    England    Manchester City    25.00
+445    Enzo Millot    Attacking Midfield    24    France    Al-Ahli SFC    25.00
+446    Oihan Sancet    Attacking Midfield    26    Spain    Athletic Bilbao    25.00
+447    Albian Hajdari    Centre-Back    23    Kosovo    TSG 1899 Hoffenheim    25.00
+448    Arnaud Kalimuendo    Centre-Forward    24    France    Nottingham Forest    25.00
+449    Charlie Cresswell    Centre-Back    23    England    FC Toulouse    25.00
+450    Ardon Jashari    Defensive Midfield    24    Switzerland    AC Milan    25.00
+451    Kaio Jorge    Centre-Forward    24    Brazil    Cruzeiro Esporte Clube    25.00
+452    Georgiy Sudakov    Attacking Midfield    23    Ukraine    SL Benfica    25.00
+453    Conor Bradley    Right-Back    23    Northern Ireland    Liverpool FC    25.00
+454    Yeremay Hernández    Left Winger    23    Spain    Deportivo A Coruña    25.00
+455    Keane Lewis-Potter    Left Midfield    25    England    Brentford FC    25.00
+456    António Silva    Centre-Back    22    Portugal    AFC Bournemouth    25.00
+457    Matvey Kislyak    Central Midfield    21    Russia    CSKA Moscow    25.00
+458    Hákon Arnar Haraldsson    Attacking Midfield    23    Iceland    LOSC Lille    25.00
+459    Diego Moreira    Left Midfield    21    Belgium    RC Strasbourg Alsace    25.00
+460    Samson Baidoo    Centre-Back    22    Austria    RC Lens    25.00
+461    Julio Enciso    Attacking Midfield    22    Paraguay    RC Strasbourg Alsace    25.00
+462    Konstantinos Koulierakis    Centre-Back    22    Greece    AS Roma    25.00
+463    Geny Catamo    Right Winger    25    Mozambique    Sporting CP    25.00
+464    Carlos Romero    Left-Back    24    Spain    Villarreal CF    25.00
+465    Jon Gorrotxategi    Defensive Midfield    24    Spain    Real Sociedad    25.00
+466    Nicolò Tresoldi    Centre-Forward    21    Germany    Club Brugge KV    25.00
+467    Ernest Poku    Right Winger    22    Netherlands    Bayer 04 Leverkusen    25.00
+468    Tyrick Mitchell    Left-Back    26    England    Crystal Palace    25.00
+469    Natan    Centre-Back    25    Brazil    Real Betis Balompié    25.00
+470    Richard Ríos    Defensive Midfield    26    Colombia    SL Benfica    25.00
+471    Chemsdine Talbi    Right Winger    21    Morocco    Sunderland AFC    25.00
+472    André    Defensive Midfield    25    Brazil    Wolverhampton Wanderers    25.00
+473    Mike Penders    Goalkeeper    21    Belgium    Chelsea FC    25.00
+474    Javi Guerra    Central Midfield    23    Spain    Valencia CF    25.00
+475    José Manuel López    Centre-Forward    25    Argentina    Sociedade Esportiva Palmeiras    25.00
+476    Arthur Atta    Central Midfield    23    France    ACF Fiorentina    25.00
+477    Kees Smit    Central Midfield    20    Netherlands    AZ Alkmaar    25.00
+478    Kevin    Left Winger    23    Brazil    Fulham FC    25.00
+479    Ismaël Koné    Central Midfield    24    Canada    US Sassuolo    25.00
+480    Lewis Miley    Central Midfield    20    England    Newcastle United    25.00
+481    Kerim Alajbegovic    Left Winger    18    Bosnia-Herzegovina    Juventus FC    25.00
+482    Jean-Mattéo Bahoya    Left Winger    21    France    Eintracht Frankfurt    25.00
+483    Chris Rigg    Attacking Midfield    19    England    Sunderland AFC    25.00
+484    Christos Mouzakitis    Central Midfield    19    Greece    Olympiacos Piraeus    25.00
+485    Gustavo Sá    Attacking Midfield    21    Portugal    Olympiacos Piraeus    25.00
+486    Diego Gómez    Central Midfield    23    Paraguay    Brighton & Hove Albion    25.00
+487    Givairo Read    Right-Back    20    Netherlands    Feyenoord Rotterdam    25.00
+488    Josh Acheampong    Right-Back    20    England    Chelsea FC    25.00
+489    William Gomes    Right Winger    20    Brazil    FC Porto    25.00
+490    Josh King    Attacking Midfield    19    England    Fulham FC    25.00
+491    Jon Martín    Centre-Back    20    Spain    Real Sociedad    25.00
+492    Charalampos Kostoulas    Centre-Forward    19    Greece    Brighton & Hove Albion    25.00
+493    Vasilije Kostov    Attacking Midfield    18    Serbia    Red Star Belgrade    25.00
+494    Giovanni Leoni    Centre-Back    19    Italy    Liverpool FC    25.00
+495    Gilberto Mora    Attacking Midfield    17    Mexico    Club Tijuana    25.00
+496    Oskar Pietuszewski    Left Winger    18    Poland    FC Porto    25.00
+497    Tylel Tati    Centre-Back    18    France    FC Nantes    25.00
+498    Yuito Suzuki    Second Striker    24    Japan    SC Freiburg    24.00
+499    Luiz Henrique    Right Winger    25    Brazil    Zenit St. Petersburg    24.00
+500    Oumar Solet    Centre-Back    26    France    Udinese Calcio    23.00

@@ -1,0 +1,438 @@
+## Burnley FC — Musim 23/24
+
+| # | Pemain | Posisi | Usia | Kebangsaan | Klub Saat Ini | Nilai Pasar |
+|---|--------|--------|------|------------|----------------|-------------|
+| 1 | James Trafford | Kiper | 21 | England | Leeds United | €18.00m |
+| 49 | Arijanet Murić | Kiper | 25 | Kosovo/Montenegro | US Sassuolo | €7.00m |
+| 29 | Lawrence Vigouroux | Kiper | 30 | Chile/England | Swansea City | €300k |
+| 20 | Denis Franchi | Kiper | 21 | Italy | Potenza Calcio | €250k |
+| 5 | Jordan Beyer | Bek Tengah | 24 | Germany | Burnley FC | €13.00m |
+| 28 | Ameen Al-Dakhil | Bek Tengah | 22 | Belgium/Iraq | VfB Stuttgart | €12.00m |
+| 2 | Dara O'Shea | Bek Tengah | 25 | Ireland | Ipswich Town | €7.00m |
+| 18 | Hjalmar Ekdal | Bek Tengah | 25 | Sweden | Burnley FC | €7.00m |
+| 33 | Maxime Estève | Bek Tengah | 22 | France | RB Leipzig | €7.00m |
+| 44 | Hannes Delcroix | Bek Tengah | 25 | Haiti/Belgium | FC Lugano | €4.00m |
+| - | Luke McNally | Bek Tengah | 24 | Ireland | Bristol City | €3.80m |
+| 6 | CJ Egan-Riley | Bek Tengah | 21 | England/Ireland | Olympique Marseille | €1.50m |
+| 3 | Charlie Taylor | Bek Kiri | 30 | England | Derby County | €3.00m |
+| 20 | Lorenz Assignon | Bek Kanan | 24 | France/Togo | VfB Stuttgart | €10.00m |
+| 14 | Connor Roberts | Bek Kanan | 28 | Wales | Burnley FC | €7.00m |
+| 22 | Vitinho | Bek Kanan | 24 | Brazil | Botafogo | €5.00m |
+| 16 | Sander Berge | Gelandang Bertahan | 26 | Norway | Fulham FC | €20.00m |
+| 4 | Jack Cork | Gelandang Bertahan | 35 | England | Burnley FC U21 | €800k |
+| 8 | Josh Brownhill | Gelandang Tengah | 28 | England | Al-Shabab FC | €15.00m |
+| 24 | Josh Cullen | Gelandang Tengah | 28 | Ireland/England | Burnley FC | €10.00m |
+| 42 | Han-Noah Massengo | Gelandang Tengah | 22 | France/Congo | FC Augsburg | €4.00m |
+| 21 | Aaron Ramsey | Gelandang Serang | 21 | England | Burnley FC | €15.00m |
+| 31 | Mike Tresor | Gelandang Serang | 25 | Belgium/Burundi | Burnley FC | €12.00m |
+| - | Scott Twine | Gelandang Serang | 24 | England | Bristol City | €3.00m |
+| 47 | Wilson Odobert | Sayap Kiri | 19 | France/Martinique | Tottenham Hotspur | €10.00m |
+| 19 | Anass Zaroury | Sayap Kiri | 23 | Morocco/Belgium | Panathinaikos | €9.00m |
+| 34 | Jacob Bruun Larsen | Sayap Kiri | 25 | Denmark | Burnley FC | €8.00m |
+| 27 | Darko Churlinov | Sayap Kiri | 23 | North Macedonia | Pogon Szczecin | €1.50m |
+| - | Dara Costelloe | Sayap Kiri | 21 | Ireland | Wigan Athletic | €325k |
+| 30 | Luca Koleosho | Sayap Kanan | 19 | Italy/United States | Paris FC | €7.00m |
+| 10 | Manuel Benson | Sayap Kanan | 27 | Angola/Belgium | Maccabi Haifa | €5.00m |
+| 15 | Nathan Redmond | Sayap Kanan | 30 | England/Jamaica | Tanpa Klub | €5.00m |
+| 7 | Jóhann Berg Gudmundsson | Sayap Kanan | 33 | Iceland | Tanpa Klub | €1.00m |
+| 48 | Enock Agyei | Sayap Kanan | 19 | Belgium/Ghana | Burnley FC U21 | €800k |
+| 17 | Lyle Foster | Penyerang Tengah | 23 | South Africa | Burnley FC | €13.00m |
+| - | David Datro Fofana | Penyerang Tengah | 21 | Cote d'Ivoire | Chelsea FC | €12.00m |
+| 25 | Zeki Amdouni | Penyerang Tengah | 23 | Switzerland/Tunisia | Burnley FC | €12.00m |
+| 45 | Michael Obafemi | Penyerang Tengah | 23 | Ireland/Nigeria | Burnley FC | €2.20m |
+| 9 | Jay Rodríguez | Penyerang Tengah | 34 | England/Spain | Tanpa Klub | €1.00m |
+
+## Sheffield United — Musim 23/24
+
+| # | Pemain | Posisi | Usia | Kebangsaan | Klub Saat Ini | Nilai Pasar |
+|---|--------|--------|------|------------|----------------|-------------|
+| 13 | Ivo Grbic | Kiper | 28 | Croatia | Sheffield United | €3.50m |
+| 18 | Wes Foderingham | Kiper | 33 | England | Aris Limassol | €900k |
+| 1 | Adam Davies | Kiper | 31 | Wales/Germany | Sheffield United | €500k |
+| 37 | Jordan Amissah | Kiper | 22 | Ghana/Germany | Dundee United FC | €250k |
+| 15 | Anel Ahmedhodzic | Bek Tengah | 25 | Bosnia/Sweden | Burnley FC | €18.00m |
+| 5 | Auston Trusty | Bek Tengah | 25 | United States | Celtic FC | €7.00m |
+| - | Mason Holgate | Bek Tengah | 27 | Jamaica/England | Al-Gharafa SC | €5.00m |
+| 12 | John Egan | Bek Tengah | 31 | Ireland | Hull City | €4.00m |
+| 19 | Jack Robinson | Bek Tengah | 30 | England | Birmingham City | €1.00m |
+| 6 | Chris Basham | Bek Tengah | 35 | England | Pensiun | €300k |
+| - | Evan Easton | Bek Tengah | 19 | Scotland | Airdrieonians FC | - |
+| - | Dovydas Sasnauskas | Bek Tengah | 17 | Lithuania/England | Sheffield United U21 | - |
+| 14 | Luke Thomas | Bek Kiri | 23 | England | Leicester City | €6.00m |
+| 27 | Yasser Larouci | Bek Kiri | 23 | Algeria/France | Le Mans FC | €3.00m |
+| 3 | Max Lowe | Bek Kiri | 27 | England | Sheffield Wednesday | €2.50m |
+| 33 | Rhys Norrington-Davies | Bek Kiri | 25 | Wales/Saudi Arabia | Sheffield United | €2.50m |
+| - | Jili Buyabu | Bek Kiri | 20 | England/DR Congo | Rotherham United | €200k |
+| 20 | Jayden Bogle | Bek Kanan | 23 | England | Leeds United | €3.80m |
+| 2 | George Baldock | Bek Kanan | 31 | Greece/England | — | €2.50m |
+| 38 | Femi Seriki | Bek Kanan | 22 | England/Nigeria | Sheffield United | €300k |
+| - | Sam Curtis | Bek Kanan | 18 | Ireland | Sheffield United | €150k |
+| 21 | Vini Souza | Gelandang Bertahan | 25 | Brazil | VfL Wolfsburg | €12.00m |
+| 8 | Gustavo Hamer | Gelandang Tengah | 27 | Netherlands/Brazil | Coventry City | €15.00m |
+| 22 | Tom Davies | Gelandang Tengah | 26 | England | Tanpa Klub | €5.00m |
+| - | Andre Brooks | Gelandang Tengah | 20 | Jamaica/England | Norwich City | €2.50m |
+| 16 | Oliver Norwood | Gelandang Tengah | 33 | N. Ireland/England | Stockport County | €1.00m |
+| 17 | Ismaila Coulibaly | Gelandang Tengah | 23 | Mali | RAAL La Louvière | €1.00m |
+| 23 | Ben Osborn | Gelandang Tengah | 29 | England | Stockport County | €1.00m |
+| 4 | John Fleck | Gelandang Tengah | 32 | Scotland | Tanpa Klub | €900k |
+| 24 | Oliver Arblaster | Gelandang Tengah | 20 | England | Sheffield United | €450k |
+| - | Sydie Peck | Gelandang Tengah | 19 | England | Sheffield United | €200k |
+| - | Billy Blacker | Gelandang Tengah | 18 | England | Sheffield United U21 | €100k |
+| - | Owen Hampson | Gelandang Tengah | 19 | Wales/England | Hartlepool United | - |
+| 28 | James McAtee | Gelandang Serang | 21 | England | Nottingham Forest | €12.00m |
+| 25 | Anis Ben Slimane | Gelandang Serang | 23 | Tunisia/Denmark | Norwich City | €2.50m |
+| 11 | Bénie Traoré | Sayap Kiri | 21 | Cote d'Ivoire | New York City FC | €4.00m |
+| - | Louie Marsh | Second Striker | 19 | England | Sheffield United | €100k |
+| 10 | Cameron Archer | Penyerang Tengah | 22 | England/Jamaica | Southampton FC | €13.00m |
+| 11 | Ben Brereton Díaz | Penyerang Tengah | 25 | Chile/England | Southampton FC | €8.00m |
+| 9 | Oli McBurnie | Penyerang Tengah | 28 | Scotland/England | Hull City | €4.50m |
+| 7 | Rhian Brewster | Penyerang Tengah | 24 | England/Barbados | Derby County | €3.00m |
+| 32 | William Osula | Penyerang Tengah | 20 | Denmark/England | Newcastle United | €3.00m |
+| 36 | Daniel Jebbison | Penyerang Tengah | 20 | Canada/England | AFC Bournemouth | €1.00m |
+| - | Antwoine Hackford | Penyerang Tengah | 20 | England/Trinidad & Tobago | AFC Wimbledon | €500k |
+| - | Ryan Oné | Penyerang Tengah | 18 | Scotland/France | Sheffield United | €200k |
+
+## Luton Town — Musim 23/24
+
+| # | Pemain | Posisi | Usia | Kebangsaan | Klub Saat Ini | Nilai Pasar |
+|---|--------|--------|------|------------|----------------|-------------|
+| 24 | Thomas Kaminski | Kiper | 31 | Belgium/Poland | Charlton Athletic | €3.00m |
+| 23 | Tim Krul | Kiper | 36 | Netherlands | Pensiun | €500k |
+| - | Jack Walton | Kiper | 26 | England | Dundee United FC | €400k |
+| 1 | James Shea | Kiper | 33 | England/Ireland | Luton Town | €200k |
+| 15 | Teden Mengi | Bek Tengah | 22 | England/Angola | Luton Town | €12.00m |
+| - | Tom Holmes | Bek Tengah | 24 | England | Luton Town | €3.50m |
+| 2 | Gabriel Osho | Bek Tengah | 25 | Nigeria/England | Cardiff City | €3.00m |
+| 5 | Mads Andersen | Bek Tengah | 26 | Denmark | Luton Town | €3.00m |
+| 4 | Tom Lockyer | Bek Tengah | 29 | Wales | Melbourne Victory | €2.50m |
+| 29 | Amari'i Bell | Bek Tengah | 30 | Jamaica/England | Charlton Athletic | €2.50m |
+| 16 | Reece Burke | Bek Tengah | 27 | England | Charlton Athletic | €1.80m |
+| 3 | Dan Potts | Bek Tengah | 30 | England | Tanpa Klub | €900k |
+| - | Aidan Francis-Clarke | Bek Tengah | 19 | England | Wealdstone FC | - |
+| - | Christian Chigozie | Bek Tengah | 16 | England/Nigeria | Luton Town U21 | - |
+| 26 | Ryan Giles | Bek Kiri | 24 | England | Hull City | €4.50m |
+| - | Joe Johnson | Bek Kiri | 18 | England | Luton Town | €100k |
+| 12 | Issa Kaboré | Bek Kanan | 23 | Burkina Faso | Wrexham AFC | €10.00m |
+| 27 | Daiki Hashioka | Bek Kanan | 25 | Japan | Borussia Mönchengladbach | €2.00m |
+| 13 | Marvelous Nakamba | Gelandang Bertahan | 30 | Zimbabwe | Panetolikos | €5.00m |
+| 17 | Pelly Ruddock Mpanzu | Gelandang Bertahan | 30 | DR Congo/England | Cambridge United | €1.50m |
+| - | Dominic Martins | Gelandang Bertahan | 18 | Portugal/England | Portadown FC | - |
+| 28 | Albert Sambi Lokonga | Gelandang Tengah | 24 | Belgium/DR Congo | Hamburger SV | €15.00m |
+| 6 | Ross Barkley | Gelandang Tengah | 30 | England | Aston Villa | €8.00m |
+| - | Allan Campbell | Gelandang Tengah | 25 | Scotland | St. Mirren FC | €2.00m |
+| 8 | Luke Berry | Gelandang Tengah | 31 | England | Tanpa Klub | €400k |
+| 28 | Elliot Thorpe | Gelandang Tengah | 23 | Wales/Malaysia | Braintree Town | €200k |
+| - | Axel Piesold | Gelandang Tengah | 19 | England | Galway United FC | €150k |
+| - | Jake Burger | Gelandang Tengah | 19 | England | Tanpa Klub | - |
+| - | Jayden Luker | Gelandang Tengah | 19 | England | Luton Town U21 | - |
+| 32 | Fred Onyedinma | Gelandang Kanan | 27 | Nigeria/England | Wycombe Wanderers | €500k |
+| 45 | Alfie Doughty | Gelandang Kiri | 24 | England | Millwall FC | €10.00m |
+| 14 | Tahith Chong | Gelandang Serang | 24 | Curacao/Netherlands | Sheffield United | €6.00m |
+| 18 | Jordan Clark | Gelandang Serang | 30 | England | Luton Town | €1.00m |
+| - | Louie Watson | Gelandang Serang | 23 | Ireland/England | Crawley Town | €250k |
+| - | Zack Nelson | Gelandang Serang | 19 | England | AFC Wimbledon | €100k |
+| - | Dion Pereira | Sayap Kiri | 25 | Antigua/England | Crawley Town | €175k |
+| 7 | Chiedozie Ogbene | Sayap Kanan | 27 | Ireland/Nigeria | Ipswich Town | €8.00m |
+| 30 | Andros Townsend | Sayap Kanan | 32 | England | PT Prachuap FC | €1.80m |
+| - | John McAtee | Second Striker | 24 | England | Bolton Wanderers | €300k |
+| 9 | Carlton Morris | Penyerang Tengah | 28 | England | Derby County | €13.00m |
+| 11 | Elijah Adebayo | Penyerang Tengah | 26 | England/Nigeria | Bristol City | €12.00m |
+| 19 | Jacob Brown | Penyerang Tengah | 26 | Scotland/England | Reading FC | €4.00m |
+| 10 | Cauley Woodrow | Penyerang Tengah | 29 | England | Wycombe Wanderers | €1.00m |
+| - | Joe Taylor | Penyerang Tengah | 21 | Wales/England | Huddersfield Town | €350k |
+| - | Admiral Muskwe | Penyerang Tengah | 25 | Zimbabwe/England | Wealdstone FC | €275k |
+| - | Taylan Harris | Penyerang Tengah | 18 | England/Türkiye | Woking FC | - |
+
+## Nottingham Forest — Musim 22/23
+
+| # | Pemain | Posisi | Usia | Kebangsaan | Klub Saat Ini | Nilai Pasar |
+|---|--------|--------|------|------------|----------------|-------------|
+| - | Dean Henderson | Kiper | 26 | England | Crystal Palace | €18.00m |
+| 12 | Keylor Navas | Kiper | 36 | Costa Rica/Spain | UNAM Pumas | €4.00m |
+| 13 | Wayne Hennessey | Kiper | 36 | Wales | Pensiun | €400k |
+| - | Jordan Smith | Kiper | 28 | England | Hibernian FC | €250k |
+| - | Adnan Kanuric | Kiper | 22 | Bosnia/Austria | FC Malisheva | €150k |
+| - | George Shelvey | Kiper | 22 | England | Tanpa Klub | - |
+| 19 | Moussa Niakhaté | Bek Tengah | 27 | Senegal/France | Olympique Lyon | €18.00m |
+| - | Loïc Badé | Bek Tengah | 23 | France/Cote d'Ivoire | Bayer Leverkusen | €12.00m |
+| 4 | Joe Worrall | Bek Tengah | 26 | England | Burnley FC | €12.00m |
+| 26 | Scott McKenna | Bek Tengah | 26 | Scotland | GNK Dinamo Zagreb | €10.00m |
+| 2 | Giulian Biancone | Bek Tengah | 23 | France | RSC Anderlecht | €6.00m |
+| - | Jonathan Panzo | Bek Tengah | 22 | England/Cote d'Ivoire | Tanpa Klub | €3.00m |
+| 30 | Willy Boly | Bek Tengah | 32 | Cote d'Ivoire/France | Tanpa Klub | €2.50m |
+| - | Loïc Mbe Soh | Bek Tengah | 22 | France/Cameroon | AC Sparta Prague | €2.00m |
+| 38 | Felipe | Bek Tengah | 34 | Brazil | Pensiun | €2.00m |
+| 3 | Steve Cook | Bek Tengah | 32 | England | Wycombe Wanderers | €1.80m |
+| - | Aaron Donnelly | Bek Tengah | 20 | N. Ireland/Ireland | Dunfermline Athletic FC | €400k |
+| - | Zach Abbott | Bek Tengah | 17 | England | Nottingham Forest | €250k |
+| 7 | Neco Williams | Bek Kiri | 22 | Wales | Nottingham Forest | €20.00m |
+| 32 | Renan Lodi | Bek Kiri | 25 | Brazil/Italy | Clube Atlético Mineiro | €20.00m |
+| 27 | Omar Richards | Bek Kiri | 25 | England/Jamaica | Aris Thessaloniki | €5.00m |
+| 15 | Harry Toffolo | Bek Kiri | 27 | England/Italy | Charlotte FC | €3.50m |
+| 24 | Serge Aurier | Bek Kanan | 30 | Cote d'Ivoire | Pensiun | €8.00m |
+| 5 | Orel Mangala | Gelandang Bertahan | 25 | Belgium/DR Congo | Getafe CF | €16.00m |
+| 21 | Cheikhou Kouyaté | Gelandang Bertahan | 33 | Senegal/Belgium | Pensiun | €2.00m |
+| 8 | Jack Colback | Gelandang Bertahan | 33 | England | Pensiun | €600k |
+| 28 | Danilo | Gelandang Tengah | 22 | Brazil | Botafogo | €28.00m |
+| 22 | Ryan Yates | Gelandang Tengah | 25 | England | Nottingham Forest | €11.00m |
+| - | Lewis O'Brien | Gelandang Tengah | 24 | England | Wrexham AFC | €8.00m |
+| 23 | Remo Freuler | Gelandang Tengah | 31 | Switzerland | Olympiacos Piraeus | €8.00m |
+| 6 | Jonjo Shelvey | Gelandang Tengah | 31 | England/Ireland | Pensiun | €5.00m |
+| 18 | Cafú | Gelandang Tengah | 30 | Portugal/Guinea-Bissau | AEL Limassol | €600k |
+| - | Harry Arter | Gelandang Tengah | 33 | Ireland/England | Precision FC | €400k |
+| - | Oliver Hammond | Gelandang Tengah | 20 | Wales | Oldham Athletic | €250k |
+| - | Billy Fewster | Gelandang Tengah | 19 | England | Cleethorpes Town FC | - |
+| - | Alex Gibson-Hammond | Gelandang Kanan | 20 | England | Cheshunt FC | €150k |
+| 10 | Morgan Gibbs-White | Gelandang Serang | 23 | England/Jamaica | Nottingham Forest | €40.00m |
+| 31 | Gustavo Scarpa | Gelandang Serang | 29 | Brazil/Italy | Clube Atlético Mineiro | €10.00m |
+| 11 | Jesse Lingard | Gelandang Serang | 30 | England/St. Vincent | Corinthians | €8.00m |
+| 17 | Alex Mighten | Sayap Kiri | 21 | England/United States | San Diego FC | €600k |
+| 20 | Brennan Johnson | Sayap Kanan | 22 | Wales/England | Everton FC | €38.00m |
+| - | Josh Bowler | Sayap Kanan | 24 | England | Blackpool FC | €1.80m |
+| 9 | Taiwo Awoniyi | Penyerang Tengah | 25 | Nigeria | Coventry City | €25.00m |
+| 25 | Emmanuel Dennis | Penyerang Tengah | 25 | Nigeria | Bröndby IF | €8.00m |
+| 39 | Chris Wood | Penyerang Tengah | 31 | New Zealand | Nottingham Forest | €8.00m |
+| 16 | Sam Surridge | Penyerang Tengah | 24 | England | Nashville SC | €5.00m |
+| 34 | André Ayew | Penyerang Tengah | 33 | Ghana/France | Tanpa Klub | €1.80m |
+| - | Dale Taylor | Penyerang Tengah | 19 | N. Ireland | Blackpool FC | €500k |
+| 33 | Lyle Taylor | Penyerang Tengah | 33 | Montserrat/England | Chelmsford City | €300k |
+| - | Esapa Osong | Penyerang Tengah | 18 | England/Cameroon | Tanpa Klub | - |
+
+## Fulham FC — Musim 22/23
+
+| # | Pemain | Posisi | Usia | Kebangsaan | Klub Saat Ini | Nilai Pasar |
+|---|--------|--------|------|------------|----------------|-------------|
+| 17 | Bernd Leno | Kiper | 31 | Germany | Fulham FC | €12.00m |
+| - | Paulo Gazzaniga | Kiper | 31 | Argentina/Italy | Girona FC | €3.00m |
+| 1 | Marek Rodák | Kiper | 26 | Slovakia | Al-Ettifaq FC | €3.00m |
+| - | George Wickens | Kiper | 21 | England | Lincoln City | €250k |
+| 31 | Issa Diop | Bek Tengah | 26 | Morocco/France | Ipswich Town | €18.00m |
+| 4 | Tosin Adarabioyo | Bek Tengah | 25 | England/Nigeria | Chelsea FC | €16.00m |
+| 5 | Shane Duffy | Bek Tengah | 31 | Ireland/N. Ireland | Tanpa Klub | €2.00m |
+| 13 | Tim Ream | Bek Tengah | 35 | United States | Charlotte FC | €1.00m |
+| - | Connor McAvoy | Bek Tengah | 21 | Scotland/England | Wealdstone FC | €250k |
+| - | Charlie Robinson | Bek Tengah | 18 | England | Pensiun | - |
+| 33 | Antonee Robinson | Bek Kiri | 25 | United States/England | Fulham FC | €15.00m |
+| 3 | Layvin Kurzawa | Bek Kiri | 30 | France/Guadeloupe | Tanpa Klub | €3.00m |
+| - | Joe Bryan | Bek Kiri | 29 | England | Pensiun | €2.20m |
+| - | Stefan Parkes | Bek Kiri | 19 | England | Hemel Hempstead Town | €150k |
+| 2 | Kenny Tete | Bek Kanan | 27 | Netherlands/Mozambique | Fulham FC | €15.00m |
+| - | Kevin Mbabu | Bek Kanan | 28 | Switzerland/DR Congo | Tanpa Klub | €3.50m |
+| 12 | Cédric Soares | Bek Kanan | 31 | Portugal/Germany | São Paulo | €3.00m |
+| - | Marlon Fossey | Bek Kanan | 24 | United States/Jersey | Standard Liège | €2.50m |
+| - | Steven Sessegnon | Bek Kanan | 23 | England/Benin | AFC Wimbledon | €800k |
+| - | Luciano D'Auria-Henry | Bek Kanan | 20 | England/Italy | Tanpa Klub | €150k |
+| 26 | João Palhinha | Gelandang Bertahan | 27 | Portugal | SL Benfica | €40.00m |
+| - | Nathaniel Chalobah | Gelandang Bertahan | 28 | England/Sierra Leone | Charlton Athletic | €1.80m |
+| - | Adrion Pajaziti | Gelandang Bertahan | 20 | Albania/Kosovo | HNK Hajduk Split | €200k |
+| 6 | Harrison Reed | Gelandang Tengah | 28 | England | Fulham FC | €18.00m |
+| 18 | Andreas Pereira | Gelandang Tengah | 27 | Brazil/Belgium | Palmeiras | €18.00m |
+| 28 | Saša Lukić | Gelandang Tengah | 26 | Serbia | Ipswich Town | €12.00m |
+| 10 | Tom Cairney | Gelandang Tengah | 32 | Scotland/England | Fulham FC | €2.00m |
+| - | Josh Onomah | Gelandang Tengah | 26 | England/Nigeria | Tanpa Klub | €1.50m |
+| 35 | Tyrese Francois | Gelandang Tengah | 22 | Australia/England | Tanpa Klub | €500k |
+| - | Matt Dibley-Dias | Gelandang Tengah | 19 | New Zealand/Brazil | Newport County | - |
+| 14 | Bobby De Cordova-Reid | Gelandang Serang | 30 | Jamaica/England | Leicester City | €7.00m |
+| - | Luke Harris | Gelandang Serang | 18 | Wales/Jersey | Wigan Athletic | €500k |
+| - | Kristian Sekularac | Gelandang Serang | 19 | Switzerland/England | FK Zeleznicar Pancevo | €150k |
+| 11 | Manor Solomon | Sayap Kiri | 23 | Israel/Portugal | West Ham United | €18.00m |
+| 20 | Willian | Sayap Kiri | 34 | Brazil | Grêmio | €3.00m |
+| 7 | Neeskens Kebano | Sayap Kiri | 31 | DR Congo/France | Tanpa Klub | €2.00m |
+| - | Ollie O'Neill | Sayap Kiri | 20 | Ireland/England | Leyton Orient | €250k |
+| - | Martial Godo | Sayap Kiri | 20 | Cote d'Ivoire/England | RC Strasbourg | €100k |
+| 8 | Harry Wilson | Sayap Kanan | 26 | Wales/England | Leeds United | €16.00m |
+| - | Daniel James | Sayap Kanan | 25 | Wales/England | Leeds United | €12.00m |
+| - | Anthony Knockaert | Sayap Kanan | 31 | France/Belgium | Stade Mouscronnois | €900k |
+| 9 | Aleksandar Mitrović | Penyerang Tengah | 28 | Serbia | Al-Rayyan SC | €28.00m |
+| 30 | Carlos Vinícius | Penyerang Tengah | 28 | Brazil | Grêmio | €6.00m |
+| 19 | Rodrigo Muniz | Penyerang Tengah | 22 | Brazil | Fulham FC | €5.00m |
+| - | Jay Stansfield | Penyerang Tengah | 20 | England | Birmingham City | €1.20m |
+| - | Terry Ablade | Penyerang Tengah | 21 | Finland/Ghana | Oulun Luistinseura | €200k |
+| - | Callum McFarlane | Penyerang Tengah | 19 | England | Solihull Moors | - |
+
+## AFC Bournemouth — Musim 22/23
+
+| # | Pemain | Posisi | Usia | Kebangsaan | Klub Saat Ini | Nilai Pasar |
+|---|--------|--------|------|------------|----------------|-------------|
+| 13 | Neto | Kiper | 33 | Brazil/Italy | Tanpa Klub | €2.50m |
+| 1 | Mark Travers | Kiper | 24 | Ireland | Everton FC | €2.00m |
+| 12 | Darren Randolph | Kiper | 36 | Ireland/United States | Pensiun | €400k |
+| - | Will Dennis | Kiper | 22 | England | Milton Keynes Dons | €150k |
+| - | Cameron Plain | Kiper | 21 | England | Wimborne Town FC | €100k |
+| 25 | Marcos Senesi | Bek Tengah | 26 | Argentina/Italy | Tottenham Hotspur | €22.00m |
+| 27 | Ilya Zabarnyi | Bek Tengah | 20 | Ukraine | Paris Saint-Germain | €20.00m |
+| 5 | Lloyd Kelly | Bek Tengah | 24 | England/Jamaica | Juventus FC | €18.00m |
+| 6 | Chris Mepham | Bek Tengah | 25 | Wales/England | West Bromwich Albion | €8.00m |
+| - | Jack Stephens | Bek Tengah | 29 | England | Southampton FC | €3.50m |
+| - | James Hill | Bek Tengah | 21 | England | AFC Bournemouth | €1.00m |
+| - | Chris Francis | Bek Tengah | 20 | England | Slough Town | - |
+| - | Max Kinsey | Bek Tengah | 18 | England | Truro City FC | - |
+| - | Owen Bevan | Bek Tengah | 19 | Wales/England | Dundee FC | - |
+| 18 | Matías Viña | Bek Kiri | 25 | Uruguay/Italy | CA River Plate | €8.00m |
+| 33 | Jordan Zemura | Bek Kiri | 23 | Zimbabwe/England | Watford FC | €6.00m |
+| - | Ben Greenwood | Bek Kiri | 21 | Ireland/England | Gosport Borough | €100k |
+| 17 | Jack Stacey | Bek Kanan | 27 | England | Norwich City | €2.00m |
+| 2 | Ryan Fredericks | Bek Kanan | 30 | England/Scotland | Pensiun | €1.50m |
+| 15 | Adam Smith | Bek Kanan | 32 | England | AFC Bournemouth | €1.20m |
+| - | Brooklyn Genesini | Bek Kanan | 21 | England | Weymouth FC | €50k |
+| 8 | Jefferson Lerma | Gelandang Bertahan | 28 | Colombia | Crystal Palace | €20.00m |
+| - | Ben Pearson | Gelandang Bertahan | 28 | England | Stoke City | €2.20m |
+| 29 | Philip Billing | Gelandang Tengah | 27 | Denmark/Nigeria | FC Midtjylland | €20.00m |
+| 4 | Lewis Cook | Gelandang Tengah | 26 | England | AFC Bournemouth | €10.00m |
+| 10 | Ryan Christie | Gelandang Tengah | 28 | Scotland | AFC Bournemouth | €10.00m |
+| 14 | Joe Rothwell | Gelandang Tengah | 28 | England/Scotland | Sheffield United | €4.00m |
+| - | Gavin Kilkenny | Gelandang Tengah | 23 | Ireland | Swindon Town | €400k |
+| - | Jack Wadham | Gelandang Tengah | 20 | England | Worthing FC | €100k |
+| - | Ferdinand Okoh | Gelandang Tengah | 19 | England/Nigeria | Tanpa Klub | - |
+| 16 | Marcus Tavernier | Gelandang Serang | 24 | England | AFC Bournemouth | €17.00m |
+| - | Emiliano Marcondes | Gelandang Serang | 28 | Denmark/Brazil | Melbourne City FC | €1.50m |
+| 22 | Hamed Traoré | Sayap Kiri | 23 | Cote d'Ivoire | Genoa CFC | €22.00m |
+| 32 | Jaidon Anthony | Sayap Kiri | 23 | England/Jamaica | Brentford FC | €9.00m |
+| - | Siriki Dembélé | Sayap Kiri | 26 | Scotland/Cote d'Ivoire | Oxford United | €2.00m |
+| 19 | Junior Stanislas | Sayap Kiri | 33 | England/St. Lucia | Pensiun | €500k |
+| 11 | Dango Ouattara | Sayap Kanan | 21 | Burkina Faso | Brentford FC | €25.00m |
+| 7 | David Brooks | Sayap Kanan | 25 | Wales/England | AFC Bournemouth | €12.00m |
+| 24 | Antoine Semenyo | Sayap Kanan | 23 | Ghana/England | Manchester City | €9.00m |
+| - | Dominic Sadi | Sayap Kanan | 19 | England | FK Novi Pazar | €100k |
+| - | Michael Dacosta | Sayap Kanan | 18 | Spain/Equatorial Guinea | Moreirense FC | - |
+| 9 | Dominic Solanke | Penyerang Tengah | 25 | England/Nigeria | Tottenham Hotspur | €20.00m |
+| 21 | Kieffer Moore | Penyerang Tengah | 30 | Wales/England | Wrexham AFC | €4.00m |
+| - | Jamal Lowe | Penyerang Tengah | 28 | Jamaica/England | Sheffield Wednesday | €1.50m |
+| 38 | Christian Saydee | Penyerang Tengah | 21 | England/Liberia | Wigan Athletic | €400k |
+| - | Euan Pollock | Penyerang Tengah | 20 | England | Weymouth FC | - |
+| - | Daniel Adu-Adjei | Penyerang Tengah | 18 | England/Ghana | HNK Rijeka | - |
+
+## Fulham FC — Musim 20/21
+
+| # | Pemain | Posisi | Usia | Kebangsaan | Klub Saat Ini | Nilai Pasar |
+|---|--------|--------|------|------------|----------------|-------------|
+| 1 | Alphonse Areola | Kiper | 28 | France/Philippines | West Ham United | €17.00m |
+| 12 | Marek Rodák | Kiper | 24 | Slovakia | Al-Ettifaq FC | €5.00m |
+| - | Marcus Bettinelli | Kiper | 29 | England/Italy | Manchester City | €2.50m |
+| 31 | Fabri | Kiper | 33 | Spain/Uruguay | Pensiun | €600k |
+| 5 | Joachim Andersen | Bek Tengah | 25 | Denmark | Fulham FC | €22.00m |
+| 16 | Tosin Adarabioyo | Bek Tengah | 23 | England/Nigeria | Chelsea FC | €12.00m |
+| - | Alfie Mawson | Bek Tengah | 27 | England | Pensiun | €4.00m |
+| 3 | Michael Hector | Bek Tengah | 28 | Jamaica/England | Tanpa Klub | €3.50m |
+| 30 | Terence Kongolo | Bek Tengah | 27 | Netherlands/DR Congo | Pensiun | €3.50m |
+| 20 | Maxime Le Marchand | Bek Tengah | 31 | France | Pensiun | €1.50m |
+| 4 | Denis Odoi | Bek Tengah | 33 | Ghana/Belgium | Club NXT | €600k |
+| 13 | Tim Ream | Bek Tengah | 33 | United States | Charlotte FC | €600k |
+| 33 | Antonee Robinson | Bek Kiri | 23 | United States/England | Fulham FC | €7.00m |
+| 23 | Joe Bryan | Bek Kiri | 27 | England | Pensiun | €5.00m |
+| 34 | Ola Aina | Bek Kanan | 24 | Nigeria/England | Nottingham Forest | €6.00m |
+| 2 | Kenny Tete | Bek Kanan | 25 | Netherlands/Mozambique | Fulham FC | €5.00m |
+| - | Steven Sessegnon | Bek Kanan | 21 | England/Benin | AFC Wimbledon | €2.00m |
+| 22 | Cyrus Christie | Bek Kanan | 28 | Ireland/England | Bolton Wanderers | €1.50m |
+| 18 | Mario Lemina | Gelandang Bertahan | 27 | Gabon/France | Galatasaray | €10.00m |
+| 24 | Jean Michaël Seri | Gelandang Bertahan | 29 | Cote d'Ivoire | NK Maribor | €4.00m |
+| 6 | Kevin McDonald | Gelandang Bertahan | 32 | Scotland | Tanpa Klub | €800k |
+| 29 | Frank Anguissa | Gelandang Tengah | 25 | Cameroon | SSC Napoli | €25.00m |
+| 15 | Ruben Loftus-Cheek | Gelandang Tengah | 25 | England/Guyana | AC Milan | €18.00m |
+| 21 | Harrison Reed | Gelandang Tengah | 26 | England | Fulham FC | €10.00m |
+| 10 | Tom Cairney | Gelandang Tengah | 30 | Scotland/England | Fulham FC | €9.00m |
+| 25 | Josh Onomah | Gelandang Tengah | 24 | England/Nigeria | Tanpa Klub | €6.00m |
+| 8 | Stefan Johansen | Gelandang Tengah | 30 | Norway | Pensiun | €2.00m |
+| 35 | Tyrese Francois | Gelandang Tengah | 20 | Australia/England | Tanpa Klub | €150k |
+| 14 | Bobby De Cordova-Reid | Gelandang Serang | 28 | Jamaica/England | Leicester City | €10.00m |
+| 48 | Fábio Carvalho | Gelandang Serang | 18 | Portugal | Brentford FC | €250k |
+| 19 | Ademola Lookman | Sayap Kiri | 23 | Nigeria/England | Atlético de Madrid | €11.00m |
+| 17 | Ivan Cavaleiro | Sayap Kiri | 27 | Angola/Portugal | CA Petróleos Luanda | €7.00m |
+| 7 | Neeskens Kebano | Sayap Kiri | 29 | DR Congo/France | Tanpa Klub | €1.00m |
+| 58 | Sylvester Jasper | Sayap Kiri | 19 | Bulgaria/Nigeria | Standard Liège | €250k |
+| 11 | Anthony Knockaert | Sayap Kanan | 29 | France/Belgium | Stade Mouscronnois | €3.00m |
+| 9 | Aleksandar Mitrović | Penyerang Tengah | 26 | Serbia | Al-Rayyan SC | €16.00m |
+| 27 | Josh Maja | Penyerang Tengah | 22 | Nigeria/England | Le Havre AC | €5.00m |
+| 47 | Aboubakar Kamara | Penyerang Tengah | 26 | Mauritania/France | Tanpa Klub | €2.00m |
+
+## Leeds United — Musim 20/21
+
+| # | Pemain | Posisi | Usia | Kebangsaan | Klub Saat Ini | Nilai Pasar |
+|---|--------|--------|------|------------|----------------|-------------|
+| 1 | Illan Meslier | Kiper | 21 | France | Arsenal FC | €20.00m |
+| 13 | Kiko Casilla | Kiper | 34 | Spain | Pensiun | €800k |
+| 25 | Elia Caprile | Kiper | 19 | Italy | Cagliari Calcio | €200k |
+| 14 | Diego Llorente | Bek Tengah | 27 | Spain | Real Betis | €20.00m |
+| 5 | Robin Koch | Bek Tengah | 24 | Germany | Eintracht Frankfurt | €17.00m |
+| 21 | Pascal Struijk | Bek Tengah | 21 | Netherlands/Belgium | Brighton & Hove Albion | €9.00m |
+| 6 | Liam Cooper | Bek Tengah | 29 | Scotland/England | Sheffield Wednesday | €7.00m |
+| 49 | Oliver Casey | Bek Tengah | 20 | England | Blackpool FC | €250k |
+| 35 | Charlie Cresswell | Bek Tengah | 18 | England | Stade Rennais FC | €200k |
+| 10 | Ezgjan Alioski | Bek Kiri | 29 | N. Macedonia/Switzerland | FC Lugano | €5.00m |
+| 3 | Barry Douglas | Bek Kiri | 31 | Scotland | Pensiun | €1.50m |
+| 24 | Leif Davis | Bek Kiri | 21 | England | Ipswich Town | €800k |
+| 2 | Luke Ayling | Bek Kanan | 29 | England | Middlesbrough FC | €5.00m |
+| 46 | Jamie Shackleton | Bek Kanan | 21 | England | Sheffield United | €2.50m |
+| 28 | Gaetano Berardi | Bek Kanan | 32 | Switzerland/Italy | Pensiun | €300k |
+| 52 | Niall Huggins | Bek Kanan | 20 | Wales/England | Tanpa Klub | €200k |
+| 37 | Cody Drameh | Bek Kanan | 19 | England/The Gambia | Hull City | - |
+| 23 | Kalvin Phillips | Gelandang Bertahan | 25 | England/Jamaica | Sheffield United | €30.00m |
+| 43 | Mateusz Klich | Gelandang Bertahan | 31 | Poland | Cracovia | €4.00m |
+| - | Ouasim Bouy | Gelandang Bertahan | 28 | Morocco/Netherlands | Pensiun | €250k |
+| 47 | Jack Jenkins | Gelandang Bertahan | 19 | England | Spennymoor Town | €150k |
+| 4 | Adam Forshaw | Gelandang Tengah | 29 | England | Blackburn Rovers | €2.00m |
+| 36 | Robbie Gotts | Gelandang Tengah | 21 | England | Doncaster Rovers | €250k |
+| - | Eunan O'Kane | Gelandang Tengah | 30 | Ireland/N. Ireland | Pensiun | €200k |
+| 34 | Alfie McCalmont | Gelandang Tengah | 21 | N. Ireland/England | Tanpa Klub | - |
+| 15 | Stuart Dallas | Gelandang Kiri | 30 | N. Ireland | Pensiun | €4.00m |
+| 44 | Mateusz Bogusz | Gelandang Serang | 19 | Poland | Houston Dynamo FC | €1.00m |
+| 42 | Sam Greenwood | Gelandang Serang | 19 | England | Bristol City | €200k |
+| 18 | Raphinha | Sayap Kiri | 24 | Brazil/Italy | FC Barcelona | €30.00m |
+| 22 | Jack Harrison | Sayap Kiri | 24 | England | New England Revolution | €15.00m |
+| 38 | Crysencio Summerville | Sayap Kiri | 19 | Netherlands/Suriname | Al-Hilal SFC | €1.50m |
+| 17 | Hélder Costa | Sayap Kanan | 27 | Angola/Portugal | CA Petróleos Luanda | €10.00m |
+| 7 | Ian Poveda | Sayap Kanan | 21 | Colombia/England | Atlético Nacional | €1.50m |
+| 19 | Pablo Hernández | Sayap Kanan | 36 | Spain | Pensiun | €800k |
+| 11 | Tyler Roberts | Second Striker | 22 | Wales/England | Mansfield Town | €6.00m |
+| 9 | Patrick Bamford | Penyerang Tengah | 27 | England/Ireland | Sheffield United | €22.00m |
+| 20 | Rodrigo | Penyerang Tengah | 30 | Spain/Brazil | Lusail SC | €18.00m |
+| 30 | Joe Gelhardt | Penyerang Tengah | 19 | England | Hull City | €1.30m |
+| - | Jordan Stevens | Penyerang Tengah | 21 | England | Ilkeston Town FC | €200k |
+
+## West Bromwich Albion — Musim 20/21
+
+| # | Pemain | Posisi | Usia | Kebangsaan | Klub Saat Ini | Nilai Pasar |
+|---|--------|--------|------|------------|----------------|-------------|
+| 1 | Sam Johnstone | Kiper | 28 | England | Wolverhampton Wanderers | €8.00m |
+| 25 | David Button | Kiper | 32 | England | Ipswich Town | €1.00m |
+| - | Jonathan Bond | Kiper | 28 | England/United States | Houston Dynamo FC | €250k |
+| - | Alex Palmer | Kiper | 24 | England | Ipswich Town | €250k |
+| 31 | Andy Lonergan | Kiper | 37 | England | Pensiun | €250k |
+| 6 | Semi Ajayi | Bek Tengah | 27 | Nigeria/England | Hull City | €6.00m |
+| 26 | Ahmed Hegazy | Bek Tengah | 30 | Egypt | Pensiun | €4.00m |
+| 27 | Dara O'Shea | Bek Tengah | 22 | Ireland | Ipswich Town | €3.00m |
+| 5 | Kyle Bartley | Bek Tengah | 30 | England/Jamaica | Pensiun | €2.50m |
+| 24 | Cédric Kipré | Bek Tengah | 24 | Cote d'Ivoire/France | Ipswich Town | €1.00m |
+| 49 | Caleb Taylor | Bek Tengah | 18 | England | Millwall FC | - |
+| 3 | Kieran Gibbs | Bek Kiri | 31 | England | Pensiun | €2.50m |
+| 14 | Conor Townsend | Bek Kiri | 28 | England | West Bromwich Albion | €2.00m |
+| 40 | George Harmon | Bek Kiri | 20 | England | Brackley Town | - |
+| 30 | Ainsley Maitland-Niles | Bek Kanan | 23 | England/Jamaica | Olympique Lyon | €16.00m |
+| 2 | Darnell Furlong | Bek Kanan | 25 | England/Montserrat | Ipswich Town | €5.00m |
+| 20 | Branislav Ivanovic | Bek Kanan | 37 | Serbia | Pensiun | €500k |
+| 22 | Lee Peltier | Bek Kanan | 34 | England/Antigua | Pensiun | €400k |
+| 35 | Okay Yokuşlu | Gelandang Bertahan | 27 | Türkiye | Trabzonspor | €7.50m |
+| - | Filip Krovinovic | Gelandang Bertahan | 25 | Croatia | Grêmio | €3.00m |
+| 8 | Jake Livermore | Gelandang Bertahan | 31 | England | Pensiun | €2.50m |
+| 28 | Sam Field | Gelandang Bertahan | 23 | England | Norwich City | €1.00m |
+| 45 | Taylor Gardner-Hickman | Gelandang Bertahan | 19 | England/Ireland | Birmingham City | - |
+| 18 | Conor Gallagher | Gelandang Tengah | 21 | England | Tottenham Hotspur | €15.00m |
+| 16 | Rekeem Harper | Gelandang Tengah | 21 | England/Jamaica | Barrow AFC | €2.50m |
+| 19 | Romaine Sawyers | Gelandang Tengah | 29 | St. Kitts & Nevis/England | Tanpa Klub | €2.00m |
+| 51 | Toby King | Gelandang Tengah | 19 | England | Pensiun | - |
+| 61 | Tim Iroegbunam | Gelandang Tengah | 18 | England/Nigeria | Everton FC | - |
+| 12 | Matheus Pereira | Gelandang Serang | 25 | Brazil/Portugal | Cruzeiro | €15.00m |
+| 39 | Rico Richards | Gelandang Serang | 17 | England | Southend United | - |
+| 13 | Kamil Grosicki | Sayap Kiri | 33 | Poland | Pogon Szczecin | €1.00m |
+| 21 | Kyle Edwards | Sayap Kiri | 23 | England | Tanpa Klub | €1.00m |
+| 11 | Grady Diangana | Sayap Kanan | 23 | DR Congo/England | Elche CF | €10.00m |
+| 10 | Matt Phillips | Sayap Kanan | 30 | Scotland/England | Tanpa Klub | €4.00m |
+| 23 | Robert Snodgrass | Sayap Kanan | 33 | Scotland | Pensiun | €1.50m |
+| 29 | Karlan Grant | Penyerang Tengah | 23 | England/Scotland | Charlton Athletic | €8.00m |
+| 7 | Callum Robinson | Penyerang Tengah | 26 | Ireland/England | Cardiff City | €6.00m |
+| 17 | Mbaye Diagne | Penyerang Tengah | 29 | Senegal | Amed SK | €3.00m |
+| - | Kenneth Zohore | Penyerang Tengah | 27 | Denmark/Cote d'Ivoire | BK Fremad Amager | €2.00m |
+| 15 | Charlie Austin | Penyerang Tengah | 31 | England | Hungerford Town | €2.00m |
+| 4 | Hal Robson-Kanu | Penyerang Tengah | 32 | Wales/England | Pensiun | €1.50m |
+| 32 | Jamie Soule | Penyerang Tengah | 20 | England | Rushall Olympic | - |
+| 58 | Cheikh Diaby | Penyerang Tengah | 21 | France/Senegal | Tanpa Klub | - |

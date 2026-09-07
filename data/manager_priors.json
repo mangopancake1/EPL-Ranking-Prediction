@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "generated": "2026-08-04",
+    "updated": "2026-08-27: xg_for/xg_against for multi-season stints replaced with per-season xg_seasons arrays, recency-weighted at call time by features.manager_prior() using the same MANAGER_PRIOR_HALFLIFE_YEARS=4.0 already used to weight whole stints against each other. Rationale: a flat mean treated a manager's oldest and newest seasons at one club identically, which understates a manager whose style trended up or down (e.g. Rose's Leipzig defence, Moyes's West Ham record, both worsened in their final season there). ppg stays a flat aggregate over the whole stint deliberately -- it answers 'how successful were they overall' (a sample-size question), while xG answers 'what do they look like now' (a recency question); the two numbers are allowed to use different logic because they're doing different jobs. Single-season stints are unaffected (nothing to weight).",
+    "method": "ppg computed manually from real W/D/L records found via web search (Wikipedia, Premier League official, Bundesliga.com, club sites, verified news outlets). xg_seasons sourced 2026-08 from user-supplied per-season xG tables (manager_xg_data.md); the per-match GF/GA columns in that file were cross-checked against data/raw/matches_football_data.csv (every checkable EPL row matched exactly), which is why the xG figures riding alongside them are trusted. features.manager_prior() defaults still-missing xg_for/xg_against to config.LEAGUE_AVG_XG (neutral, no fabricated shape signal) -- true for any stint below with no xG data at all.",
+    "rule": "every ppg below is 3*W + D, divided by matches, from a specific sourced W-D-L line -- never taken as a pre-computed PPG from an AI summary (two independent chatbot passes gave self-contradicting PPG for the same stints, see project memory).",
+    "gaps": "any manager not listed here has no defensible stint data yet; manager_prior() returns None for them and the model widens uncertainty instead of guessing."
+  },
+  "priors": {
+    "Brighton": {
+      "St. Pauli": {"matches": 54, "ppg": 2.148, "xg_seasons": [
+        {"end": 2023, "xg_for": 1.68, "xg_against": 1.18},
+        {"end": 2024, "xg_for": 1.54, "xg_against": 0.94}
+      ], "note": "35W 11D 8L, Dec 2022-Jun 2024 (2. Bundesliga). Not cross-checkable -- 2. Bundesliga, outside matches_football_data.csv's EPL-only coverage"}
+    },
+    "Chelsea": {
+      "Bayer Leverkusen": {"matches": 140, "ppg": 2.121, "xg_seasons": [
+        {"end": 2023, "xg_for": 1.42, "xg_against": 1.32},
+        {"end": 2024, "xg_for": 1.88, "xg_against": 0.89},
+        {"end": 2025, "xg_for": 1.66, "xg_against": 1.07}
+      ], "note": "88W 33D 19L, Oct 2022-2025. 2023-24 was Leverkusen's invincible season, an outlier recency-weighting does not fully correct for either. All-competitions figure (league+cup+UCL), kept deliberately over a Bundesliga-only 93-match/2.161ppg split that was tried and reverted 2026-09-01 -- the league-only version raised ppg slightly but cut effective_matches enough to drop confidence 0.49->0.32 and shrink Chelsea's manager bonus, and the user chose to keep the fuller-volume figure instead. A real Real Madrid stint exists too (19 LaLiga matches, 73.7% win rate) but stays excluded -- genuinely small sample, not a data error."}
+    },
+    "Crystal Palace": {
+      "Lyon": {"matches": 56, "ppg": 1.929, "xg_seasons": [
+        {"end": 2024, "xg_for": 1.36, "xg_against": 1.33},
+        {"end": 2025, "xg_for": 1.46, "xg_against": 1.43}
+      ], "note": "33W 9D 14L, 2023-2025. 2022-23 excluded, that was the pre-Sage era at Lyon"}
+    },
+    "Everton": {
+      "West Ham": {"matches": 261, "ppg": 1.490, "xg_seasons": [
+        {"end": 2020, "xg_for": 1.33, "xg_against": 1.54},
+        {"end": 2021, "xg_for": 1.35, "xg_against": 1.40},
+        {"end": 2022, "xg_for": 1.43, "xg_against": 1.58},
+        {"end": 2023, "xg_for": 1.38, "xg_against": 1.47},
+        {"end": 2024, "xg_for": 1.17, "xg_against": 1.72}
+      ], "note": "112W 53D 96L -- covers BOTH Moyes spells (2017-18 and 2019-2024), not just the 2019-2024 window config lists. xG covers spell 2 only (2019-20 through 2023-24) -- spell 1 (Nov 2017-May 2018) not included, ppg/xG windows differ slightly as a result. His final season there was also his worst defensively, so recency-weighting this now reads a somewhat weaker prior than a flat mean did"}
+    },
+    "Fulham": {
+      "Real Madrid Castilla": {"matches": 23, "ppg": 1.696, "xg_for": 1.49, "xg_against": 1.23, "note": "12W 3D 8L, Segunda RFEF tier -- league_weight 0.0589 so barely moves the prior regardless. xG 2024-25 only, single season -- nothing to recency-weight. Fourth-tier Spanish football has no presence in matches_football_data.csv so this could not be cross-checked, taken on consistency with the W-D-L record alone."}
+    },
+    "Liverpool": {
+      "Bournemouth": {"matches": 127, "ppg": 1.425, "xg_seasons": [
+        {"end": 2024, "xg_for": 1.37, "xg_against": 1.40},
+        {"end": 2025, "xg_for": 1.57, "xg_against": 1.35},
+        {"end": 2026, "xg_for": 1.56, "xg_against": 1.47}
+      ], "note": "47W 40D 40L, Jun 2023-May 2026 (Iraola); xGD improved every season, +0.09 by 2025-26. CORRECTED 2026-08: an earlier version of this entry wrongly included a 2022-23 row (1.05/1.82) that belongs to Gary O'Neil, Bournemouth's manager for that season -- Iraola did not arrive until June 2023, so his first season is 2023-24. Caught when the user separately supplied that same 2022-23 row as O'Neil's own Bournemouth stint (see Ipswich Town below) and the two were identical."}
+    },
+    "Manchester City": {
+      "Chelsea": {"matches": 92, "ppg": 1.967, "xg_seasons": [
+        {"end": 2025, "xg_for": 1.64, "xg_against": 1.13},
+        {"end": 2026, "xg_for": 1.54, "xg_against": 1.31}
+      ], "note": "55W 16D 21L, Jul 2024-Jan 2026 (Maresca) -- all competitions, not PL-only"},
+      "Leicester City": {"matches": 46, "ppg": 2.109, "xg_for": 1.47, "xg_against": 0.99, "note": "31W 4D 11L, 2023-24 Championship title season (Maresca), single season -- nothing to recency-weight. Not cross-checkable -- Championship, outside matches_football_data.csv's EPL-only coverage"}
+    },
+    "Manchester Utd": {
+      "Middlesbrough": {"matches": 144, "ppg": 1.535, "xg_seasons": [
+        {"end": 2023, "xg_for": 1.38, "xg_against": 1.12},
+        {"end": 2024, "xg_for": 1.31, "xg_against": 1.17},
+        {"end": 2025, "xg_for": 1.47, "xg_against": 1.19}
+      ], "note": "63W 32D 49L, Oct 2022-Jun 2025 (Carrick) -- matches corrected to W+D+L sum, source's headline '136' figure was inconsistent with its own W-D-L. Championship data, not in matches_football_data.csv (EPL only), so unlike the other stints this could not be cross-checked against real match results -- taken on the source's consistency with the W-D-L record alone. An earlier 2025-26 xG line the user supplied was Manchester Utd's OWN xG post-appointment, not Middlesbrough's, and was correctly left out of this stint."}
+    },
+    "Newcastle Utd": {
+      "Red Bull Salzburg": {"matches": 92, "ppg": 2.283, "note": "64W 18D 10L, 2021-2023 -- no xG source for this stint"},
+      "Al-Ahli": {"matches": 138, "ppg": 2.152, "xg_seasons": [
+        {"end": 2024, "xg_for": 1.55, "xg_against": 0.89},
+        {"end": 2025, "xg_for": 1.71, "xg_against": 1.11},
+        {"end": 2026, "xg_for": 1.58, "xg_against": 0.99}
+      ], "note": "92W 21D 25L, 2023-2026; xGD stable at +0.59 to +0.66 throughout -- recency-weighting barely moves this one, the record itself is just consistent"}
+    },
+    "Tottenham": {
+      "Marseille": {"matches": 55, "ppg": 1.891, "xg_seasons": [
+        {"end": 2025, "xg_for": 1.59, "xg_against": 1.06},
+        {"end": 2026, "xg_for": 1.72, "xg_against": 1.18}
+      ], "note": "32W 8D 15L, Ligue 1 only, 2024-Feb 2026 (De Zerbi)"},
+      "Brighton": {"matches": 70, "ppg": 1.386, "xg_seasons": [
+        {"end": 2023, "xg_for": 1.80, "xg_against": 1.14},
+        {"end": 2024, "xg_for": 1.46, "xg_against": 1.20},
+        {"end": 2025, "xg_for": 1.48, "xg_against": 1.14},
+        {"end": 2026, "xg_for": 1.54, "xg_against": 1.33}
+      ], "note": "26W 19D 25L, Sep 2022-Jun 2024 (De Zerbi). His last Brighton season was also his defensively weakest there, so recency-weighting reads a slightly worse defensive shape than a flat mean did"}
+    },
+    "Bournemouth": {
+      "RB Leipzig": {"matches": 127, "ppg": 1.874, "xg_seasons": [
+        {"end": 2023, "xg_for": 1.62, "xg_against": 1.04},
+        {"end": 2024, "xg_for": 1.56, "xg_against": 1.13},
+        {"end": 2025, "xg_for": 1.27, "xg_against": 1.40}
+      ], "note": "72W 22D 33L, Sep 2022-Mar 2025 (Rose) -- matches corrected to W+D+L sum. xGD worsened every season, from +0.58 to -0.13 -- recency-weighting is exactly the case this was added for: his most recent, weakest season now counts for more than his best one three years back"}
+    },
+    "Nott'ham Forest": {
+      "Crystal Palace": {"matches": 55, "ppg": 1.473, "xg_seasons": [
+        {"end": 2024, "xg_for": 1.19, "xg_against": 1.25},
+        {"end": 2025, "xg_for": 1.35, "xg_against": 1.36},
+        {"end": 2026, "xg_for": 1.31, "xg_against": 1.40}
+      ], "note": "20W 21D 14L, Feb 2024-2026 (Glasner)"}
+    },
+    "Sunderland": {
+      "Lorient": {"matches": 72, "ppg": 1.167, "xg_seasons": [
+        {"end": 2023, "xg_for": 1.20, "xg_against": 1.69},
+        {"end": 2024, "xg_for": 1.15, "xg_against": 1.61}
+      ], "note": "22W 18D 32L combined 2022-23 + 2023-24 (relegation season), Le Bris. Not cross-checkable -- Ligue 1, outside matches_football_data.csv's EPL-only coverage"}
+    },
+    "Coventry City": {
+      "Everton": {"matches": 44, "ppg": 1.000, "xg_seasons": [
+        {"end": 2022, "xg_for": 1.31, "xg_against": 1.64},
+        {"end": 2023, "xg_for": 1.26, "xg_against": 1.62}
+      ], "note": "12W 8D 24L, Feb 2022-Jan 2023 (Lampard); each season partial, matching his actual tenure window"},
+      "Chelsea": {"matches": 84, "ppg": 1.774, "xg_seasons": [
+        {"end": 2020, "xg_for": 1.86, "xg_against": 1.05},
+        {"end": 2021, "xg_for": 1.71, "xg_against": 1.05}
+      ], "note": "44W 17D 23L, Jul 2019-Jan 2021 (Lampard, full tenure not the later interim spell)"}
+    },
+    "Ipswich Town": {
+      "Wolves": {"matches": 52, "ppg": 1.058, "xg_seasons": [
+        {"end": 2024, "xg_for": 1.14, "xg_against": 1.52},
+        {"end": 2025, "xg_for": 1.21, "xg_against": 1.38}
+      ], "note": "15W 10D 27L PL only, Aug 2023-Dec 2024 (O'Neil) -- matches corrected to W+D+L sum; each season a full-season club average rather than split to his exact Dec 2024 exit date"},
+      "Bournemouth": {"matches": 37, "ppg": 1.054, "xg_for": 1.05, "xg_against": 1.82, "note": "11W 6D 20L, Aug 2022-Jun 2023 (O'Neil); xG for 2022-23, his one full season there, single season -- nothing to recency-weight. This exact row (1.05/1.82) was earlier misattributed to Iraola's Bournemouth prior on Liverpool -- Iraola's tenure did not start until June 2023, so 2022-23 was O'Neil's, not his. See the Liverpool entry's correction note."}
+    },
+    "Hull City": {
+      "Hull City": {"matches": 52, "ppg": 1.577, "xg_for": 1.28, "xg_against": 1.63, "note": "23W 13D 16L, 2025-26 Championship promotion season (Jakirovic) -- config's own stint entry, not a different prior club, single season. MP=49 in the source xG table includes playoffs; the 52-match W-D-L figure does not, so ppg and xG come from slightly different match sets for this stint"}
+    }
+  }
+}

@@ -1,0 +1,1584 @@
+[
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Aaron Ramsdale",
+  "position": "Goalkeeper",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Gavin Bazunu",
+  "position": "Goalkeeper",
+  "market_value_m": 9.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Joe Lumley",
+  "position": "Goalkeeper",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Alex McCarthy",
+  "position": "Goalkeeper",
+  "market_value_m": 0.35
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Taylor Harwood-Bellis",
+  "position": "Centre-Back",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Jan Bednarek",
+  "position": "Centre-Back",
+  "market_value_m": 9.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Armel Bella-Kotchap",
+  "position": "Centre-Back",
+  "market_value_m": 9.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Ronnie Edwards",
+  "position": "Centre-Back",
+  "market_value_m": 3.8
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Nathan Wood",
+  "position": "Centre-Back",
+  "market_value_m": 3.5
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Jack Stephens",
+  "position": "Centre-Back",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Joachim Kayi Sanda",
+  "position": "Centre-Back",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Jayden Moore",
+  "position": "Centre-Back",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Juan Larios",
+  "position": "Left-Back",
+  "market_value_m": 3.5
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Ryan Manning",
+  "position": "Left-Back",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Welington",
+  "position": "Left-Back",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Charlie Taylor",
+  "position": "Left-Back",
+  "market_value_m": 2.2
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Kyle Walker-Peters",
+  "position": "Right-Back",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Yukinari Sugawara",
+  "position": "Right-Back",
+  "market_value_m": 11.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "James Bree",
+  "position": "Right-Back",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Lesley Ugochukwu",
+  "position": "Defensive Midfield",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Flynn Downes",
+  "position": "Defensive Midfield",
+  "market_value_m": 13.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Shea Charles",
+  "position": "Defensive Midfield",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Mateus Fernandes",
+  "position": "Central Midfield",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Carlos Alcaraz",
+  "position": "Central Midfield",
+  "market_value_m": 14.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Joe Aribo",
+  "position": "Central Midfield",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Will Smallbone",
+  "position": "Central Midfield",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Joe O'Brien-Whitmarsh",
+  "position": "Central Midfield",
+  "market_value_m": 0.3
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Albert Gronbaek",
+  "position": "Attacking Midfield",
+  "market_value_m": 11.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Adam Lallana",
+  "position": "Attacking Midfield",
+  "market_value_m": 0.75
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Romeo Akachukwu",
+  "position": "Attacking Midfield",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Kamaldeen Sulemana",
+  "position": "Left Winger",
+  "market_value_m": 13.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Maxwel Cornet",
+  "position": "Left Winger",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Samuel Edozie",
+  "position": "Left Winger",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Ryan Fraser",
+  "position": "Left Winger",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Jay Robinson",
+  "position": "Left Winger",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Tyler Dibling",
+  "position": "Right Winger",
+  "market_value_m": 25.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Samuel Amo-Ameyaw",
+  "position": "Right Winger",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Adam Armstrong",
+  "position": "Centre-Forward",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Cameron Archer",
+  "position": "Centre-Forward",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Ben Brereton Diaz",
+  "position": "Centre-Forward",
+  "market_value_m": 7.5
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Paul Onuachu",
+  "position": "Centre-Forward",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Southampton FC",
+  "season": "24/25",
+  "player": "Ross Stewart",
+  "position": "Centre-Forward",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Arijanet Muric",
+  "position": "Goalkeeper",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Christian Walton",
+  "position": "Goalkeeper",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Alex Palmer",
+  "position": "Goalkeeper",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Cieran Slicker",
+  "position": "Goalkeeper",
+  "market_value_m": 0.3
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Jacob Greaves",
+  "position": "Centre-Back",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Dara O'Shea",
+  "position": "Centre-Back",
+  "market_value_m": 14.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Ben Godfrey",
+  "position": "Centre-Back",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Axel Tuanzebe",
+  "position": "Centre-Back",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Luke Woolfenden",
+  "position": "Centre-Back",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Cameron Burgess",
+  "position": "Centre-Back",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "George Edmundson",
+  "position": "Centre-Back",
+  "market_value_m": 0.8
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Leif Davis",
+  "position": "Left-Back",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Conor Townsend",
+  "position": "Left-Back",
+  "market_value_m": 0.8
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Somto Boniface",
+  "position": "Left-Back",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Ben Johnson",
+  "position": "Right-Back",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Harry Clarke",
+  "position": "Right-Back",
+  "market_value_m": 4.5
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Kalvin Phillips",
+  "position": "Defensive Midfield",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Jens Cajuste",
+  "position": "Defensive Midfield",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Jack Taylor",
+  "position": "Central Midfield",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Sam Morsy",
+  "position": "Central Midfield",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Massimo Luongo",
+  "position": "Central Midfield",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Julio Enciso",
+  "position": "Attacking Midfield",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Sammie Szmodics",
+  "position": "Attacking Midfield",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Marcus Harness",
+  "position": "Attacking Midfield",
+  "market_value_m": 0.8
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Tom Taylor",
+  "position": "Attacking Midfield",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Jaden Philogene",
+  "position": "Left Winger",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Jack Clarke",
+  "position": "Left Winger",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Nathan Broadhead",
+  "position": "Left Winger",
+  "market_value_m": 4.5
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Omari Hutchinson",
+  "position": "Right Winger",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Chiedozie Ogbene",
+  "position": "Right Winger",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Wes Burns",
+  "position": "Right Winger",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Conor Chaplin",
+  "position": "Second Striker",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Liam Delap",
+  "position": "Centre-Forward",
+  "market_value_m": 40.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "George Hirst",
+  "position": "Centre-Forward",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Ipswich Town",
+  "season": "24/25",
+  "player": "Ali Al-Hamadi",
+  "position": "Centre-Forward",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Mads Hermansen",
+  "position": "Goalkeeper",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Daniel Iversen",
+  "position": "Goalkeeper",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Danny Ward",
+  "position": "Goalkeeper",
+  "market_value_m": 1.2
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Jakub Stolarczyk",
+  "position": "Goalkeeper",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Wout Faes",
+  "position": "Centre-Back",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Caleb Okoli",
+  "position": "Centre-Back",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Harry Souttar",
+  "position": "Centre-Back",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Conor Coady",
+  "position": "Centre-Back",
+  "market_value_m": 2.2
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Jannik Vestergaard",
+  "position": "Centre-Back",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Ben Nelson",
+  "position": "Centre-Back",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Tom Wilson-Brown",
+  "position": "Centre-Back",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Victor Kristiansen",
+  "position": "Left-Back",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Luke Thomas",
+  "position": "Left-Back",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "James Justin",
+  "position": "Right-Back",
+  "market_value_m": 13.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Ricardo Pereira",
+  "position": "Right-Back",
+  "market_value_m": 4.5
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Woyo Coulibaly",
+  "position": "Right-Back",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Olabade Aluko",
+  "position": "Right-Back",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Wilfred Ndidi",
+  "position": "Defensive Midfield",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Boubakary Soumare",
+  "position": "Defensive Midfield",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Oliver Skipp",
+  "position": "Defensive Midfield",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Harry Winks",
+  "position": "Defensive Midfield",
+  "market_value_m": 9.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Hamza Choudhury",
+  "position": "Defensive Midfield",
+  "market_value_m": 4.5
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Sammy Braybrooke",
+  "position": "Defensive Midfield",
+  "market_value_m": 0.3
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Henry Cartwright",
+  "position": "Defensive Midfield",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Michael Golding",
+  "position": "Central Midfield",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Kasey McAteer",
+  "position": "Right Midfield",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Bilal El Khannouss",
+  "position": "Attacking Midfield",
+  "market_value_m": 28.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Facundo Buonanotte",
+  "position": "Attacking Midfield",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Bobby De Cordova-Reid",
+  "position": "Attacking Midfield",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Will Alves",
+  "position": "Attacking Midfield",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Stephy Mavididi",
+  "position": "Left Winger",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Jeremy Monga",
+  "position": "Left Winger",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Abdul Fatawu",
+  "position": "Right Winger",
+  "market_value_m": 11.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Tom Cannon",
+  "position": "Centre-Forward",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Patson Daka",
+  "position": "Centre-Forward",
+  "market_value_m": 9.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Odsonne Edouard",
+  "position": "Centre-Forward",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Jordan Ayew",
+  "position": "Centre-Forward",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Jamie Vardy",
+  "position": "Centre-Forward",
+  "market_value_m": 1.0
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Jake Evans",
+  "position": "Centre-Forward",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Leicester City",
+  "season": "24/25",
+  "player": "Chris Popov",
+  "position": "Centre-Forward",
+  "market_value_m": 0.1
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Robin Roefs",
+  "position": "Goalkeeper",
+  "market_value_m": 28.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Anthony Patterson",
+  "position": "Goalkeeper",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Melker Ellborg",
+  "position": "Goalkeeper",
+  "market_value_m": 3.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Simon Moore",
+  "position": "Goalkeeper",
+  "market_value_m": 0.075
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Dan Ballard",
+  "position": "Centre-Back",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Omar Alderete",
+  "position": "Centre-Back",
+  "market_value_m": 13.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Jenson Seelt",
+  "position": "Centre-Back",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Leo Hjelde",
+  "position": "Centre-Back",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Luke O'Nien",
+  "position": "Centre-Back",
+  "market_value_m": 0.7
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Dennis Cirkin",
+  "position": "Left-Back",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Reinildo Mandava",
+  "position": "Left-Back",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Arthur Masuaku",
+  "position": "Left-Back",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Trai Hume",
+  "position": "Right-Back",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Lutsharel Geertruida",
+  "position": "Right-Back",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Nordi Mukiele",
+  "position": "Right-Back",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Niall Huggins",
+  "position": "Right-Back",
+  "market_value_m": 0.6
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Jenson Jones",
+  "position": "Right-Back",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Granit Xhaka",
+  "position": "Defensive Midfield",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Habib Diarra",
+  "position": "Central Midfield",
+  "market_value_m": 35.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Noah Sadiki",
+  "position": "Central Midfield",
+  "market_value_m": 35.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Enzo Le Fee",
+  "position": "Central Midfield",
+  "market_value_m": 28.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Dan Neil",
+  "position": "Central Midfield",
+  "market_value_m": 4.5
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Ben Middlemas",
+  "position": "Central Midfield",
+  "market_value_m": 0.05
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Jaydon Jones",
+  "position": "Central Midfield",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Abdoullah Ba",
+  "position": "Right Midfield",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Chris Rigg",
+  "position": "Attacking Midfield",
+  "market_value_m": 25.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Milan Aleksic",
+  "position": "Attacking Midfield",
+  "market_value_m": 0.7
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Harrison Jones",
+  "position": "Attacking Midfield",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Jack Whittaker",
+  "position": "Attacking Midfield",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Simon Adingra",
+  "position": "Left Winger",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Nilson Angulo",
+  "position": "Left Winger",
+  "market_value_m": 17.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Romaine Mundle",
+  "position": "Left Winger",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Timur Tuterov",
+  "position": "Left Winger",
+  "market_value_m": 0.3
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Chemsdine Talbi",
+  "position": "Right Winger",
+  "market_value_m": 25.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Patrick Roberts",
+  "position": "Right Winger",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Bertrand Traore",
+  "position": "Right Winger",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Jocelin Ta Bi",
+  "position": "Right Winger",
+  "market_value_m": 2.5
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Brian Brobbey",
+  "position": "Centre-Forward",
+  "market_value_m": 30.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Wilson Isidor",
+  "position": "Centre-Forward",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Eliezer Mayenda",
+  "position": "Centre-Forward",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Marc Guiu",
+  "position": "Centre-Forward",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Ahmed Abdullahi",
+  "position": "Centre-Forward",
+  "market_value_m": 0.8
+ },
+ {
+  "club": "Sunderland AFC",
+  "season": "25/26",
+  "player": "Finn Geragusyan",
+  "position": "Centre-Forward",
+  "market_value_m": 0.3
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Lucas Perri",
+  "position": "Goalkeeper",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Illan Meslier",
+  "position": "Goalkeeper",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Karl Darlow",
+  "position": "Goalkeeper",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Alex Cairns",
+  "position": "Goalkeeper",
+  "market_value_m": 0.05
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Pascal Struijk",
+  "position": "Centre-Back",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Jaka Bijol",
+  "position": "Centre-Back",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Joe Rodon",
+  "position": "Centre-Back",
+  "market_value_m": 18.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Sebastiaan Bornauw",
+  "position": "Centre-Back",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Gabriel Gudmundsson",
+  "position": "Left-Back",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Sam Byram",
+  "position": "Left-Back",
+  "market_value_m": 0.4
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Jayden Lienou",
+  "position": "Left-Back",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Jayden Bogle",
+  "position": "Right-Back",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "James Justin",
+  "position": "Right-Back",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Ethan Ampadu",
+  "position": "Defensive Midfield",
+  "market_value_m": 30.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Anton Stach",
+  "position": "Defensive Midfield",
+  "market_value_m": 28.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Ilia Gruev",
+  "position": "Defensive Midfield",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Charlie Crew",
+  "position": "Defensive Midfield",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Rhys Chadwick",
+  "position": "Defensive Midfield",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Sean Longstaff",
+  "position": "Central Midfield",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Ao Tanaka",
+  "position": "Central Midfield",
+  "market_value_m": 13.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Alfie Cresswell",
+  "position": "Central Midfield",
+  "market_value_m": 0.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Brenden Aaronson",
+  "position": "Attacking Midfield",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Facundo Buonanotte",
+  "position": "Attacking Midfield",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Sam Chambers",
+  "position": "Attacking Midfield",
+  "market_value_m": 0.2
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Noah Okafor",
+  "position": "Left Winger",
+  "market_value_m": 25.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Largie Ramazani",
+  "position": "Left Winger",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Jack Harrison",
+  "position": "Left Winger",
+  "market_value_m": 6.5
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Wilfried Gnonto",
+  "position": "Right Winger",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Daniel James",
+  "position": "Right Winger",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Dominic Calvert-Lewin",
+  "position": "Centre-Forward",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Joel Piroe",
+  "position": "Centre-Forward",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Lukas Nmecha",
+  "position": "Centre-Forward",
+  "market_value_m": 10.0
+ },
+ {
+  "club": "Leeds United",
+  "season": "25/26",
+  "player": "Harry Gray",
+  "position": "Centre-Forward",
+  "market_value_m": 0.7
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Max Weiss",
+  "position": "Goalkeeper",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Martin Dubravka",
+  "position": "Goalkeeper",
+  "market_value_m": 0.5
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Vaclav Hladky",
+  "position": "Goalkeeper",
+  "market_value_m": 0.15
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Maxime Esteve",
+  "position": "Centre-Back",
+  "market_value_m": 28.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Bashir Humphreys",
+  "position": "Centre-Back",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Axel Tuanzebe",
+  "position": "Centre-Back",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Hjalmar Ekdal",
+  "position": "Centre-Back",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Hannes Delcroix",
+  "position": "Centre-Back",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Joe Worrall",
+  "position": "Centre-Back",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Jordan Beyer",
+  "position": "Centre-Back",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Quilindschy Hartman",
+  "position": "Left-Back",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Lucas Pires",
+  "position": "Left-Back",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Oliver Sonne",
+  "position": "Right-Back",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Kyle Walker",
+  "position": "Right-Back",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Connor Roberts",
+  "position": "Right-Back",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Lesley Ugochukwu",
+  "position": "Defensive Midfield",
+  "market_value_m": 22.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Florentino",
+  "position": "Defensive Midfield",
+  "market_value_m": 16.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "James Ward-Prowse",
+  "position": "Central Midfield",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Josh Cullen",
+  "position": "Central Midfield",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Josh Laurent",
+  "position": "Central Midfield",
+  "market_value_m": 1.5
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Hannibal",
+  "position": "Attacking Midfield",
+  "market_value_m": 15.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Aaron Ramsey",
+  "position": "Attacking Midfield",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Mike Tresor",
+  "position": "Attacking Midfield",
+  "market_value_m": 2.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Jaidon Anthony",
+  "position": "Left Winger",
+  "market_value_m": 20.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Jacob Bruun Larsen",
+  "position": "Left Winger",
+  "market_value_m": 4.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Loum Tchaouna",
+  "position": "Right Winger",
+  "market_value_m": 13.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Marcus Edwards",
+  "position": "Right Winger",
+  "market_value_m": 6.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Zian Flemming",
+  "position": "Centre-Forward",
+  "market_value_m": 12.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Lyle Foster",
+  "position": "Centre-Forward",
+  "market_value_m": 8.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Zeki Amdouni",
+  "position": "Centre-Forward",
+  "market_value_m": 7.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Armando Broja",
+  "position": "Centre-Forward",
+  "market_value_m": 5.0
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Michael Obafemi",
+  "position": "Centre-Forward",
+  "market_value_m": 0.6
+ },
+ {
+  "club": "Burnley FC",
+  "season": "25/26",
+  "player": "Ashley Barnes",
+  "position": "Centre-Forward",
+  "market_value_m": 0.15
+ }
+]

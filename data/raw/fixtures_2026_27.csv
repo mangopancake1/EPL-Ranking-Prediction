@@ -1,0 +1,381 @@
+date,matchweek,home_team,away_team,status
+2026-08-22,1,Arsenal,Coventry City,SCHEDULED
+2026-08-22,1,Hull City,Manchester Utd,SCHEDULED
+2026-08-22,1,Ipswich Town,Sunderland,SCHEDULED
+2026-08-22,1,Everton,Crystal Palace,SCHEDULED
+2026-08-22,1,Nott'ham Forest,Leeds United,SCHEDULED
+2026-08-22,1,Brentford,Tottenham,SCHEDULED
+2026-08-23,1,Manchester City,Bournemouth,SCHEDULED
+2026-08-23,1,Brighton,Aston Villa,SCHEDULED
+2026-08-23,1,Newcastle Utd,Liverpool,SCHEDULED
+2026-08-25,1,Fulham,Chelsea,SCHEDULED
+2026-08-29,2,Crystal Palace,Manchester City,SCHEDULED
+2026-08-29,2,Liverpool,Nott'ham Forest,SCHEDULED
+2026-08-29,2,Coventry City,Hull City,SCHEDULED
+2026-08-29,2,Bournemouth,Everton,SCHEDULED
+2026-08-29,2,Tottenham,Newcastle Utd,SCHEDULED
+2026-08-29,2,Chelsea,Brighton,SCHEDULED
+2026-08-29,2,Leeds United,Brentford,SCHEDULED
+2026-08-29,2,Sunderland,Fulham,SCHEDULED
+2026-08-29,2,Manchester Utd,Ipswich Town,SCHEDULED
+2026-08-29,2,Aston Villa,Arsenal,SCHEDULED
+2026-09-05,3,Ipswich Town,Liverpool,SCHEDULED
+2026-09-05,3,Newcastle Utd,Bournemouth,SCHEDULED
+2026-09-05,3,Brentford,Sunderland,SCHEDULED
+2026-09-05,3,Nott'ham Forest,Tottenham,SCHEDULED
+2026-09-05,3,Manchester City,Coventry City,SCHEDULED
+2026-09-05,3,Fulham,Crystal Palace,SCHEDULED
+2026-09-05,3,Brighton,Leeds United,SCHEDULED
+2026-09-05,3,Hull City,Aston Villa,SCHEDULED
+2026-09-06,3,Everton,Manchester Utd,SCHEDULED
+2026-09-06,3,Arsenal,Chelsea,SCHEDULED
+2026-09-12,4,Liverpool,Fulham,SCHEDULED
+2026-09-12,4,Crystal Palace,Ipswich Town,SCHEDULED
+2026-09-12,4,Bournemouth,Brentford,SCHEDULED
+2026-09-12,4,Aston Villa,Nott'ham Forest,SCHEDULED
+2026-09-12,4,Chelsea,Hull City,SCHEDULED
+2026-09-12,4,Tottenham,Everton,SCHEDULED
+2026-09-13,4,Sunderland,Arsenal,SCHEDULED
+2026-09-13,4,Coventry City,Brighton,SCHEDULED
+2026-09-13,4,Manchester Utd,Manchester City,SCHEDULED
+2026-09-15,4,Leeds United,Newcastle Utd,SCHEDULED
+2026-09-19,5,Brentford,Chelsea,SCHEDULED
+2026-09-19,5,Tottenham,Aston Villa,SCHEDULED
+2026-09-19,5,Everton,Ipswich Town,SCHEDULED
+2026-09-19,5,Leeds United,Crystal Palace,SCHEDULED
+2026-09-19,5,Brighton,Arsenal,SCHEDULED
+2026-09-19,5,Newcastle Utd,Hull City,SCHEDULED
+2026-09-19,5,Nott'ham Forest,Coventry City,SCHEDULED
+2026-09-20,5,Bournemouth,Liverpool,SCHEDULED
+2026-09-20,5,Manchester City,Sunderland,SCHEDULED
+2026-09-20,5,Fulham,Manchester Utd,SCHEDULED
+2026-10-10,6,Arsenal,Leeds United,SCHEDULED
+2026-10-10,6,Aston Villa,Brentford,SCHEDULED
+2026-10-10,6,Ipswich Town,Fulham,SCHEDULED
+2026-10-10,6,Chelsea,Bournemouth,SCHEDULED
+2026-10-10,6,Sunderland,Brighton,SCHEDULED
+2026-10-10,6,Manchester Utd,Tottenham,SCHEDULED
+2026-10-11,6,Crystal Palace,Nott'ham Forest,SCHEDULED
+2026-10-11,6,Hull City,Everton,SCHEDULED
+2026-10-11,6,Liverpool,Manchester City,SCHEDULED
+2026-10-13,6,Coventry City,Newcastle Utd,SCHEDULED
+2026-10-17,7,Everton,Chelsea,SCHEDULED
+2026-10-17,7,Fulham,Hull City,SCHEDULED
+2026-10-17,7,Manchester City,Ipswich Town,SCHEDULED
+2026-10-17,7,Brentford,Liverpool,SCHEDULED
+2026-10-17,7,Newcastle Utd,Aston Villa,SCHEDULED
+2026-10-18,7,Brighton,Crystal Palace,SCHEDULED
+2026-10-18,7,Bournemouth,Sunderland,SCHEDULED
+2026-10-18,7,Leeds United,Manchester Utd,SCHEDULED
+2026-10-18,7,Nott'ham Forest,Arsenal,SCHEDULED
+2026-10-20,7,Tottenham,Coventry City,SCHEDULED
+2026-10-24,8,Ipswich Town,Nott'ham Forest,SCHEDULED
+2026-10-24,8,Aston Villa,Manchester City,SCHEDULED
+2026-10-24,8,Coventry City,Fulham,SCHEDULED
+2026-10-24,8,Liverpool,Brighton,SCHEDULED
+2026-10-24,8,Arsenal,Everton,SCHEDULED
+2026-10-24,8,Chelsea,Tottenham,SCHEDULED
+2026-10-25,8,Hull City,Brentford,SCHEDULED
+2026-10-25,8,Manchester Utd,Bournemouth,SCHEDULED
+2026-10-25,8,Crystal Palace,Newcastle Utd,SCHEDULED
+2026-10-25,8,Sunderland,Leeds United,SCHEDULED
+2026-10-31,9,Chelsea,Manchester Utd,SCHEDULED
+2026-10-31,9,Bournemouth,Leeds United,SCHEDULED
+2026-10-31,9,Coventry City,Sunderland,SCHEDULED
+2026-10-31,9,Manchester City,Brighton,SCHEDULED
+2026-10-31,9,Brentford,Nott'ham Forest,SCHEDULED
+2026-10-31,9,Hull City,Ipswich Town,SCHEDULED
+2026-11-01,9,Tottenham,Crystal Palace,SCHEDULED
+2026-11-01,9,Aston Villa,Fulham,SCHEDULED
+2026-11-01,9,Liverpool,Arsenal,SCHEDULED
+2026-11-03,9,Newcastle Utd,Everton,SCHEDULED
+2026-11-07,10,Fulham,Newcastle Utd,SCHEDULED
+2026-11-07,10,Ipswich Town,Bournemouth,SCHEDULED
+2026-11-07,10,Arsenal,Hull City,SCHEDULED
+2026-11-07,10,Manchester Utd,Aston Villa,SCHEDULED
+2026-11-07,10,Sunderland,Chelsea,SCHEDULED
+2026-11-07,10,Nott'ham Forest,Manchester City,SCHEDULED
+2026-11-07,10,Brighton,Brentford,SCHEDULED
+2026-11-07,10,Leeds United,Tottenham,SCHEDULED
+2026-11-07,10,Everton,Coventry City,SCHEDULED
+2026-11-07,10,Crystal Palace,Liverpool,SCHEDULED
+2026-11-21,11,Bournemouth,Nott'ham Forest,SCHEDULED
+2026-11-21,11,Coventry City,Crystal Palace,SCHEDULED
+2026-11-21,11,Liverpool,Manchester Utd,SCHEDULED
+2026-11-21,11,Tottenham,Ipswich Town,SCHEDULED
+2026-11-21,11,Chelsea,Leeds United,SCHEDULED
+2026-11-21,11,Manchester City,Fulham,SCHEDULED
+2026-11-21,11,Aston Villa,Sunderland,SCHEDULED
+2026-11-21,11,Newcastle Utd,Arsenal,SCHEDULED
+2026-11-21,11,Brentford,Everton,SCHEDULED
+2026-11-21,11,Hull City,Brighton,SCHEDULED
+2026-11-28,12,Manchester Utd,Brentford,SCHEDULED
+2026-11-28,12,Ipswich Town,Aston Villa,SCHEDULED
+2026-11-28,12,Everton,Liverpool,SCHEDULED
+2026-11-28,12,Brighton,Newcastle Utd,SCHEDULED
+2026-11-28,12,Fulham,Bournemouth,SCHEDULED
+2026-11-28,12,Sunderland,Tottenham,SCHEDULED
+2026-11-28,12,Leeds United,Coventry City,SCHEDULED
+2026-11-28,12,Crystal Palace,Hull City,SCHEDULED
+2026-11-28,12,Nott'ham Forest,Chelsea,SCHEDULED
+2026-11-28,12,Arsenal,Manchester City,SCHEDULED
+2026-12-03,13,Manchester City,Leeds United,SCHEDULED
+2026-12-03,13,Tottenham,Fulham,SCHEDULED
+2026-12-03,13,Hull City,Nott'ham Forest,SCHEDULED
+2026-12-03,13,Newcastle Utd,Manchester Utd,SCHEDULED
+2026-12-03,13,Bournemouth,Brighton,SCHEDULED
+2026-12-03,13,Liverpool,Sunderland,SCHEDULED
+2026-12-03,13,Chelsea,Crystal Palace,SCHEDULED
+2026-12-03,13,Brentford,Arsenal,SCHEDULED
+2026-12-03,13,Aston Villa,Everton,SCHEDULED
+2026-12-03,13,Coventry City,Ipswich Town,SCHEDULED
+2026-12-05,14,Manchester Utd,Coventry City,SCHEDULED
+2026-12-05,14,Everton,Fulham,SCHEDULED
+2026-12-05,14,Brentford,Manchester City,SCHEDULED
+2026-12-05,14,Bournemouth,Hull City,SCHEDULED
+2026-12-05,14,Newcastle Utd,Sunderland,SCHEDULED
+2026-12-05,14,Aston Villa,Crystal Palace,SCHEDULED
+2026-12-05,14,Chelsea,Liverpool,SCHEDULED
+2026-12-05,14,Nott'ham Forest,Brighton,SCHEDULED
+2026-12-05,14,Tottenham,Arsenal,SCHEDULED
+2026-12-05,14,Leeds United,Ipswich Town,SCHEDULED
+2026-12-12,15,Fulham,Brentford,SCHEDULED
+2026-12-12,15,Brighton,Everton,SCHEDULED
+2026-12-12,15,Crystal Palace,Manchester Utd,SCHEDULED
+2026-12-12,15,Manchester City,Chelsea,SCHEDULED
+2026-12-12,15,Sunderland,Nott'ham Forest,SCHEDULED
+2026-12-12,15,Arsenal,Bournemouth,SCHEDULED
+2026-12-12,15,Ipswich Town,Newcastle Utd,SCHEDULED
+2026-12-12,15,Coventry City,Aston Villa,SCHEDULED
+2026-12-12,15,Liverpool,Leeds United,SCHEDULED
+2026-12-12,15,Hull City,Tottenham,SCHEDULED
+2026-12-19,16,Arsenal,Manchester Utd,SCHEDULED
+2026-12-19,16,Sunderland,Crystal Palace,SCHEDULED
+2026-12-19,16,Brighton,Ipswich Town,SCHEDULED
+2026-12-19,16,Bournemouth,Coventry City,SCHEDULED
+2026-12-19,16,Brentford,Newcastle Utd,SCHEDULED
+2026-12-19,16,Chelsea,Aston Villa,SCHEDULED
+2026-12-19,16,Leeds United,Fulham,SCHEDULED
+2026-12-19,16,Manchester City,Hull City,SCHEDULED
+2026-12-19,16,Liverpool,Tottenham,SCHEDULED
+2026-12-19,16,Nott'ham Forest,Everton,SCHEDULED
+2026-12-26,17,Hull City,Liverpool,SCHEDULED
+2026-12-26,17,Ipswich Town,Brentford,SCHEDULED
+2026-12-26,17,Manchester Utd,Nott'ham Forest,SCHEDULED
+2026-12-26,17,Everton,Sunderland,SCHEDULED
+2026-12-26,17,Tottenham,Bournemouth,SCHEDULED
+2026-12-26,17,Fulham,Brighton,SCHEDULED
+2026-12-26,17,Crystal Palace,Arsenal,SCHEDULED
+2026-12-26,17,Coventry City,Chelsea,SCHEDULED
+2026-12-26,17,Aston Villa,Leeds United,SCHEDULED
+2026-12-26,17,Newcastle Utd,Manchester City,SCHEDULED
+2026-12-31,18,Crystal Palace,Bournemouth,SCHEDULED
+2026-12-31,18,Hull City,Leeds United,SCHEDULED
+2026-12-31,18,Coventry City,Brentford,SCHEDULED
+2026-12-31,18,Fulham,Arsenal,SCHEDULED
+2026-12-31,18,Manchester Utd,Sunderland,SCHEDULED
+2026-12-31,18,Aston Villa,Liverpool,SCHEDULED
+2026-12-31,18,Tottenham,Brighton,SCHEDULED
+2026-12-31,18,Ipswich Town,Chelsea,SCHEDULED
+2026-12-31,18,Everton,Manchester City,SCHEDULED
+2026-12-31,18,Newcastle Utd,Nott'ham Forest,SCHEDULED
+2027-01-02,19,Sunderland,Hull City,SCHEDULED
+2027-01-02,19,Bournemouth,Aston Villa,SCHEDULED
+2027-01-02,19,Leeds United,Everton,SCHEDULED
+2027-01-02,19,Arsenal,Ipswich Town,SCHEDULED
+2027-01-02,19,Liverpool,Coventry City,SCHEDULED
+2027-01-02,19,Manchester City,Tottenham,SCHEDULED
+2027-01-02,19,Brighton,Manchester Utd,SCHEDULED
+2027-01-02,19,Brentford,Crystal Palace,SCHEDULED
+2027-01-02,19,Nott'ham Forest,Fulham,SCHEDULED
+2027-01-02,19,Chelsea,Newcastle Utd,SCHEDULED
+2027-01-07,20,Ipswich Town,Coventry City,SCHEDULED
+2027-01-07,20,Nott'ham Forest,Hull City,SCHEDULED
+2027-01-07,20,Sunderland,Liverpool,SCHEDULED
+2027-01-07,20,Arsenal,Brentford,SCHEDULED
+2027-01-07,20,Brighton,Bournemouth,SCHEDULED
+2027-01-07,20,Manchester Utd,Newcastle Utd,SCHEDULED
+2027-01-07,20,Fulham,Tottenham,SCHEDULED
+2027-01-07,20,Leeds United,Manchester City,SCHEDULED
+2027-01-07,20,Everton,Aston Villa,SCHEDULED
+2027-01-07,20,Crystal Palace,Chelsea,SCHEDULED
+2027-01-16,21,Liverpool,Crystal Palace,SCHEDULED
+2027-01-16,21,Tottenham,Leeds United,SCHEDULED
+2027-01-16,21,Newcastle Utd,Fulham,SCHEDULED
+2027-01-16,21,Hull City,Arsenal,SCHEDULED
+2027-01-16,21,Brentford,Brighton,SCHEDULED
+2027-01-16,21,Aston Villa,Manchester Utd,SCHEDULED
+2027-01-16,21,Manchester City,Nott'ham Forest,SCHEDULED
+2027-01-16,21,Chelsea,Sunderland,SCHEDULED
+2027-01-16,21,Bournemouth,Ipswich Town,SCHEDULED
+2027-01-16,21,Coventry City,Everton,SCHEDULED
+2027-01-23,22,Ipswich Town,Hull City,SCHEDULED
+2027-01-23,22,Brighton,Manchester City,SCHEDULED
+2027-01-23,22,Arsenal,Newcastle Utd,SCHEDULED
+2027-01-23,22,Leeds United,Chelsea,SCHEDULED
+2027-01-23,22,Crystal Palace,Tottenham,SCHEDULED
+2027-01-23,22,Sunderland,Coventry City,SCHEDULED
+2027-01-23,22,Everton,Brentford,SCHEDULED
+2027-01-23,22,Manchester Utd,Liverpool,SCHEDULED
+2027-01-23,22,Fulham,Aston Villa,SCHEDULED
+2027-01-23,22,Nott'ham Forest,Bournemouth,SCHEDULED
+2027-01-30,23,Tottenham,Sunderland,SCHEDULED
+2027-01-30,23,Liverpool,Everton,SCHEDULED
+2027-01-30,23,Brentford,Manchester Utd,SCHEDULED
+2027-01-30,23,Hull City,Crystal Palace,SCHEDULED
+2027-01-30,23,Newcastle Utd,Brighton,SCHEDULED
+2027-01-30,23,Chelsea,Nott'ham Forest,SCHEDULED
+2027-01-30,23,Manchester City,Arsenal,SCHEDULED
+2027-01-30,23,Coventry City,Leeds United,SCHEDULED
+2027-01-30,23,Aston Villa,Ipswich Town,SCHEDULED
+2027-01-30,23,Bournemouth,Fulham,SCHEDULED
+2027-02-06,24,Leeds United,Bournemouth,SCHEDULED
+2027-02-06,24,Everton,Newcastle Utd,SCHEDULED
+2027-02-06,24,Crystal Palace,Coventry City,SCHEDULED
+2027-02-06,24,Nott'ham Forest,Brentford,SCHEDULED
+2027-02-06,24,Ipswich Town,Tottenham,SCHEDULED
+2027-02-06,24,Manchester Utd,Chelsea,SCHEDULED
+2027-02-06,24,Fulham,Manchester City,SCHEDULED
+2027-02-06,24,Sunderland,Aston Villa,SCHEDULED
+2027-02-06,24,Arsenal,Liverpool,SCHEDULED
+2027-02-06,24,Brighton,Hull City,SCHEDULED
+2027-02-11,25,Manchester Utd,Brighton,SCHEDULED
+2027-02-11,25,Fulham,Nott'ham Forest,SCHEDULED
+2027-02-11,25,Aston Villa,Bournemouth,SCHEDULED
+2027-02-11,25,Crystal Palace,Brentford,SCHEDULED
+2027-02-11,25,Newcastle Utd,Chelsea,SCHEDULED
+2027-02-11,25,Hull City,Sunderland,SCHEDULED
+2027-02-11,25,Coventry City,Liverpool,SCHEDULED
+2027-02-11,25,Tottenham,Manchester City,SCHEDULED
+2027-02-11,25,Ipswich Town,Arsenal,SCHEDULED
+2027-02-11,25,Everton,Leeds United,SCHEDULED
+2027-02-20,26,Sunderland,Everton,SCHEDULED
+2027-02-20,26,Bournemouth,Crystal Palace,SCHEDULED
+2027-02-20,26,Chelsea,Ipswich Town,SCHEDULED
+2027-02-20,26,Manchester City,Newcastle Utd,SCHEDULED
+2027-02-20,26,Nott'ham Forest,Manchester Utd,SCHEDULED
+2027-02-20,26,Brighton,Tottenham,SCHEDULED
+2027-02-20,26,Liverpool,Hull City,SCHEDULED
+2027-02-20,26,Arsenal,Fulham,SCHEDULED
+2027-02-20,26,Brentford,Coventry City,SCHEDULED
+2027-02-20,26,Leeds United,Aston Villa,SCHEDULED
+2027-02-27,27,Coventry City,Bournemouth,SCHEDULED
+2027-02-27,27,Tottenham,Liverpool,SCHEDULED
+2027-02-27,27,Newcastle Utd,Brentford,SCHEDULED
+2027-02-27,27,Everton,Nott'ham Forest,SCHEDULED
+2027-02-27,27,Fulham,Leeds United,SCHEDULED
+2027-02-27,27,Hull City,Manchester City,SCHEDULED
+2027-02-27,27,Crystal Palace,Sunderland,SCHEDULED
+2027-02-27,27,Aston Villa,Chelsea,SCHEDULED
+2027-02-27,27,Ipswich Town,Brighton,SCHEDULED
+2027-02-27,27,Manchester Utd,Arsenal,SCHEDULED
+2027-03-04,28,Leeds United,Hull City,SCHEDULED
+2027-03-04,28,Sunderland,Manchester Utd,SCHEDULED
+2027-03-04,28,Nott'ham Forest,Newcastle Utd,SCHEDULED
+2027-03-04,28,Manchester City,Everton,SCHEDULED
+2027-03-04,28,Brentford,Ipswich Town,SCHEDULED
+2027-03-04,28,Bournemouth,Tottenham,SCHEDULED
+2027-03-04,28,Brighton,Fulham,SCHEDULED
+2027-03-04,28,Liverpool,Aston Villa,SCHEDULED
+2027-03-04,28,Arsenal,Crystal Palace,SCHEDULED
+2027-03-04,28,Chelsea,Coventry City,SCHEDULED
+2027-03-13,29,Aston Villa,Hull City,SCHEDULED
+2027-03-13,29,Tottenham,Nott'ham Forest,SCHEDULED
+2027-03-13,29,Sunderland,Brentford,SCHEDULED
+2027-03-13,29,Crystal Palace,Fulham,SCHEDULED
+2027-03-13,29,Liverpool,Ipswich Town,SCHEDULED
+2027-03-13,29,Chelsea,Arsenal,SCHEDULED
+2027-03-13,29,Bournemouth,Newcastle Utd,SCHEDULED
+2027-03-13,29,Leeds United,Brighton,SCHEDULED
+2027-03-13,29,Coventry City,Manchester City,SCHEDULED
+2027-03-13,29,Manchester Utd,Everton,SCHEDULED
+2027-03-20,30,Manchester City,Manchester Utd,SCHEDULED
+2027-03-20,30,Nott'ham Forest,Aston Villa,SCHEDULED
+2027-03-20,30,Arsenal,Sunderland,SCHEDULED
+2027-03-20,30,Brentford,Bournemouth,SCHEDULED
+2027-03-20,30,Fulham,Liverpool,SCHEDULED
+2027-03-20,30,Everton,Tottenham,SCHEDULED
+2027-03-20,30,Hull City,Chelsea,SCHEDULED
+2027-03-20,30,Newcastle Utd,Leeds United,SCHEDULED
+2027-03-20,30,Ipswich Town,Crystal Palace,SCHEDULED
+2027-03-20,30,Brighton,Coventry City,SCHEDULED
+2027-04-10,31,Bournemouth,Manchester City,SCHEDULED
+2027-04-10,31,Chelsea,Fulham,SCHEDULED
+2027-04-10,31,Leeds United,Nott'ham Forest,SCHEDULED
+2027-04-10,31,Sunderland,Ipswich Town,SCHEDULED
+2027-04-10,31,Crystal Palace,Everton,SCHEDULED
+2027-04-10,31,Tottenham,Brentford,SCHEDULED
+2027-04-10,31,Liverpool,Newcastle Utd,SCHEDULED
+2027-04-10,31,Aston Villa,Brighton,SCHEDULED
+2027-04-10,31,Coventry City,Arsenal,SCHEDULED
+2027-04-10,31,Manchester Utd,Hull City,SCHEDULED
+2027-04-17,32,Nott'ham Forest,Liverpool,SCHEDULED
+2027-04-17,32,Arsenal,Aston Villa,SCHEDULED
+2027-04-17,32,Everton,Bournemouth,SCHEDULED
+2027-04-17,32,Ipswich Town,Manchester Utd,SCHEDULED
+2027-04-17,32,Brighton,Chelsea,SCHEDULED
+2027-04-17,32,Brentford,Leeds United,SCHEDULED
+2027-04-17,32,Manchester City,Crystal Palace,SCHEDULED
+2027-04-17,32,Fulham,Sunderland,SCHEDULED
+2027-04-17,32,Hull City,Coventry City,SCHEDULED
+2027-04-17,32,Newcastle Utd,Tottenham,SCHEDULED
+2027-04-24,33,Bournemouth,Arsenal,SCHEDULED
+2027-04-24,33,Nott'ham Forest,Sunderland,SCHEDULED
+2027-04-24,33,Brentford,Fulham,SCHEDULED
+2027-04-24,33,Chelsea,Manchester City,SCHEDULED
+2027-04-24,33,Tottenham,Hull City,SCHEDULED
+2027-04-24,33,Aston Villa,Coventry City,SCHEDULED
+2027-04-24,33,Newcastle Utd,Ipswich Town,SCHEDULED
+2027-04-24,33,Everton,Brighton,SCHEDULED
+2027-04-24,33,Leeds United,Liverpool,SCHEDULED
+2027-04-24,33,Manchester Utd,Crystal Palace,SCHEDULED
+2027-05-01,34,Brighton,Nott'ham Forest,SCHEDULED
+2027-05-01,34,Ipswich Town,Leeds United,SCHEDULED
+2027-05-01,34,Coventry City,Manchester Utd,SCHEDULED
+2027-05-01,34,Sunderland,Newcastle Utd,SCHEDULED
+2027-05-01,34,Hull City,Bournemouth,SCHEDULED
+2027-05-01,34,Fulham,Everton,SCHEDULED
+2027-05-01,34,Liverpool,Chelsea,SCHEDULED
+2027-05-01,34,Arsenal,Tottenham,SCHEDULED
+2027-05-01,34,Crystal Palace,Aston Villa,SCHEDULED
+2027-05-01,34,Manchester City,Brentford,SCHEDULED
+2027-05-08,35,Everton,Hull City,SCHEDULED
+2027-05-08,35,Fulham,Ipswich Town,SCHEDULED
+2027-05-08,35,Newcastle Utd,Coventry City,SCHEDULED
+2027-05-08,35,Manchester City,Liverpool,SCHEDULED
+2027-05-08,35,Brentford,Aston Villa,SCHEDULED
+2027-05-08,35,Brighton,Sunderland,SCHEDULED
+2027-05-08,35,Tottenham,Chelsea,SCHEDULED
+2027-05-08,35,Leeds United,Arsenal,SCHEDULED
+2027-05-08,35,Nott'ham Forest,Crystal Palace,SCHEDULED
+2027-05-08,35,Bournemouth,Manchester Utd,SCHEDULED
+2027-05-15,36,Crystal Palace,Brighton,SCHEDULED
+2027-05-15,36,Coventry City,Tottenham,SCHEDULED
+2027-05-15,36,Manchester Utd,Leeds United,SCHEDULED
+2027-05-15,36,Aston Villa,Newcastle Utd,SCHEDULED
+2027-05-15,36,Chelsea,Everton,SCHEDULED
+2027-05-15,36,Ipswich Town,Manchester City,SCHEDULED
+2027-05-15,36,Sunderland,Bournemouth,SCHEDULED
+2027-05-15,36,Hull City,Fulham,SCHEDULED
+2027-05-15,36,Liverpool,Brentford,SCHEDULED
+2027-05-15,36,Arsenal,Nott'ham Forest,SCHEDULED
+2027-05-23,37,Leeds United,Sunderland,SCHEDULED
+2027-05-23,37,Brentford,Hull City,SCHEDULED
+2027-05-23,37,Manchester City,Aston Villa,SCHEDULED
+2027-05-23,37,Fulham,Coventry City,SCHEDULED
+2027-05-23,37,Tottenham,Manchester Utd,SCHEDULED
+2027-05-23,37,Brighton,Liverpool,SCHEDULED
+2027-05-23,37,Everton,Arsenal,SCHEDULED
+2027-05-23,37,Nott'ham Forest,Ipswich Town,SCHEDULED
+2027-05-23,37,Bournemouth,Chelsea,SCHEDULED
+2027-05-23,37,Newcastle Utd,Crystal Palace,SCHEDULED
+2027-05-30,38,Coventry City,Nott'ham Forest,SCHEDULED
+2027-05-30,38,Arsenal,Brighton,SCHEDULED
+2027-05-30,38,Hull City,Newcastle Utd,SCHEDULED
+2027-05-30,38,Manchester Utd,Fulham,SCHEDULED
+2027-05-30,38,Chelsea,Brentford,SCHEDULED
+2027-05-30,38,Sunderland,Manchester City,SCHEDULED
+2027-05-30,38,Ipswich Town,Everton,SCHEDULED
+2027-05-30,38,Crystal Palace,Leeds United,SCHEDULED
+2027-05-30,38,Aston Villa,Tottenham,SCHEDULED
+2027-05-30,38,Liverpool,Bournemouth,SCHEDULED

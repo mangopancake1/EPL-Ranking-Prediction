@@ -1,0 +1,11 @@
+# Mengikuti pola tema streamlit-echarts-demo: satu font Google, sudut membulat,
+# sidebar gelap sebagai penyeimbang area konten yang terang.
+[theme]
+font = "'Work Sans':https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+baseRadius = "12px"
+primaryColor = "#C08C34"
+
+[theme.sidebar]
+backgroundColor = "#131B29"
+textColor = "#E9EDF2"
+secondaryBackgroundColor = "#22304A"

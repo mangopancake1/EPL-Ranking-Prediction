@@ -1,0 +1,519 @@
+<!doctype html>
+<title>Pekan Nol</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:      #131B29;
+    --ink-2:    #4C5C72;
+    --ink-3:    #8595A9;
+    --paper:    #EEF0F3;
+    --surface:  #FFFFFF;
+    --surface-2:#E3E7EC;
+    --line:     #D5DAE1;
+    --line-2:   #C2C9D3;
+
+    --gold:     #9A6B12;
+    --gold-ink: #7A5410;
+    --gold-bg:  #F6E7C6;
+    --teal:     #0F6F68;
+    --teal-bg:  #D2EBE7;
+    --coral:    #A83521;
+    --coral-bg: #F6DCD5;
+
+    --plot:     #33506E;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(19,27,41,.05), 0 10px 30px -18px rgba(19,27,41,.35);
+    --display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+    --body: "Instrument Sans", -apple-system, "Segoe UI", sans-serif;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink:      #E9EDF2;
+      --ink-2:    #A3B0C1;
+      --ink-3:    #74839A;
+      --paper:    #0A0F18;
+      --surface:  #141C29;
+      --surface-2:#1D2735;
+      --line:     #263243;
+      --line-2:   #33445A;
+      --gold:     #E5B65F;
+      --gold-ink: #F0CB8A;
+      --gold-bg:  #3A2C12;
+      --teal:     #56C3B7;
+      --teal-bg:  #10312E;
+      --coral:    #EE8A72;
+      --coral-bg: #3A1D16;
+      --plot:     #7FA8D4;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 36px -20px rgba(0,0,0,.8);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink:#E9EDF2; --ink-2:#A3B0C1; --ink-3:#74839A;
+    --paper:#0A0F18; --surface:#141C29; --surface-2:#1D2735;
+    --line:#263243; --line-2:#33445A;
+    --gold:#E5B65F; --gold-ink:#F0CB8A; --gold-bg:#3A2C12;
+    --teal:#56C3B7; --teal-bg:#10312E;
+    --coral:#EE8A72; --coral-bg:#3A1D16;
+    --plot:#7FA8D4;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 36px -20px rgba(0,0,0,.8);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--body); font-size: 16px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1020px; margin: 0 auto; padding: 0 22px; }
+  h1,h2,h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
+  a { color: var(--gold); }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .rise { animation: rise .7s cubic-bezier(.16,1,.3,1) both; }
+    .rise-2 { animation: rise .7s cubic-bezier(.16,1,.3,1) .09s both; }
+    .rise-3 { animation: rise .7s cubic-bezier(.16,1,.3,1) .18s both; }
+    @keyframes rise { from { opacity:0; transform: translateY(14px) } to { opacity:1; transform:none } }
+  }
+
+  /* ---------- kepala halaman ---------- */
+  header.top { padding: 60px 0 0; }
+  .kicker {
+    display: inline-flex; align-items: center; gap: 8px;
+    font: 600 .72rem/1 var(--body); letter-spacing: .14em; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 18px;
+  }
+  .kicker::before {
+    content: ""; width: 26px; height: 2px; background: var(--gold); display: block;
+  }
+  h1 {
+    font-size: clamp(3rem, 9vw, 6rem); font-weight: 800; line-height: .92;
+    letter-spacing: -.035em; margin-bottom: 20px;
+  }
+  .dek { font-size: 1.14rem; color: var(--ink-2); max-width: 60ch; margin: 0 0 10px; }
+  .meta { font-size: .82rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+
+  /* ---------- duel juara ---------- */
+  .duel {
+    margin: 40px 0 0; padding: 26px 28px;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius); box-shadow: var(--shadow);
+  }
+  .duel h2 { font-size: .78rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+             color: var(--ink-3); font-family: var(--body); margin-bottom: 20px; }
+  .duel-bar { display: flex; height: 46px; border-radius: 8px; overflow: hidden; background: var(--surface-2); }
+  .duel-seg { display: flex; align-items: center; padding: 0 14px; font-weight: 700; font-size: .9rem;
+              color: #fff; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .duel-seg.a { background: var(--gold); }
+  .duel-seg.b { background: var(--plot); }
+  .duel-seg.c { background: var(--surface-2); color: var(--ink-3); justify-content: flex-end; }
+  .duel-legend { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 14px; font-size: .84rem; color: var(--ink-2); }
+  .duel-legend span::before { content: "■ "; }
+  .duel-legend .a::before { color: var(--gold); }
+  .duel-legend .b::before { color: var(--plot); }
+  .duel-legend .c::before { color: var(--line-2); }
+
+  /* ---------- kartu statistik ---------- */
+  .tiles { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin-top: 14px; }
+  @media (max-width: 720px) { .tiles { grid-template-columns: 1fr; } }
+  .tile {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 20px 22px;
+  }
+  .tile .lab { font: 600 .68rem/1 var(--body); letter-spacing: .1em; text-transform: uppercase;
+               color: var(--ink-3); margin-bottom: 12px; }
+  .tile .big { font-family: var(--display); font-weight: 800; font-size: 2.1rem; line-height: 1;
+               letter-spacing: -.02em; font-variant-numeric: tabular-nums; margin-bottom: 6px; }
+  .tile .sub { font-size: .86rem; color: var(--ink-2); }
+  .tile.gold .big { color: var(--gold); }
+  .tile.coral .big { color: var(--coral); }
+  .tile.plot .big { color: var(--plot); }
+
+  /* ---------- bagian ---------- */
+  section { padding: 62px 0 0; }
+  .head { margin-bottom: 30px; }
+  .head h2 { font-size: clamp(1.7rem,3.4vw,2.3rem); font-weight: 700; letter-spacing: -.02em; margin-bottom: 10px; }
+  .head p { color: var(--ink-2); max-width: 64ch; margin: 0; font-size: .98rem; }
+
+  /* ---------- tabel klasemen ---------- */
+  .tablecard { background: var(--surface); border: 1px solid var(--line);
+               border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+  .rowhead, .row {
+    display: grid; grid-template-columns: 34px minmax(120px,1.3fr) 128px 1fr 132px;
+    gap: 14px; align-items: center; padding: 11px 18px;
+  }
+  .rowhead { font: 600 .66rem/1 var(--body); letter-spacing: .08em; text-transform: uppercase;
+             color: var(--ink-3); background: var(--surface-2); }
+  .row { border-top: 1px solid var(--line); }
+  .row:hover { background: var(--surface-2); }
+  .row.zone-eu { box-shadow: inset 3px 0 0 var(--teal); }
+  .row.zone-ti { box-shadow: inset 3px 0 0 var(--gold); }
+  .row.zone-rel { box-shadow: inset 3px 0 0 var(--coral); }
+
+  .pos { font-variant-numeric: tabular-nums; color: var(--ink-3); font-size: .84rem; font-weight: 600; }
+  .club { min-width: 0; }
+  .club b { display: block; font-weight: 600; font-size: .96rem; white-space: nowrap;
+            overflow: hidden; text-overflow: ellipsis; }
+  .club small { color: var(--ink-3); font-size: .72rem; }
+  .club small.warn { color: var(--coral); }
+
+  .pts { font-variant-numeric: tabular-nums; }
+  .pts b { font-family: var(--display); font-weight: 700; font-size: 1.15rem; }
+  .pts span { color: var(--ink-3); font-size: .74rem; display: block; }
+
+  .spark { height: 34px; display: block; width: 100%; }
+  .chips { display: flex; gap: 5px; justify-content: flex-end; flex-wrap: wrap; }
+  .chip { font: 700 .68rem/1 var(--body); padding: 5px 8px; border-radius: 100px;
+          white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .chip.ti { background: var(--gold-bg); color: var(--gold-ink); }
+  .chip.eu { background: var(--teal-bg); color: var(--teal); }
+  .chip.rel { background: var(--coral-bg); color: var(--coral); }
+  .chip.mid { background: var(--surface-2); color: var(--ink-3); }
+
+  @media (max-width: 760px) {
+    .rowhead, .row { grid-template-columns: 28px 1fr 92px; }
+    .rowhead span:nth-child(4), .rowhead span:nth-child(5),
+    .row .spark, .row .chips { display: none; }
+  }
+
+  .note { font-size: .82rem; color: var(--ink-2); margin: 14px 2px 0; }
+  .note b { color: var(--coral); }
+
+  /* ---------- peta posisi ---------- */
+  .heatscroll { overflow-x: auto; padding-bottom: 10px; }
+  .heat { display: grid; grid-template-columns: 132px repeat(20, minmax(24px,1fr)); gap: 2px; min-width: 780px; }
+  .heat .rl { font-size: .78rem; font-weight: 500; display: flex; align-items: center;
+              padding-right: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .heat .cl { font-size: .64rem; color: var(--ink-3); text-align: center;
+              font-variant-numeric: tabular-nums; padding-bottom: 5px; }
+  .cell { aspect-ratio: 1; border-radius: 3px; }
+  .scale { display: flex; align-items: center; gap: 10px; margin-top: 16px;
+           font-size: .76rem; color: var(--ink-3); flex-wrap: wrap; }
+  .ramp { width: 150px; height: 9px; border-radius: 5px; border: 1px solid var(--line);
+          background: linear-gradient(to right, var(--surface), var(--plot)); }
+
+  /* ---------- kedalaman skuad ---------- */
+  .depthgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(232px,1fr)); gap: 12px; }
+  .dcard { background: var(--surface); border: 1px solid var(--line);
+           border-radius: 10px; padding: 15px 16px; }
+  .dcard .nm { font-weight: 600; font-size: .92rem; margin-bottom: 10px;
+               display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .dcard .nm em { font-style: normal; font-family: var(--display); font-weight: 700;
+                  font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+  .dbar { height: 7px; background: var(--surface-2); border-radius: 4px; overflow: hidden; }
+  .dbar i { display: block; height: 100%; border-radius: 4px; }
+  .dcard small { display: block; margin-top: 9px; color: var(--ink-3); font-size: .74rem; }
+
+  /* ---------- kartu penjelasan ---------- */
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 26px; }
+  @media (max-width: 760px) { .cards { grid-template-columns: 1fr; } }
+  .card { background: var(--surface); border: 1px solid var(--line);
+          border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .card .tag { font: 600 .66rem/1 var(--body); letter-spacing: .1em; text-transform: uppercase;
+               color: var(--gold); margin-bottom: 11px; }
+  .card h3 { font-size: 1.14rem; font-weight: 700; margin-bottom: 10px; letter-spacing: -.01em; }
+  .card p { margin: 0; font-size: .92rem; color: var(--ink-2); }
+  .card .nums { display: flex; gap: 22px; margin: 14px 0; }
+  .card .nums div { font-variant-numeric: tabular-nums; }
+  .card .nums b { display: block; font-family: var(--display); font-weight: 700; font-size: 1.3rem; }
+  .card .nums span { font-size: .68rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; }
+
+  /* ---------- alur & tabel data ---------- */
+  ol.flow { list-style: none; margin: 0 0 34px; padding: 0; display: grid; gap: 18px; }
+  ol.flow li { display: grid; grid-template-columns: 44px 1fr; gap: 16px; align-items: start; }
+  ol.flow .n { font-family: var(--display); font-weight: 800; font-size: 1.5rem; color: var(--gold);
+               line-height: 1; padding-top: 2px; }
+  ol.flow b { display: block; margin-bottom: 3px; }
+  ol.flow p { margin: 0; color: var(--ink-2); font-size: .93rem; }
+
+  table.data { width: 100%; border-collapse: collapse; font-size: .88rem; }
+  table.data th { text-align: left; font: 600 .66rem/1 var(--body); letter-spacing: .07em;
+                  text-transform: uppercase; color: var(--ink-3);
+                  padding: 9px 14px 9px 0; border-bottom: 1px solid var(--line-2); }
+  table.data td { padding: 11px 14px 11px 0; border-bottom: 1px solid var(--line); vertical-align: top;
+                  color: var(--ink-2); }
+  table.data td:first-child { color: var(--ink); font-weight: 600; }
+  .pill { display: inline-block; font: 700 .64rem/1 var(--body); padding: 4px 8px;
+          border-radius: 5px; text-transform: uppercase; letter-spacing: .05em; }
+  .pill.ok { background: var(--teal-bg); color: var(--teal); }
+  .pill.est { background: var(--gold-bg); color: var(--gold-ink); }
+
+  aside.honest { margin-top: 30px; background: var(--surface-2);
+                 border-left: 3px solid var(--coral); border-radius: 0 10px 10px 0; padding: 20px 24px; }
+  aside.honest h3 { font-family: var(--body); font-size: .78rem; font-weight: 700; letter-spacing: .07em;
+                    text-transform: uppercase; color: var(--coral); margin-bottom: 11px; }
+  aside.honest p { margin: 0 0 11px; font-size: .92rem; color: var(--ink-2); }
+  aside.honest p:last-child { margin-bottom: 0; }
+
+  footer { margin-top: 60px; padding: 26px 0 70px; border-top: 1px solid var(--line);
+           color: var(--ink-3); font-size: .82rem; }
+  footer ul { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 10px 0 0; padding: 0; list-style: none; }
+
+  #tip { position: fixed; pointer-events: none; z-index: 60; background: var(--ink); color: var(--paper);
+         font-size: .78rem; font-weight: 600; padding: 6px 10px; border-radius: 6px;
+         transform: translate(-50%,-135%); opacity: 0; transition: opacity .12s;
+         font-variant-numeric: tabular-nums; white-space: nowrap; }
+  #tip.on { opacity: 1; }
+</style>
+
+<div id="tip"></div>
+
+<div class="wrap">
+
+  <header class="top">
+    <p class="kicker rise">Prediksi Premier League 2026/27</p>
+    <h1 class="rise-2">Pekan<br>Nol</h1>
+    <p class="dek rise-3">Model Dixon-Coles dipadukan dengan 10.000 simulasi musim penuh, memproyeksikan klasemen akhir sebelum satu pun pertandingan musim ini dihitung. Setiap angka di halaman ini bisa dilacak ke hasil pertandingan nyata, nilai pasar pemain, atau rekam jejak manajer &mdash; bukan tebakan yang dibungkus angka meyakinkan.</p>
+    <p class="meta rise-3">1.140 pertandingan (2023&ndash;2026) &middot; 571 pemain &middot; 20 dari 21 rekam jejak manajer memakai data asli &middot; dijalankan 27 Agustus 2026</p>
+
+    <div class="duel rise-3">
+      <h2>Peluang juara &mdash; hanya dua klub di atas 3%</h2>
+      <div class="duel-bar">
+        <div class="duel-seg a" style="width:49.5%">Arsenal 49,5%</div>
+        <div class="duel-seg b" style="width:27.4%">Man City 27,4%</div>
+        <div class="duel-seg c" style="width:23.1%">17 klub lain 23,1%</div>
+      </div>
+      <div class="duel-legend">
+        <span class="a">Arsenal &mdash; skuad terdalam, manajer tetap</span>
+        <span class="b">Manchester City &mdash; era baru Maresca</span>
+        <span class="c">Sisanya, digabung</span>
+      </div>
+    </div>
+
+    <div class="tiles rise-3">
+      <div class="tile gold">
+        <p class="lab">Favorit juara</p>
+        <p class="big">Arsenal</p>
+        <p class="sub">94,0% masuk empat besar &mdash; angka tertinggi di liga</p>
+      </div>
+      <div class="tile plot">
+        <p class="lab">Rentang terlebar</p>
+        <p class="big">Hull City</p>
+        <p class="sub">12&ndash;51 poin. Skuad tertipis di liga, jadi hasilnya paling sulit ditebak</p>
+      </div>
+      <div class="tile coral">
+        <p class="lab">Zona merah</p>
+        <p class="big">66,9%</p>
+        <p class="sub">Peluang Hull terdegradasi. Coventry 51,1%, Ipswich 50,2%</p>
+      </div>
+    </div>
+  </header>
+
+  <section id="klasemen">
+    <div class="head">
+      <h2>Klasemen prediksi</h2>
+      <p>Diurutkan berdasarkan posisi akhir rata-rata dari 10.000 simulasi. Grafik di tiap baris adalah sebaran posisi akhir klub tersebut &mdash; makin lebar, makin tidak pasti nasibnya. Label hanya muncul kalau peluangnya benar-benar berarti (di atas 20%).</p>
+    </div>
+    <div class="tablecard">
+      <div class="rowhead">
+        <span>#</span><span>Klub</span><span>Poin</span><span>Sebaran posisi akhir</span><span style="text-align:right">Skenario</span>
+      </div>
+      <div id="rows"></div>
+    </div>
+    <p class="note"><b>Catatan:</b> tiga klub promosi (Ipswich, Coventry, Hull) ditandai khusus. Level mereka diukur dari performa nyata klub-klub promosi sebelumnya, tapi urutan di antara mereka bertiga bergantung pada satu parameter yang belum tervalidasi &mdash; perlakukan posisi persisnya sebagai perkiraan kasar.</p>
+  </section>
+
+  <section id="peta">
+    <div class="head">
+      <h2>Peta posisi akhir</h2>
+      <p>Sebaran lengkap di balik tabel di atas: seberapa sering tiap klub finis di masing-masing posisi, dari 10.000 musim yang disimulasikan. Arahkan kursor ke sebuah kotak untuk melihat angka persisnya.</p>
+    </div>
+    <div class="heatscroll"><div class="heat" id="heat"></div></div>
+    <div class="scale">
+      <span>0%</span><div class="ramp"></div><span>50%+</span>
+      <span style="margin-left:auto">baris diurutkan sesuai posisi rata-rata</span>
+    </div>
+  </section>
+
+  <section id="kedalaman">
+    <div class="head">
+      <h2>Siapa yang sanggup merotasi</h2>
+      <p>Kedalaman diukur per lini, bukan per skuad. Pelapis di tiap lini dibandingkan dua kali: terhadap pemain inti klub itu sendiri <em>dan</em> terhadap rata-rata pemain inti seliga. Sebuah klub baru dihitung dalam kalau pelapisnya mendekati standarnya sendiri sekaligus masih layak main di Premier League. Sembilan klub main di Eropa musim ini, dan malam Kamis adalah tempat skuad tipis ketahuan.</p>
+    </div>
+    <div class="depthgrid" id="depth"></div>
+
+    <div class="cards">
+      <div class="card">
+        <p class="tag">Cara dipakai</p>
+        <h3>Dua efek, sengaja dipisah</h3>
+        <p>Kedalaman menurunkan <strong>rata-rata</strong> saat jadwal padat &mdash; sebelas orang yang sama main Minggu, Kamis, lalu Minggu lagi. Terpisah dari itu, kedalaman juga melebarkan <strong>rentang</strong> posisi akhir, karena cedera tidak menunggu jadwal padat dan skuad tipis tak punya pengganti setara saat itu terjadi. Opsi ketiga &mdash; menjadikan kedalaman sebagai bonus kekuatan di setiap laga &mdash; sengaja ditolak: rekam tiga musim yang jadi dasar tiap klub sudah dimainkan dengan kedalaman itu, jadi menghitungnya lagi berarti membayar dua kali untuk hal yang sama.</p>
+      </div>
+      <div class="card">
+        <p class="tag">Jebakan pengukuran</p>
+        <h3>Kenapa Coventry bukan skuad terdalam</h3>
+        <div class="nums">
+          <div><b>0,86</b><span>Rasio mentah, lini depan</span></div>
+          <div><b>0,22</b><span>Setelah standar liga</span></div>
+        </div>
+        <p>Dengan rasio pelapis-dibagi-inti yang polos, Coventry keluar sebagai skuad terdalam di liga dan Manchester City nyaris terbawah. Rasio itu tak bisa membedakan &ldquo;dalam&rdquo; dari &ldquo;sama-sama biasa saja&rdquo;: semua penyerang Coventry bernilai mirip dan sama-sama kecil, sementara Haaland membuat pelapis City mana pun terlihat remeh. Menilai pelapis terhadap standar liga sekaligus terhadap klubnya sendiri memperbaikinya.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cara">
+    <div class="head">
+      <h2>Cara model ini berpikir</h2>
+      <p>Empat tahap, masing-masing berdiri di atas data nyata, bukan sekadar mengulang klasemen musim lalu.</p>
+    </div>
+
+    <ol class="flow">
+      <li><span class="n">01</span><div><b>Fit</b><p>Model Dixon-Coles memperkirakan kekuatan menyerang dan bertahan tiap klub dari tiga musim hasil pertandingan nyata, dengan laga terbaru berbobot lebih besar &mdash; paruh-waktu sekitar 231 hari, angka yang ditentukan lewat backtest, bukan diasumsikan.</p></div></li>
+      <li><span class="n">02</span><div><b>Susun</b><p>Tujuh belas klub punya kekuatan hasil fit. Tiga klub promosi tidak punya apa-apa &mdash; level mereka diukur dari performa nyata enam klub promosi tiga musim terakhir (0,80 poin per laga), lalu dibedakan satu sama lain lewat nilai skuad relatif.</p></div></li>
+      <li><span class="n">03</span><div><b>Sesuaikan</b><p>Klub dengan manajer baru dikoreksi dulu ke arah rata-rata &mdash; rekam jejak pendahulu tak seharusnya diwariskan utuh &mdash; lalu rekam jejak manajer barunya dicampurkan, condong ke musim-musim terakhirnya dan dibagi antara serangan dan pertahanan sesuai bentuk permainannya. Jadwal yang sudah memuat laga Eropa membawa biaya kelelahannya sendiri.</p></div></li>
+      <li><span class="n">04</span><div><b>Simulasikan</b><p>10.000 musim penuh dimainkan dari jadwal asli, dengan performa yang boleh menanjak dan menurun sepanjang musim, supaya rentetan hasil bagus atau buruk benar-benar bisa terjadi. Klub yang paling sedikit diketahui modelnya &mdash; baru promosi, baru ganti manajer, atau tipis pelapisnya &mdash; diberi rentang hasil yang lebih lebar, bukan satu angka yang sok yakin.</p></div></li>
+    </ol>
+
+    <h3 style="font-size:1.06rem;font-weight:700;margin-bottom:6px;">Mana yang terukur, mana yang perkiraan</h3>
+    <p style="color:var(--ink-2);font-size:.94rem;margin:0 0 18px;max-width:64ch;">Setiap masukan diberi label jujur. Perkiraan bukan berarti tebakan yang disembunyikan &mdash; itu angka yang dibutuhkan model tapi belum bisa dipastikan datanya.</p>
+    <table class="data">
+      <tr><th>Masukan</th><th>Status</th><th>Dasar</th></tr>
+      <tr><td>Hasil pertandingan &amp; jadwal</td><td><span class="pill ok">Terukur</span></td><td>1.140 hasil Premier League asli; jadwal resmi 2026/27</td></tr>
+      <tr><td>Nilai pasar skuad</td><td><span class="pill ok">Terukur</span></td><td>Skuad lengkap 20 klub dari Transfermarkt, disilangkan dengan riwayat penampilan nyata</td></tr>
+      <tr><td>Rekam jejak manajer</td><td><span class="pill ok">Terukur</span></td><td>20 dari 21 masa jabatan memakai rekor menang&ndash;seri&ndash;kalah asli, bukan rata-rata yang sudah jadi</td></tr>
+      <tr><td>Level klub promosi</td><td><span class="pill ok">Terukur</span></td><td>Poin per laga nyata seluruh klub yang promosi dalam tiga musim terakhir</td></tr>
+      <tr><td>Kedalaman skuad</td><td><span class="pill ok">Terukur</span></td><td>Nilai pasar asli, diperingkat per lini, dinilai terhadap standar pemain inti seliga</td></tr>
+      <tr><td>Urutan di antara klub promosi</td><td><span class="pill est">Perkiraan</span></td><td>Elastisitas nilai skuad tak punya data historis untuk dikalibrasi &mdash; ini angka paling tidak pasti di halaman ini</td></tr>
+      <tr><td>Besaran efek manajer, koreksi pergantian, bobot kelelahan &amp; kerapuhan</td><td><span class="pill est">Perkiraan</span></td><td>Tidak ada sumber yang bisa memisahkan andil spesifik seorang manajer dari hasil klubnya, atau berapa mahal sebenarnya skuad yang tipis</td></tr>
+    </table>
+
+    <aside class="honest">
+      <h3>Sejauh mana ini sudah diuji</h3>
+      <p>Mesin pertandingan dan simulasinya di-backtest terhadap klasemen akhir asli musim 2024/25 dan 2025/26. Terus terang soal hasilnya: prediksi naif &mdash; sekadar menyalin klasemen musim lalu &mdash; menyamai atau mengalahkan model ini di kedua musim tersebut. Itu bukan bukti modelnya salah: dua musim itu jauh lebih sedikit pergantian manajernya dibanding sembilan penunjukan baru di 2026/27, jadi pembeda utama model ini &mdash; menilai rekam jejak manajer baru &mdash; nyaris tak punya kesempatan membuktikan diri di sana. Tapi artinya angka di atas layak dibaca sebagai perkiraan yang dipikirkan matang, bukan ramalan yang sudah tervalidasi.</p>
+      <p>Pekan pertama musim ini sudah dimainkan di dunia nyata dan hasilnya sudah tersedia. Angka-angka ini sengaja tidak memasukkannya: satu pertandingan, apalagi hasil kejutan, lebih berisiko merusak perkiraan kekuatan sepanjang musim daripada memperbaikinya.</p>
+    </aside>
+  </section>
+
+  <footer>
+    <p>Dibangun sepenuhnya dari data publik gratis. Tanpa langganan berbayar, tanpa rating berpemilik.</p>
+    <ul><li>football-data.org</li><li>API Fantasy Premier League</li><li>Transfermarkt (pengumpulan manual)</li><li>Pencarian web, disilangkan dengan hasil pertandingan</li></ul>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var T = [
+    {n:"Arsenal",p:80.0,lo:68,hi:91,ti:49.5,t4:94.0,rel:0.0,src:"fitted",dep:0.47,weak:"Gelandang",g:[49.49,27.09,12.01,5.39,2.54,1.48,0.82,0.5,0.25,0.11,0.16,0.06,0.01,0.05,0.03,0,0,0.01,0,0]},
+    {n:"Manchester City",p:74.1,lo:59,hi:88,ti:27.4,t4:78.3,rel:0.1,src:"fitted",dep:0.30,weak:"Kiper",g:[27.39,25.01,15.99,9.95,6.28,4.53,3.14,2.3,1.43,1.07,0.81,0.68,0.49,0.28,0.29,0.18,0.09,0.06,0.03,0]},
+    {n:"Liverpool",p:59.5,lo:44,hi:75,ti:3.7,t4:31.3,rel:2.7,src:"fitted",dep:0.32,weak:"Penyerang",g:[3.69,8.15,9.63,9.87,9.73,7.64,7.11,6.6,6.11,5.22,4.68,4.06,3.88,3.65,2.99,2.38,1.91,1.43,0.94,0.33]},
+    {n:"Manchester Utd",p:58.9,lo:40,hi:78,ti:6.0,t4:32.7,rel:5.5,src:"fitted",dep:0.42,weak:"Kiper",g:[6.03,8.59,9.47,8.63,7.59,7.22,6.31,5.56,4.96,4.46,4.24,4.15,3.67,3.69,3.2,3.52,3.18,2.89,1.85,0.79]},
+    {n:"Chelsea",p:56.8,lo:41,hi:72,ti:2.4,t4:23.8,rel:4.4,src:"fitted",dep:0.46,weak:"Gelandang",g:[2.42,4.94,7.7,8.74,8.18,7.82,7.15,6.41,6.61,5.91,5.23,4.84,4.61,4.48,4.13,3.33,3.06,2.32,1.59,0.53]},
+    {n:"Bournemouth",p:56.6,lo:41,hi:72,ti:1.9,t4:23.0,rel:4.1,src:"fitted",dep:0.31,weak:"Bek",g:[1.87,4.56,7.93,8.61,8.2,7.79,7.27,6.55,6.55,6.38,5.54,5.11,4.7,4.24,3.94,3.46,3.16,2.36,1.25,0.53]},
+    {n:"Brighton",p:54.9,lo:42,hi:68,ti:0.8,t4:14.4,rel:3.1,src:"fitted",dep:0.28,weak:"Kiper",g:[0.77,2.61,4.58,6.41,7.77,8.2,8.36,8.02,7.75,7.56,6.68,6.7,6.04,4.92,4.13,3.74,2.67,1.88,0.97,0.24]},
+    {n:"Brentford",p:52.6,lo:37,hi:68,ti:1.1,t4:14.1,rel:7.7,src:"fitted",dep:0.28,weak:"Kiper",g:[1.15,2.83,4.51,5.62,5.69,6.83,6.38,6.52,6.34,6.5,6.16,6.27,5.63,5.78,5.59,5.44,5.06,3.85,2.76,1.09]},
+    {n:"Nott'ham Forest",p:52.0,lo:37,hi:68,ti:1.1,t4:12.9,rel:8.6,src:"fitted",dep:0.30,weak:"Kiper",g:[1.05,2.38,4.19,5.26,6.23,6.2,6.93,6.17,5.95,5.9,6.39,6.01,6.16,5.96,5.72,5.49,5.42,4.17,3.07,1.35]},
+    {n:"Newcastle Utd",p:52.0,lo:34,hi:72,ti:2.8,t4:18.3,rel:13.0,src:"fitted",dep:0.33,weak:"Bek",g:[2.79,4.45,5.52,5.5,5.43,5.22,5.22,5.22,4.99,5.05,4.79,5.17,5.4,5.31,5.5,5.57,5.86,5.46,4.57,2.98]},
+    {n:"Aston Villa",p:51.3,lo:38,hi:64,ti:0.3,t4:8.1,rel:6.3,src:"fitted",dep:0.32,weak:"Bek",g:[0.33,1.32,2.67,3.74,5.63,6.05,6.56,6.74,7.02,7.87,7.57,7.56,6.9,6.82,6.36,5.64,4.91,3.71,1.92,0.68]},
+    {n:"Leeds United",p:49.9,lo:37,hi:63,ti:0.2,t4:6.7,rel:8.0,src:"fitted",dep:0.27,weak:"Kiper",g:[0.2,0.92,2.06,3.54,4.51,5.45,6.14,6.19,6.72,6.86,7.51,7.25,7.01,7.3,7.38,7,5.93,4.71,2.37,0.95]},
+    {n:"Everton",p:49.4,lo:37,hi:62,ti:0.1,t4:5.6,rel:7.2,src:"fitted",dep:0.26,weak:"Bek",g:[0.15,0.82,1.82,2.85,3.48,4.34,5.34,6.11,6.73,7.49,8.42,8.48,8.07,7.94,7.87,6.84,6.06,4.14,2.34,0.71]},
+    {n:"Tottenham",p:48.7,lo:34,hi:64,ti:0.5,t4:8.4,rel:14.0,src:"fitted",dep:0.44,weak:"Kiper",g:[0.52,1.61,2.6,3.65,4.22,4.78,4.84,5.84,5.49,5.87,6.31,6.1,6.16,6.67,6.83,7.22,7.26,6.98,4.5,2.55]},
+    {n:"Sunderland",p:47.7,lo:35,hi:60,ti:0.1,t4:3.8,rel:11.1,src:"fitted",dep:0.21,weak:"Kiper",g:[0.12,0.41,1.26,2.05,3.08,3.71,4.58,5.78,6.06,6.45,7.39,7.51,8.19,8.28,8.23,8.61,7.18,6.28,3.75,1.08]},
+    {n:"Crystal Palace",p:47.6,lo:33,hi:62,ti:0.3,t4:6.1,rel:14.7,src:"fitted",dep:0.32,weak:"Kiper",g:[0.3,0.96,2.06,2.82,3.75,4.22,4.73,5.46,5.92,6.04,6.1,6.45,6.91,6.93,7.19,7.37,8.13,6.46,5.6,2.6]},
+    {n:"Fulham",p:47.0,lo:29,hi:65,ti:1.0,t4:10.0,rel:21.2,src:"fitted",dep:0.17,weak:"Kiper",g:[0.99,1.74,3.57,3.68,3.85,4.29,4.17,4.67,4.94,4.66,4.83,4.99,5.75,5.52,6.52,7.09,7.49,8.19,7.7,5.36]},
+    {n:"Ipswich Town",p:36.9,lo:19,hi:56,ti:0.3,t4:3.5,rel:50.2,src:"promoted",dep:0.14,weak:"Bek",g:[0.34,0.63,1.01,1.56,1.58,1.67,2.03,2.11,2.5,2.29,2.77,3.26,3.87,4.49,5.09,6.21,8.42,12.74,18.94,18.49]},
+    {n:"Coventry City",p:36.3,lo:19,hi:55,ti:0.2,t4:2.8,rel:51.1,src:"promoted",dep:0.15,weak:"Kiper",g:[0.22,0.56,0.84,1.22,1.32,1.49,1.84,1.98,2.3,2.46,2.54,3.26,4,4.64,5.39,6.52,8.36,12.74,18.58,19.74]},
+    {n:"Hull City",p:30.2,lo:12,hi:51,ti:0.2,t4:2.1,rel:66.9,src:"promoted",dep:0.05,weak:"Penyerang",g:[0.18,0.42,0.58,0.91,0.94,1.07,1.08,1.27,1.38,1.85,1.88,2.09,2.55,3.05,3.62,4.39,5.85,9.62,17.27,40]}
+  ];
+
+  var id = function (x) { return document.getElementById(x); };
+  var tip = id("tip");
+  function showTip(e, text) { tip.textContent = text; tip.classList.add("on"); moveTip(e); }
+  function moveTip(e) { tip.style.left = e.clientX + "px"; tip.style.top = e.clientY + "px"; }
+  function hideTip() { tip.classList.remove("on"); }
+
+  // ---- sebaran posisi sebagai grafik mini ----
+  function sparkline(g) {
+    var w = 100, h = 34, pad = 1;
+    var max = Math.max.apply(null, g);
+    var pts = g.map(function (v, i) {
+      var x = pad + (i / (g.length - 1)) * (w - pad * 2);
+      var y = h - pad - (v / max) * (h - pad * 2);
+      return x.toFixed(2) + "," + y.toFixed(2);
+    });
+    var area = "0," + h + " " + pts.join(" ") + " " + w + "," + h;
+    return '<svg class="spark" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none" aria-hidden="true">' +
+           '<polygon points="' + area + '" fill="var(--plot)" opacity=".16"></polygon>' +
+           '<polyline points="' + pts.join(" ") + '" fill="none" stroke="var(--plot)" ' +
+           'stroke-width="1.6" stroke-linejoin="round" vector-effect="non-scaling-stroke"></polyline></svg>';
+  }
+
+  var rows = id("rows");
+  T.forEach(function (r, i) {
+    var el = document.createElement("div");
+    var zone = r.ti >= 20 ? "zone-ti" : (r.rel >= 20 ? "zone-rel" : (r.t4 >= 20 ? "zone-eu" : ""));
+    el.className = "row " + zone;
+
+    var chips = "";
+    if (r.ti >= 3) chips += '<span class="chip ti">Juara ' + r.ti.toFixed(0) + '%</span>';
+    if (r.t4 >= 20) chips += '<span class="chip eu">4 besar ' + r.t4.toFixed(0) + '%</span>';
+    if (r.rel >= 20) chips += '<span class="chip rel">Degradasi ' + r.rel.toFixed(0) + '%</span>';
+    if (!chips) chips = '<span class="chip mid">papan tengah</span>';
+
+    el.innerHTML =
+      '<span class="pos">' + (i + 1) + '</span>' +
+      '<div class="club"><b>' + r.n + '</b>' +
+        (r.src === "promoted" ? '<small class="warn">promosi &middot; urutan belum tervalidasi</small>' : '') +
+      '</div>' +
+      '<div class="pts"><b>' + r.p.toFixed(1).replace(".", ",") + '</b>' +
+        '<span>' + r.lo + '&ndash;' + r.hi + ' poin</span></div>' +
+      sparkline(r.g) +
+      '<div class="chips">' + chips + '</div>';
+
+    var sp = el.querySelector(".spark");
+    if (sp) {
+      sp.addEventListener("pointerenter", function (e) {
+        showTip(e, r.n + " — paling sering finis ke-" + (r.g.indexOf(Math.max.apply(null, r.g)) + 1));
+      });
+      sp.addEventListener("pointermove", moveTip);
+      sp.addEventListener("pointerleave", hideTip);
+    }
+    rows.appendChild(el);
+  });
+
+  // ---- peta posisi ----
+  var heat = id("heat");
+  heat.appendChild(document.createElement("div"));
+  for (var p = 1; p <= 20; p++) {
+    var cl = document.createElement("div");
+    cl.className = "cl";
+    cl.textContent = p;
+    heat.appendChild(cl);
+  }
+  T.forEach(function (r) {
+    var lab = document.createElement("div");
+    lab.className = "rl";
+    lab.textContent = r.n;
+    heat.appendChild(lab);
+    r.g.forEach(function (v, i) {
+      var c = document.createElement("div");
+      c.className = "cell";
+      var t = Math.min(1, Math.pow(v / 50, 0.5));
+      c.style.background = "color-mix(in oklab, var(--surface), var(--plot) " + (t * 100).toFixed(0) + "%)";
+      c.addEventListener("pointerenter", function (e) {
+        showTip(e, r.n + " — posisi " + (i + 1) + ": " + v.toFixed(1).replace(".", ",") + "%");
+      });
+      c.addEventListener("pointermove", moveTip);
+      c.addEventListener("pointerleave", hideTip);
+      heat.appendChild(c);
+    });
+  });
+
+  // ---- kedalaman skuad ----
+  var depth = id("depth");
+  T.slice().sort(function (a, b) { return b.dep - a.dep; }).forEach(function (r) {
+    var c = document.createElement("div");
+    c.className = "dcard";
+    var pct = Math.min(100, (r.dep / 0.5) * 100);
+    var col = r.dep < 0.2 ? "var(--coral)" : (r.dep > 0.4 ? "var(--teal)" : "var(--plot)");
+    c.innerHTML =
+      '<div class="nm"><span>' + r.n + '</span><em style="color:' + col + '">' +
+        r.dep.toFixed(2).replace(".", ",") + '</em></div>' +
+      '<div class="dbar"><i style="width:' + pct + '%;background:' + col + '"></i></div>' +
+      '<small>lini tertipis: ' + r.weak + '</small>';
+    depth.appendChild(c);
+  });
+})();
+</script>
