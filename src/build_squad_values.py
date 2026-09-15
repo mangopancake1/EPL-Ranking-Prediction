@@ -233,15 +233,29 @@ def resolve_epl_matches(player_ids: dict[str, int]) -> dict[str, tuple[int, int]
     was already in hand; it is now kept, because 90 minutes a week and 20
     minutes a week are not the same evidence of belonging in this league.
     """
-    out = {}
+    out, failed = {}, []
     for name, pid in player_ids.items():
         try:
             hist = fetch_fpl_history(pid)
-        except Exception:
+        except Exception as exc:
+            # A swallowed failure here is not harmless: the player keeps
+            # epl_matches=0, which reads downstream as "never played in the
+            # league" -- a genuine veteran (Rodrigo Muniz, ~1000 minutes last
+            # season) turned into a false newcomer by a timed-out request.
+            failed.append(f"{name} ({type(exc).__name__})")
             continue
         minutes = sum(season.get("minutes", 0) for season in hist.get("history_past", []))
         out[name] = (round(minutes / 90.0), int(minutes))
         time.sleep(config.REQUEST_DELAY["fpl"] / 3)
+
+    if failed:
+        print(f"  ! {len(failed)} history fetches failed: {', '.join(failed[:8])}"
+              + (" ..." if len(failed) > 8 else ""))
+        if len(failed) > 0.05 * len(player_ids):
+            raise RuntimeError(
+                f"{len(failed)} of {len(player_ids)} FPL history fetches failed "
+                "-- too many to trust the newcomer/minutes columns; rerun with a warm cache"
+            )
     return out
 
 

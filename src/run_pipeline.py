@@ -24,7 +24,7 @@ import numpy as np
 import pandas as pd
 
 import config
-from src import debutant_career, features, player_ratings
+from src import championship, debutant_career, features, player_ratings
 from src.dixon_coles import DCParams, fit_blended, time_weights
 from src.monte_carlo import default_flags, rank_matrix, simulate, summarise
 
@@ -195,7 +195,8 @@ def promoted_baseline(matches: pd.DataFrame, slope: float) -> tuple[float, int, 
 
 
 def manager_delta(
-    team: str, priors: dict, slope: float, as_of: pd.Timestamp
+    team: str, priors: dict, slope: float, as_of: pd.Timestamp,
+    prior_stints: list[dict] | None = None,
 ) -> tuple[float, float, dict | None]:
     """
     Strength shift from the manager prior: real statistics first (ppg AND
@@ -222,7 +223,7 @@ def manager_delta(
     their record at this club IS the fit.
     """
     stints = priors.get(team, {})
-    prior = features.manager_prior(team, stints, as_of)
+    prior = features.manager_prior(team, stints, as_of, prior_stints=prior_stints)
     if prior is None:
         return 0.0, 0.0, None
 
@@ -261,17 +262,54 @@ def manager_delta(
 # ------------------------------------------------------------------ assembly
 
 
+def _club_ppg(played: pd.DataFrame, team: str) -> tuple[float, int]:
+    """Points per game this club has actually managed so far, and games played."""
+    d = played[(played["home_team"] == team) | (played["away_team"] == team)]
+    if d.empty:
+        return 0.0, 0
+    pts = 0
+    for r in d.itertuples(index=False):
+        home = r.home_team == team
+        gf, ga = (r.home_goals, r.away_goals) if home else (r.away_goals, r.home_goals)
+        pts += config.POINTS_WIN if gf > ga else (config.POINTS_DRAW if gf == ga else config.POINTS_LOSS)
+    return pts / len(d), len(d)
+
+
 def build_strengths(
     matches: pd.DataFrame,
     squads: pd.DataFrame,
     priors: dict,
     as_of: pd.Timestamp,
+    played: pd.DataFrame | None = None,
 ) -> tuple[DCParams, pd.DataFrame]:
-    """Assemble one attack/defence pair per 2026/27 club, with an audit trail."""
+    """
+    Assemble one attack/defence pair per 2026/27 club, with an audit trail.
+
+    played, if given, is this season's real results. The fitted clubs pick them
+    up automatically -- they are already in `matches` by the time this is
+    called, recency-weighted by the same decay as everything else. A promoted
+    club gets no fitted rating worth using off a handful of games, so its
+    baseline level is blended toward what those games actually said, the
+    baseline's weight falling as games accumulate (config.LIVE_PRIOR_MATCH_WEIGHT).
+    """
     print("fitting Dixon-Coles ...")
     fitted = fit_blended(matches, reference_date=as_of)
     print(f"  {fitted.n_matches} matches, {len(fitted.teams)} clubs, "
           f"home_adv={fitted.home_adv:.3f} rho={fitted.rho:.3f}")
+
+    # home_adv is one fitted constant, but Premier League home advantage is on
+    # a long slide (mid-2020s ~43% home wins, down from ~65% decades ago). The
+    # time decay already tilts the fit toward recent seasons; this just makes
+    # the trend visible, so a sharp ongoing drop is seen rather than averaged
+    # away -- same spirit as the drag and calendar-horizon warnings below.
+    trained = matches[matches["season"].isin(config.TRAIN_SEASONS)]
+    hw = trained.groupby("season").apply(
+        lambda d: (d["home_goals"] > d["away_goals"]).mean(), include_groups=False)
+    print("  home-win rate by training season: "
+          + ", ".join(f"{s.split('-')[0]} {r:.0%}" for s, r in hw.items()))
+    if len(hw) >= 2 and hw.iloc[-1] < hw.iloc[0] - 0.03:
+        print(f"  ! home advantage is trending down ({hw.iloc[0]:.0%} -> {hw.iloc[-1]:.0%} "
+              "across the window); a single fitted home_adv slightly overstates it")
 
     slope = ppg_to_strength_slope(matches, fitted, as_of)
     print(f"  1.00 ppg = {slope:.3f} combined strength (measured from the fit)")
@@ -318,6 +356,34 @@ def build_strengths(
     promo_base, n_promo, promo_ppg = promoted_baseline(matches, slope)
     print(f"  promoted baseline: {promo_ppg:.2f} ppg from {n_promo} real promoted club-seasons "
           f"-> {promo_base:+.3f} combined strength")
+
+    # A promoted club's own Championship record, on top of the population
+    # baseline. The line is measured from past promoted clubs (their second-tier
+    # ppg in the promotion season against their PL ppg the season after); a
+    # club with no record on file keeps the baseline. See src/championship.py.
+    if config.CHAMPIONSHIP_OFFSET:
+        champ_model, champ_ppg, champ_label = championship.choose(
+            matches, championship.current_clubs(), config.TRAIN_SEASONS)
+    else:
+        champ_model, champ_ppg, champ_label = None, {}, "off"
+    if champ_model is None:
+        print(f"  championship offset: {'switched off in config' if not config.CHAMPIONSHIP_OFFSET else 'no usable fit'} -- baseline only")
+    else:
+        print(f"  championship offset [{champ_label}]: pl_ppg = {champ_model['a']:.2f} + "
+              f"{champ_model['b']:.2f} * champ_{champ_model.get('input', 'ppg')}  "
+              f"(r={champ_model['r']:.2f})"
+              + ("" if champ_model["b"] == champ_model["b_raw"]
+                 else f"  [raw slope {champ_model['b_raw']:.2f}, clamped]"))
+        # Both large-sample inputs, so the better one is visible even when the
+        # current clubs only have the weaker input on file.
+        for inp in ("gd", "ppg"):
+            alt = championship.fit_big(inp)
+            if alt and alt.get("input") != champ_model.get("input"):
+                print(f"    (PL-era {inp}: slope {alt['b']:.2f}, r={alt['r']:.2f}, n={alt['n']} -- "
+                      + ("not applied, current clubs lack gd on file" if inp == "gd" else "for comparison") + ")")
+        for t in config.PROMOTED:
+            if t not in champ_ppg:
+                print(f"    {t}: no Championship record on file, baseline only")
     worst_cov = min(squad[t]["known_coverage"] for t in config.TEAMS)
     print(f"  mean newcomer share {league_avg_newcomer:.2f} "
           f"(lowest club coverage {worst_cov:.0%} of listed value with a resolved record)")
@@ -368,10 +434,26 @@ def build_strengths(
             # Level from what promoted clubs actually managed; separation
             # between the three from their squad values relative to each other.
             spread = features.squad_to_strength(s["strength"], promo_avg_value)
-            combined = promo_base + spread
+            champ_off = (championship.club_offset_ppg(team, champ_model, champ_ppg)
+                         * slope * config.PROMOTION_PENALTY)
+            combined = promo_base + champ_off + spread
             attack = defence = combined / 2.0
             source = "promoted"
             promo = promo_base
+
+            # Weekly series only: condition the level on this club's real games.
+            # A promoted club has no fitted rating worth trusting off 3 games,
+            # so blend the population baseline with what those games said,
+            # shrinking the baseline as evidence builds. This is the peer's
+            # "prior in units of matches" -- LIVE_PRIOR_MATCH_WEIGHT is exactly
+            # how many games it takes for the two to weigh equally.
+            if played is not None and len(played):
+                club_ppg, n_played = _club_ppg(played, team)
+                if n_played > 0:
+                    minifit = (club_ppg - config.LEAGUE_AVG_PPG) * slope * config.PROMOTION_PENALTY
+                    w = config.LIVE_PRIOR_MATCH_WEIGHT / (config.LIVE_PRIOR_MATCH_WEIGHT + n_played)
+                    combined = w * combined + (1.0 - w) * minifit
+                    attack = defence = combined / 2.0
 
             # Blend in the squad-rating estimate, exactly as the fitted clubs
             # do. This was skipped while the rating file covered almost none
@@ -394,6 +476,7 @@ def build_strengths(
             i = fitted.index[team]
             attack, defence = float(fitted.attack[i]), float(fitted.defence[i])
             promo = 0.0
+            champ_off = 0.0
             source = "fitted"
 
             # Blend in the squad-rating estimate of the same strength. Only
@@ -484,6 +567,7 @@ def build_strengths(
                 "adaptation_drag": drag,
                 "changeover_shrink": shrink,
                 "promoted_baseline": promo,
+                "championship_offset": champ_off,
                 "manager_delta_atk": atk_delta,
                 "manager_delta_def": def_delta,
                 "manager_delta": atk_delta + def_delta,
@@ -495,12 +579,15 @@ def build_strengths(
     audit = pd.DataFrame(rows)
 
     # A per-club adjustment with no spread across clubs is not an adjustment.
-    # ADAPTATION_DRAG collapsed to a flat -0.0021 once the debutant-career file
-    # grew enough to give almost every newcomer a rating, and nothing said so:
-    # it kept its slot in the UI while contributing zero. Say it out loud.
+    # This is the guard that caught ADAPTATION_DRAG going degenerate. It stays
+    # on manager_delta and anything else that is meant to differentiate; drag
+    # itself is now deliberately 0.0, so an all-flat reading there is expected,
+    # not a warning.
     fitted_rows = audit[audit["source"] == "fitted"]
-    for column, label in (("adaptation_drag", "adaptation drag"),
-                          ("manager_delta", "manager delta")):
+    checks = [("manager_delta", "manager delta")]
+    if config.ADAPTATION_DRAG != 0.0:
+        checks.append(("adaptation_drag", "adaptation drag"))
+    for column, label in checks:
         if len(fitted_rows) > 1 and fitted_rows[column].std() < 1e-9:
             print(f"  ! {label} is flat across all fitted clubs "
                   f"({fitted_rows[column].iloc[0]:+.4f}) -- it separates nobody")
@@ -528,18 +615,41 @@ def build_strengths(
 # ------------------------------------------------------------------ run
 
 
-def main() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+def main(played: pd.DataFrame | None = None, write: bool = True
+         ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """
+    played: this season's real results (src/live_results). None is the
+    pre-season forecast. A DataFrame folds those results into the fit and
+    simulates only the fixtures not yet played -- the weekly series.
+
+    write: whether to overwrite output/*.csv. The weekly run passes False so it
+    does not clobber the pre-season files; src/weekly.py logs it separately.
+    """
     as_of = pd.Timestamp(config.TODAY)
-    print(f"EPL {config.SEASON} prediction, as of {config.TODAY}\n")
+    mode = "weekly-updating" if played is not None and len(played) else "pre-season"
+    print(f"EPL {config.SEASON} prediction ({mode}), as of {config.TODAY}\n")
 
     matches = load_matches()
     fixtures = load_fixtures()
     squads = load_squads()
     priors = load_priors()
+
+    if played is not None and len(played):
+        # Fold the real results into the training data. fit_blended weights
+        # them by the same time decay as every other match, so three weeks of
+        # 2026/27 sit near full weight against three seasons that have faded.
+        matches = pd.concat([matches, played[matches.columns]], ignore_index=True)
+        done = set(zip(played["home_team"], played["away_team"]))
+        fixtures = fixtures[~fixtures.apply(
+            lambda r: (r.home_team, r.away_team) in done, axis=1)].reset_index(drop=True)
+        print(f"conditioned on {len(played)} played matches "
+              f"(through matchweek {int(played['matchweek'].max())}); "
+              f"{len(fixtures)} fixtures remain")
+
     print(f"loaded {len(matches)} matches, {len(fixtures)} fixtures, "
           f"{len(squads)} players, {len(priors)} manager priors\n")
 
-    params, audit = build_strengths(matches, squads, priors, as_of)
+    params, audit = build_strengths(matches, squads, priors, as_of, played=played)
 
     depth = dict(zip(audit["team"], audit["depth_ratio"]))
     fixtures = features.build_fatigue(fixtures, depth_ratios=depth)
@@ -596,7 +706,7 @@ def main() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     print(f"  thinnest squads: " + ", ".join(f"{t} ({v:.2f})" for v, t in thin if v > 0))
     print(f"simulating {config.N_SIMULATIONS:,} seasons "
           f"({len(flags)} clubs on a widened uncertainty band) ...")
-    result = simulate(params, fixtures, flags=flags)
+    result = simulate(params, fixtures, flags=flags, played=played)
 
     table = summarise(result)
     grid = rank_matrix(result)
@@ -606,6 +716,10 @@ def main() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     table["confidence"] = table["source"].map(
         {"promoted": "lower -- squad-value spread uses an unbacktested elasticity"}
     ).fillna("standard")
+
+    if not write:
+        _report(table, audit, wrote=False)
+        return table, grid, audit
 
     config.OUTPUT.mkdir(parents=True, exist_ok=True)
     table.to_csv(config.OUTPUT / "prediction_2026_27.csv", index=False)
@@ -662,7 +776,7 @@ def _sanity(table: pd.DataFrame, result: dict) -> None:
               "above the all-time record of 100")
 
 
-def _report(table: pd.DataFrame, audit: pd.DataFrame) -> None:
+def _report(table: pd.DataFrame, audit: pd.DataFrame, wrote: bool = True) -> None:
     a = audit.set_index("team")
     print(f"\n{'#':>3}  {'club':16s} {'pts':>5} {'90% range':>12} {'title':>7} "
           f"{'top4':>7} {'releg':>7}  {'source':>11}")
@@ -694,7 +808,8 @@ def _report(table: pd.DataFrame, audit: pd.DataFrame) -> None:
                   f"(conf {r.prior_confidence:.2f})  ->  atk {r.manager_delta_atk:+.3f} "
                   f"def {r.manager_delta_def:+.3f}")
 
-    print(f"\nwritten to {config.OUTPUT}")
+    print(f"\nwritten to {config.OUTPUT}" if wrote
+          else "\n(weekly run -- output/ left untouched, logged by src/weekly.py)")
 
 
 if __name__ == "__main__":

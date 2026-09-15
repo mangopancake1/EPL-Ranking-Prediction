@@ -132,7 +132,8 @@ def _seasonal_xg(stats: dict, as_of: pd.Timestamp) -> tuple[float, float]:
     return num_for / denom, num_against / denom
 
 
-def manager_prior(team: str, stint_stats: dict[str, dict], as_of: pd.Timestamp) -> dict | None:
+def manager_prior(team: str, stint_stats: dict[str, dict], as_of: pd.Timestamp,
+                  prior_stints: list[dict] | None = None) -> dict | None:
     """
     Collapse a manager's previous jobs into one prior, scaled to EPL terms.
 
@@ -145,15 +146,19 @@ def manager_prior(team: str, stint_stats: dict[str, dict], as_of: pd.Timestamp) 
     back to an elapsed-season estimate. Returns None when nothing usable
     survives, which is the honest answer for an international-only CV.
     """
-    mgr = config.MANAGERS.get(team)
-    if not mgr or not mgr.get("prior_stints"):
+    # prior_stints defaults to the live 2026/27 config; the backtest passes a
+    # historical list so this same function can price a past season's manager.
+    if prior_stints is None:
+        mgr = config.MANAGERS.get(team)
+        prior_stints = mgr.get("prior_stints") if mgr else None
+    if not prior_stints:
         return None
 
     num = {"ppg": 0.0, "xg_for": 0.0, "xg_against": 0.0}
     denom = 0.0
     used = []
 
-    for stint in mgr["prior_stints"]:
+    for stint in prior_stints:
         stats = stint_stats.get(stint["club"])
         if not stats:
             continue
@@ -178,7 +183,7 @@ def manager_prior(team: str, stint_stats: dict[str, dict], as_of: pd.Timestamp) 
         return None
 
     return {
-        "manager": mgr["name"],
+        "manager": (config.MANAGERS.get(team) or {}).get("name", team),
         "ppg": num["ppg"] / denom,
         "xg_for": num["xg_for"] / denom,
         "xg_against": num["xg_against"] / denom,

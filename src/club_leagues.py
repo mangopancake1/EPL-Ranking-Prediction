@@ -57,7 +57,8 @@ CLUB_LEAGUE: dict[str, str] = {
     # France
     "PSG": "Ligue 1", "Lyon": "Ligue 1", "Marseille": "Ligue 1", "Lille": "Ligue 1",
     "Lille B": "Ligue 2", "Monaco": "Ligue 1", "Rennes": "Ligue 1",
-    "Rennes B": "Ligue 2", "Nice": "Ligue 1", "Nantes": "Ligue 1",
+    "Rennes B": "Ligue 2", "Marseille B": "Ligue 2", "Sochaux B": "Ligue 2",
+    "Nice": "Ligue 1", "Nantes": "Ligue 1",
     "Strasbourg": "Ligue 1", "Strasbourg B": "Ligue 2", "Toulouse": "Ligue 1",
     "Toulouse B": "Ligue 2", "Reims": "Ligue 1", "Reims B": "Ligue 2",
     "Angers": "Ligue 1", "Angers B": "Ligue 2", "Auxerre": "Ligue 1",

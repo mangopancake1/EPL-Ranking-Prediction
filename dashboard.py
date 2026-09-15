@@ -33,6 +33,8 @@ pg = st.navigation(
         st.Page("pages/squad_market.py", title="Squad & Market",
                 icon=":material/swap_horiz:"),
         st.Page("pages/under_the_hood.py", title="Under the Hood", icon=":material/query_stats:"),
+        st.Page("pages/live_vs_preseason.py", title="Live vs Pre-season",
+                icon=":material/update:"),
         st.Page("pages/compare.py", title="Compare Clubs",
                 icon=":material/compare_arrows:"),
     ]

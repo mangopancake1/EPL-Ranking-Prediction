@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "purpose": "Championship points-per-game in the promotion season, for every club that then played in the Premier League. src/championship.py fits pl_ppg = a + b * champ_ppg on the past promoted clubs (the 'after' side is already in matches_football_data.csv) and applies the line to this season's three, so a promoted club's level carries its own second-tier record instead of only the population average.",
+    "source": "FootyStats club-season pages, 'Overall' row: Pld / W / D / L / PPG. Fill ppg (and matches) per club-season; leave null where not collected -- a null club falls back to the population baseline, never to a guess.",
+    "note": "Only the promotion season is used for the fit, because that is the one season the 'after' can be paired with cleanly. Earlier Championship seasons for the current three are optional context and not read.",
+    "filled": true,
+    "generated": "2026-09-11 -- 8 of 9 past pairs + all 3 current, from FootyStats Overall rows (incl. playoffs)"
+  },
+  "past": {
+    "2022-2023": {
+      "Burnley": {
+        "matches": 46,
+        "ppg": 2.2
+      },
+      "Luton Town": {
+        "matches": 49,
+        "ppg": 1.71
+      },
+      "Sheffield United": {
+        "matches": 46,
+        "ppg": 1.98
+      }
+    },
+    "2023-2024": {
+      "Ipswich Town": {
+        "matches": 46,
+        "ppg": 2.09
+      },
+      "Leicester City": {
+        "matches": 46,
+        "ppg": 2.11
+      },
+      "Southampton": {
+        "matches": 49,
+        "ppg": 1.92
+      }
+    },
+    "2024-2025": {
+      "Leeds United": {
+        "matches": 46,
+        "ppg": 2.17
+      },
+      "Burnley": {
+        "matches": null,
+        "ppg": null,
+        "note": "not supplied -- the paste was Burnley's 2025-26 PL season (38 games, 0.58), not their 2024-25 Championship"
+      },
+      "Sunderland": {
+        "matches": 49,
+        "ppg": 1.69
+      }
+    }
+  },
+  "current": {
+    "2025-2026": {
+      "Coventry City": {
+        "matches": 46,
+        "ppg": 2.07
+      },
+      "Hull City": {
+        "matches": 49,
+        "ppg": 1.63
+      },
+      "Ipswich Town": {
+        "matches": 46,
+        "ppg": 1.83
+      }
+    }
+  }
+}

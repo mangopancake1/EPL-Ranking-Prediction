@@ -73,35 +73,27 @@ with cols[1].container(border=True):
 
 st.subheader(":material/stacked_bar_chart: What moved each club away from its own results")
 st.caption(
-    "Every club starts at what three seasons of real matches earned it. These are the "
-    "three things allowed to move it from there — how good the current squad actually is, "
-    "how much of it is brand new to this league, and who is now in the dugout. Bars to the "
-    "right made a club stronger than its results alone; to the left, weaker. A club with "
-    "no bars is one the results already describe."
+    "Every club starts at what three seasons of real matches earned it. Two things are "
+    "allowed to move it from there — how good the current squad actually is, and who is "
+    "now in the dugout. Bars to the right made a club stronger than its results alone; "
+    "to the left, weaker. A club with no bars is one the results already describe."
 )
 
 adj = merged[merged.source == "fitted"].copy()
 adj["squad rating"] = adj["rating_shift"] * 2      # applied to attack and defence alike
-adj["new to the league"] = -adj["adaptation_drag"] * 2
 adj["manager"] = adj["manager_delta"]
 
-# A component that is identical for every club separates nobody, and drawing it
-# as a bar implies it does. "New to the league" collapsed to a flat -0.002 once
-# nearly every arrival gained a rating from the career file, so it is dropped
-# rather than shown as a driver it no longer is.
-COMPONENTS = [("squad rating", dd.TEAL), ("new to the league", dd.CORAL), ("manager", dd.GOLD)]
-FLAT = [c for c, _ in COMPONENTS if adj[c].std() < 1e-9]
-COMPONENTS = [(c, colour) for c, colour in COMPONENTS if c not in FLAT]
-
+COMPONENTS = [("squad rating", dd.TEAL), ("manager", dd.GOLD)]
 adj["total"] = sum(adj[c] for c, _ in COMPONENTS)
 adj = adj.sort_values("total")
 
-if FLAT:
-    st.caption(
-        f"_{', '.join(FLAT).capitalize()} is not drawn: it currently works out the same "
-        f"for all {len(adj)} clubs, so it moves everyone together and separates nobody. It stays "
-        "in the model, but showing it as a bar would imply a distinction that isn't there._"
-    )
+st.caption(
+    "_There used to be a third bar, a penalty for squads with more players new to the "
+    "league than average. It was retired: once nearly every newcomer had a real rating "
+    "feeding the squad-rating bar, the penalty applied to almost nobody and swung on "
+    "stray data. Squad inexperience still counts, it just runs through the squad rating "
+    "now rather than a separate charge._"
+)
 
 with st.container(border=True):
     st_echarts(

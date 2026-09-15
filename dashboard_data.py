@@ -258,6 +258,30 @@ def _midweek_dates() -> dict[str, list[str]]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+@st.cache_data(show_spinner=False)
+def _series_log(_mtime: float) -> pd.DataFrame:
+    """Pre-season vs weekly-updating forecast, one row per club per run (src/weekly)."""
+    path = config.OUTPUT / "series_log.csv"
+    return pd.read_csv(path) if path.exists() else pd.DataFrame()
+
+
+@st.cache_data(show_spinner=False)
+def _prior_strength(_mtime: float) -> pd.DataFrame:
+    """Matchdays to shift a club's relegation probability 10 points (src/prior_strength)."""
+    path = config.OUTPUT / "prior_strength.csv"
+    return pd.read_csv(path) if path.exists() else pd.DataFrame()
+
+
+def series_log() -> pd.DataFrame:
+    path = config.OUTPUT / "series_log.csv"
+    return _series_log(path.stat().st_mtime if path.exists() else 0.0)
+
+
+def prior_strength() -> pd.DataFrame:
+    path = config.OUTPUT / "prior_strength.csv"
+    return _prior_strength(path.stat().st_mtime if path.exists() else 0.0)
+
+
 def transfers() -> pd.DataFrame:
     return _transfers()
 

@@ -490,12 +490,20 @@ SQUAD_VALUE_ELASTICITY_GRID = [0.20, 0.28, 0.36, 0.44, 0.52]
 # Penalty on a fitted club whose squad contains more players new to the league
 # than the league average, scaled by that excess.
 #
-# Was off for v1: the value data then covered only the world's ~500 most
-# expensive players, so newcomer_share measured who cleared a global cutoff,
-# not real squad turnover (12 of 17 fitted clubs read exactly 0.00). Re-enabled
-# 2026-08 once epl_squads_2026_27.md gave every club a full, complete squad
-# (23-36 players each) instead of a value-filtered sample.
-ADAPTATION_DRAG = 0.30  # ESTIMATE, unchanged pending backtest
+# Retired 2026-09. It had two lives and neither worked. v1: the value data
+# covered only the ~500 most expensive players, so newcomer_share measured who
+# cleared a global cutoff, not squad turnover (12 of 17 clubs read 0.00).
+# Re-enabled 2026-08 on full squads -- but by then debutant_career had grown to
+# ~120 players and every newcomer with a rating is excluded here (already
+# priced into the squad_rating blend), leaving 14 of 17 clubs back at exactly
+# 0.00. What signal remained was tiny and swung on a single FPL glitch
+# (Rodrigo Muniz, a Fulham regular, misfetched as a newcomer, inflated their
+# penalty by ~1 point). unproven_share does the squad-inexperience job with a
+# threshold instead of an exact-zero test, so it doesn't collapse the same way.
+# Kept at 0.0 rather than deleted: the plumbing (newcomer_share, the audit
+# column, the chart handling) is harmless and a future data shift could revive
+# the idea.
+ADAPTATION_DRAG = 0.0  # retired -- see above; unproven_share carries this now
 ADAPTATION_DRAG_GRID = [0.0, 0.15, 0.30, 0.45, 0.60]
 
 # --- Fatigue / congestion ------------------------------------------------
@@ -559,6 +567,39 @@ EUROPEAN_WEEKS = {
 # This also settles the double-count worry: the old design charged a guessed
 # penalty on top of a squad-value estimate that already had adaptation baked
 # into every player. Now the level is measured once and nothing is charged twice.
+# --- weekly-updating series (src/weekly.py) -------------------------------
+# The pre-season forecast ignores results already played, by design. The
+# weekly series folds them into the Dixon-Coles fit and is compared against
+# the pre-season one in May -- the test being whether not updating cost
+# anything.
+#
+# For a promoted club, the fit gives a rating off very few games (3 vs 0, not
+# 3 vs 1,140). That mini-fit is blended with the promoted-club baseline,
+# weight w = LIVE_PRIOR_MATCH_WEIGHT / (LIVE_PRIOR_MATCH_WEIGHT + games_played)
+# on the baseline. So the baseline's pull is stated in units of matches: it is
+# "worth" this many games of real evidence before the two are equal.
+LIVE_PRIOR_MATCH_WEIGHT = 10.0  # ESTIMATE -- a promoted club's prior in match-units
+LIVE_PRIOR_MATCH_WEIGHT_GRID = [4.0, 7.0, 10.0, 14.0, 19.0]
+
+# Championship-to-PL offset for the promoted clubs' level (src/championship).
+# Fitted on every Premier League-era promoted club (engsoccerdata + openfootball
+# for the 2022-23 gap, n=95, 32 windows): pl_ppg = a + b * champ_gd_per_game,
+# slope +0.30, r = +0.28 in sample, positive in every era since 1992.
+#
+# Out of sample it is nothing (src/rolling_offset, 25 folds 2000-2024, 75
+# promoted clubs, each fold fitted only on windows before it): the pooled GD
+# line beats the population mean on squared ppg error by under one percent
+# (0.0906 vs 0.0912) and wins 7 of 25 seasons; on relegation Brier it is worse
+# than the population mean and both are worse than simply quoting the training
+# relegation rate (0.2595 / 0.2571 / 0.2527). Splitting the line by parachute
+# status is worse again (0.0978 MSE) -- the interaction seen in sample is two
+# smaller fits, not a signal. The two-fold backtest agrees (rps 0.1439 off ->
+# 0.1466 on, manager layer off).
+#
+# Switched OFF on that evidence (2026-09-15). The fit, the rolling test and
+# the flag all stay so the question can be re-asked when more seasons exist.
+CHAMPIONSHIP_OFFSET = False
+
 PROMOTION_PENALTY = 1.00
 PROMOTION_PENALTY_GRID = [0.80, 0.90, 1.00, 1.10, 1.20]
 

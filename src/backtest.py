@@ -32,9 +32,10 @@ import pandas as pd
 from scipy.stats import spearmanr
 
 import config
+from src import championship, manager_history
 from src.dixon_coles import DCParams, fit, time_weights
 from src.monte_carlo import rank_matrix, simulate, summarise
-from src.run_pipeline import load_matches, ppg_to_strength_slope
+from src.run_pipeline import load_matches, manager_delta, ppg_to_strength_slope
 
 
 def teams_in_season(matches: pd.DataFrame, season: str) -> set[str]:
@@ -114,7 +115,8 @@ def rps(grid: pd.DataFrame, actual: pd.DataFrame) -> float:
     return float(np.mean(scores))
 
 
-def backtest_season(matches: pd.DataFrame, all_seasons: list[str], season: str, xi: float) -> dict:
+def backtest_season(matches: pd.DataFrame, all_seasons: list[str], season: str,
+                    xi: float, with_manager: bool = False) -> dict:
     idx = all_seasons.index(season)
     train_seasons = all_seasons[:idx]
     if not train_seasons:
@@ -134,13 +136,57 @@ def backtest_season(matches: pd.DataFrame, all_seasons: list[str], season: str, 
     promo_ppg, n_promo = other_promoted_ppg(matches, all_seasons, idx)
     promo_combined = (promo_ppg - config.LEAGUE_AVG_PPG) * slope if promo_ppg is not None else 0.0
 
+    # Championship-to-PL offset, fitted only on promotion windows whose PL side
+    # lies strictly before this fold, applied to this fold's promoted clubs'
+    # own Championship record. Same rule as the live pipeline; a club with no
+    # record keeps the population level.
+    # Fold's promoted clubs read their Championship season from engsoccerdata
+    # (tier 2, the year before), and the fit excludes every window whose PL
+    # side is this fold or later -- no leak.
+    fold_year = int(season.split("-")[0])
+    prev_stats = championship.eng_champ_stats(fold_year - 1)
+    fold_clubs = {t: prev_stats[t] for t in promoted if t in prev_stats}
+    if config.CHAMPIONSHIP_OFFSET:
+        champ_model, champ_prev, _ = championship.choose(
+            matches, fold_clubs, train_seasons, before_pl_season=fold_year)
+    else:
+        champ_model, champ_prev = None, {}
+    n_champ = sum(1 for t in promoted if t in champ_prev) if champ_model else 0
+
+    def promo_level(t: str) -> float:
+        off = championship.club_offset_ppg(t, champ_model, champ_prev) * slope
+        return (promo_combined + off) / 2.0
+
     teams = sorted(target_teams)
     attack = np.array([
-        fitted.attack[fitted.index[t]] if t in non_promoted else promo_combined / 2.0 for t in teams
+        fitted.attack[fitted.index[t]] if t in non_promoted else promo_level(t) for t in teams
     ])
     defence = np.array([
-        fitted.defence[fitted.index[t]] if t in non_promoted else promo_combined / 2.0 for t in teams
+        fitted.defence[fitted.index[t]] if t in non_promoted else promo_level(t) for t in teams
     ])
+    # Manager layer -- the one thing the naive baseline cannot do. Off by
+    # default; --with-manager applies run_pipeline.manager_delta() to the clubs
+    # that had a new manager that season, using priors reconstructed from data
+    # strictly before the fold (src/manager_history). A promoted club's own
+    # (foreign_share=1) delta is applied whole; a fitted club's is scaled by
+    # how much of the training window predates the manager -- approximated
+    # here by whether any training season falls under them, which for a first
+    # or mid-season appointment is all of it.
+    n_managed = 0
+    if with_manager:
+        stint_stats, prior_stints = manager_history.priors_for_season(
+            season, matches, train_seasons)
+        for i, t in enumerate(teams):
+            if t not in stint_stats:
+                continue
+            atk_d, def_d, prior = manager_delta(
+                t, stint_stats, slope, reference, prior_stints=prior_stints[t])
+            if prior is None:
+                continue
+            attack[i] += atk_d
+            defence[i] += def_d
+            n_managed += 1
+
     attack = attack - attack.mean()  # gauge: re-centre after swapping the promoted/relegated set
 
     params = DCParams(teams=teams, attack=attack, defence=defence,
@@ -162,6 +208,8 @@ def backtest_season(matches: pd.DataFrame, all_seasons: list[str], season: str, 
         "season": season,
         "xi": xi,
         "n_promoted_pool": n_promo,
+        "n_managed": n_managed,
+        "n_champ_offset": n_champ,
         "spearman": float(spearmanr(pred_rank[common], actual.loc[common, "rank"]).correlation),
         "mae_rank": float(np.mean(np.abs(pred_rank[common] - actual.loc[common, "rank"]))),
         "rps": rps(grid.loc[common], actual.loc[common]),
@@ -188,13 +236,45 @@ def naive_baseline(matches: pd.DataFrame, all_seasons: list[str], season: str) -
     }
 
 
-def grid_search(matches: pd.DataFrame) -> pd.DataFrame:
+def grid_search(matches: pd.DataFrame, with_manager: bool = False) -> pd.DataFrame:
     all_seasons = sorted(matches["season"].unique())
     rows = []
     for xi in config.XI_GRID:
         for season in config.BACKTEST_SEASONS:
-            rows.append(backtest_season(matches, all_seasons, season, xi))
+            rows.append(backtest_season(matches, all_seasons, season, xi, with_manager))
     return pd.DataFrame(rows)
+
+
+def manager_effect(matches: pd.DataFrame) -> None:
+    """
+    Same folds, same xi, manager layer off then on. The question this whole
+    data-collection exercise exists to answer: does pricing in a new manager
+    help or hurt, across the two seasons we can test?
+    """
+    all_seasons = sorted(matches["season"].unique())
+    if not manager_history.is_verified():
+        print("manager_history.json is not verified -- run `python -m src.manager_history` first")
+        return
+
+    print(f"\n{'='*66}\nmanager layer: off vs on (xi={config.XI}, {config.BACKTEST_SEASONS})\n{'='*66}")
+    print(f"{'season':>12} {'managed':>8}  {'spearman off->on':>20}  {'mae_rank off->on':>18}  {'rps off->on':>16}")
+
+    agg = {"off": [], "on": []}
+    for season in config.BACKTEST_SEASONS:
+        off = backtest_season(matches, all_seasons, season, config.XI, with_manager=False)
+        on = backtest_season(matches, all_seasons, season, config.XI, with_manager=True)
+        agg["off"].append(off)
+        agg["on"].append(on)
+        print(f"{season:>12} {on['n_managed']:>8}  "
+              f"{off['spearman']:>8.3f} -> {on['spearman']:<8.3f}  "
+              f"{off['mae_rank']:>7.2f} -> {on['mae_rank']:<7.2f}  "
+              f"{off['rps']:>6.4f} -> {on['rps']:<6.4f}")
+
+    for key in ("spearman", "mae_rank", "rps"):
+        o = np.mean([r[key] for r in agg["off"]])
+        n = np.mean([r[key] for r in agg["on"]])
+        better = "better" if (n > o if key == "spearman" else n < o) else "worse"
+        print(f"  mean {key:9s}: {o:.4f} -> {n:.4f}   ({better} with the manager layer)")
 
 
 def main() -> pd.DataFrame:
@@ -226,10 +306,15 @@ def main() -> pd.DataFrame:
         print(f"  {season}: spearman={nb['spearman']:.3f} mae_rank={nb['mae_rank']:.2f}")
 
     print(
-        "\nNOT calibrated here -- would need historical squad values and manager status "
-        "that were never collected for past seasons, only for 2026/27:\n"
-        "  MANAGER_EFFECT_SHARE, SQUAD_VALUE_ELASTICITY, ADAPTATION_DRAG (stay at ESTIMATE defaults)"
+        "\nNOT calibrated here -- would need historical squad values that were "
+        "never collected for past seasons, only for 2026/27:\n"
+        "  SQUAD_VALUE_ELASTICITY (stays at its ESTIMATE default)"
     )
+
+    if manager_history.is_verified():
+        manager_effect(matches)
+    else:
+        print("\n(manager layer: run `python -m src.manager_history` and verify to enable)")
     return results
 
 

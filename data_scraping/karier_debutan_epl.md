@@ -2849,3 +2849,16 @@
 | Jong Ajax | 2020/2021 | 13 | 0 | 1 | 6.60 |
 | Jong Ajax | 2019/2020 | 25 | 2 | 5 |  |
 | Jong Ajax | 2018/2019 | 2 | 1 | 1 |  |
+
+## Robinio Vaz
+
+**Klub Senior**
+
+
+| Klub | Musim | Main | Gol | Assist | Rating |
+|---|---|---|---|---|---|
+| Roma | 2025/2026 | 14 | 1 | 0 | 6.20 |
+| Marseille | 2025/2026 | 19 | 4 | 2 | 6.65 |
+| Marseille | 2024/2025 | 3 | 0 | 0 | 6.36 |
+| Marseille B | 2024/2025 | 10 | 6 | 0 |  |
+| Sochaux B | 2023/2024 | 5 | 0 | 0 |  |

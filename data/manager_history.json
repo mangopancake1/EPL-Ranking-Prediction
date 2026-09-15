@@ -1,0 +1,554 @@
+{
+  "meta": {
+    "purpose": "Manager assignments as of the start of each backtest season, so backtest.py can test the manager layer (MANAGER_EFFECT_SHARE, MANAGER_CHANGEOVER_SHRINK, MANAGER_XG_TO_PPG) instead of leaving it at its ESTIMATE default.",
+    "generated": "2026-09-10 -- verified; 4 stints from FootyStats (Parker/Brugge dropped, was Hayen's data)",
+    "verified": true,
+    "how_to_verify": "For each (season, club): confirm the manager who started that season, their status, and their prior_stints. status 'new' or 'interim_to_full' is what makes the manager layer fire; 'established' means the club's own results in the training window already contain them and no prior is needed. Set meta.verified true once checked.",
+    "confidence": "2024-25 drafted from knowledge. 2025-26 verified against the author's records: Parker/Burnley, Le Bris/Sunderland (reclassified new), Potter/West Ham, Pereira/Wolves all confirmed as the Aug-2025 manager. Parker's prior is the weak point -- see the Burnley note.",
+    "prior_ref": "Where a stint already has ppg/xG in data/manager_priors.json (same manager, same prior club), prior_ref names that key so it is not re-collected. Stints without a ref and without a Premier League league value need FootyStats/Transfermarkt collection before the backtest can use them.",
+    "reused_priors": {
+      "Brighton/Hurzeler <- St. Pauli": "manager_priors.json Brighton -> St. Pauli (54 matches, 2.148 ppg)",
+      "Chelsea/Maresca <- Leicester": "manager_priors.json Manchester City -> Leicester City (46 matches, 2.109 ppg)",
+      "Tottenham 2025-26/Frank <- Brentford": "computable directly from matches_football_data.csv -- Brentford is in every training season"
+    }
+  },
+  "seasons": {
+    "2024-2025": {
+      "Arsenal": {
+        "manager": "Mikel Arteta",
+        "status": "established",
+        "since": "2019-12-20",
+        "prior_stints": []
+      },
+      "Aston Villa": {
+        "manager": "Unai Emery",
+        "status": "established",
+        "since": "2022-11-01",
+        "prior_stints": []
+      },
+      "Bournemouth": {
+        "manager": "Andoni Iraola",
+        "status": "established",
+        "since": "2023-06-19",
+        "prior_stints": [],
+        "note": "one full season done by Aug 2024"
+      },
+      "Brentford": {
+        "manager": "Thomas Frank",
+        "status": "established",
+        "since": "2018-10-16",
+        "prior_stints": []
+      },
+      "Brighton": {
+        "manager": "Fabian Hurzeler",
+        "status": "new",
+        "since": "2024-07-01",
+        "prior_stints": [
+          {
+            "club": "St. Pauli",
+            "league": "2. Bundesliga",
+            "start": 2022,
+            "end": 2024,
+            "prior_ref": "St. Pauli"
+          }
+        ]
+      },
+      "Chelsea": {
+        "manager": "Enzo Maresca",
+        "status": "new",
+        "since": "2024-06-01",
+        "prior_stints": [
+          {
+            "club": "Leicester City",
+            "league": "Championship",
+            "start": 2023,
+            "end": 2024,
+            "prior_ref": "Leicester City"
+          },
+          {
+            "club": "Parma",
+            "league": "Serie B",
+            "start": 2021,
+            "end": 2021,
+            "confidence": "low",
+            "note": "short spell, may be excluded like Real Madrid was for Alonso"
+          }
+        ]
+      },
+      "Crystal Palace": {
+        "manager": "Oliver Glasner",
+        "status": "new",
+        "since": "2024-02-19",
+        "prior_stints": [
+          {
+            "club": "Eintracht Frankfurt",
+            "league": "Bundesliga",
+            "start": 2021,
+            "end": 2024,
+            "prior": {
+              "matches": 102,
+              "ppg": 1.363,
+              "source": "FootyStats club-season 21/22-23/24 (Glasner's Frankfurt tenure)",
+              "xg_seasons": [
+                {
+                  "end": 2022,
+                  "xg_for": 1.47,
+                  "xg_against": 1.5
+                },
+                {
+                  "end": 2023,
+                  "xg_for": 1.42,
+                  "xg_against": 1.26
+                },
+                {
+                  "end": 2024,
+                  "xg_for": 1.2,
+                  "xg_against": 1.26
+                }
+              ]
+            }
+          },
+          {
+            "club": "Wolfsburg",
+            "league": "Bundesliga",
+            "start": 2019,
+            "end": 2021
+          }
+        ],
+        "note": "arrived mid 23-24, so the training set already holds ~half a season of his Palace -- MANAGER_CHANGEOVER_SHRINK territory"
+      },
+      "Everton": {
+        "manager": "Sean Dyche",
+        "status": "established",
+        "since": "2023-01-30",
+        "prior_stints": []
+      },
+      "Fulham": {
+        "manager": "Marco Silva",
+        "status": "established",
+        "since": "2021-07-01",
+        "prior_stints": []
+      },
+      "Ipswich Town": {
+        "manager": "Kieran McKenna",
+        "status": "established",
+        "since": "2021-12-16",
+        "prior_stints": [],
+        "note": "promoted club; established at Ipswich across 2.5 years"
+      },
+      "Leicester City": {
+        "manager": "Steve Cooper",
+        "status": "new",
+        "since": "2024-06-20",
+        "prior_stints": [
+          {
+            "club": "Nott'ham Forest",
+            "league": "Premier League",
+            "start": 2021,
+            "end": 2023
+          },
+          {
+            "club": "Swansea",
+            "league": "Championship",
+            "start": 2019,
+            "end": 2021
+          }
+        ],
+        "note": "promoted club"
+      },
+      "Liverpool": {
+        "manager": "Arne Slot",
+        "status": "new",
+        "since": "2024-06-01",
+        "prior_stints": [
+          {
+            "club": "Feyenoord",
+            "league": "Eredivisie",
+            "start": 2021,
+            "end": 2024,
+            "prior": {
+              "matches": 102,
+              "ppg": 2.323,
+              "source": "FootyStats Eredivisie 21/22-23/24 (Slot's Feyenoord tenure)",
+              "xg_seasons": [
+                {
+                  "end": 2022,
+                  "xg_for": 2.12,
+                  "xg_against": 1.04
+                },
+                {
+                  "end": 2023,
+                  "xg_for": 2.15,
+                  "xg_against": 0.96
+                },
+                {
+                  "end": 2024,
+                  "xg_for": 2.06,
+                  "xg_against": 0.74
+                }
+              ]
+            }
+          },
+          {
+            "club": "AZ Alkmaar",
+            "league": "Eredivisie",
+            "start": 2020,
+            "end": 2021
+          }
+        ]
+      },
+      "Manchester City": {
+        "manager": "Pep Guardiola",
+        "status": "established",
+        "since": "2016-07-01",
+        "prior_stints": []
+      },
+      "Manchester Utd": {
+        "manager": "Erik ten Hag",
+        "status": "established",
+        "since": "2022-07-01",
+        "prior_stints": [],
+        "note": "sacked Oct 2024, but in the dugout at kickoff -- the fold predicts the whole season from the Aug picture"
+      },
+      "Newcastle Utd": {
+        "manager": "Eddie Howe",
+        "status": "established",
+        "since": "2021-11-08",
+        "prior_stints": []
+      },
+      "Nott'ham Forest": {
+        "manager": "Nuno Espirito Santo",
+        "status": "new",
+        "since": "2023-12-20",
+        "prior_stints": [
+          {
+            "club": "Al-Ittihad",
+            "league": "Saudi Pro League",
+            "start": 2023,
+            "end": 2023
+          },
+          {
+            "club": "Tottenham",
+            "league": "Premier League",
+            "start": 2021,
+            "end": 2021
+          },
+          {
+            "club": "Wolves",
+            "league": "Premier League",
+            "start": 2017,
+            "end": 2021
+          }
+        ],
+        "note": "arrived mid 23-24 -- changeover-shrink case like Glasner"
+      },
+      "Southampton": {
+        "manager": "Russell Martin",
+        "status": "established",
+        "since": "2023-06-21",
+        "prior_stints": [],
+        "note": "promoted club; won promotion, established at Southampton"
+      },
+      "Tottenham": {
+        "manager": "Ange Postecoglou",
+        "status": "established",
+        "since": "2023-06-05",
+        "prior_stints": [],
+        "note": "one full season done by Aug 2024"
+      },
+      "West Ham": {
+        "manager": "Julen Lopetegui",
+        "status": "new",
+        "since": "2024-05-21",
+        "prior_stints": [
+          {
+            "club": "Wolves",
+            "league": "Premier League",
+            "start": 2022,
+            "end": 2024
+          },
+          {
+            "club": "Sevilla",
+            "league": "La Liga",
+            "start": 2020,
+            "end": 2022
+          }
+        ]
+      },
+      "Wolves": {
+        "manager": "Gary O'Neil",
+        "status": "established",
+        "since": "2023-08-09",
+        "prior_stints": [],
+        "note": "one full season done by Aug 2024"
+      }
+    },
+    "2025-2026": {
+      "Arsenal": {
+        "manager": "Mikel Arteta",
+        "status": "established",
+        "since": "2019-12-20",
+        "prior_stints": []
+      },
+      "Aston Villa": {
+        "manager": "Unai Emery",
+        "status": "established",
+        "since": "2022-11-01",
+        "prior_stints": []
+      },
+      "Bournemouth": {
+        "manager": "Andoni Iraola",
+        "status": "established",
+        "since": "2023-06-19",
+        "prior_stints": [],
+        "confidence": "medium",
+        "note": "assumed still at Bournemouth; moves to Liverpool in summer 2026"
+      },
+      "Brentford": {
+        "manager": "Keith Andrews",
+        "status": "new",
+        "since": "2025-07-01",
+        "prior_stints": [
+          {
+            "club": "Republic of Ireland",
+            "league": "International",
+            "start": 2024,
+            "end": 2025
+          }
+        ],
+        "confidence": "medium",
+        "note": "Frank left for Spurs; matches the 2026-27 config"
+      },
+      "Brighton": {
+        "manager": "Fabian Hurzeler",
+        "status": "established",
+        "since": "2024-07-01",
+        "prior_stints": [],
+        "note": "one full season done"
+      },
+      "Burnley": {
+        "manager": "Scott Parker",
+        "status": "new",
+        "since": "2024-07-15",
+        "prior_stints": [
+          {
+            "club": "Club Brugge",
+            "league": "Belgian Pro League",
+            "start": 2024,
+            "end": 2024
+          },
+          {
+            "club": "Bournemouth",
+            "league": "Championship",
+            "start": 2021,
+            "end": 2022
+          },
+          {
+            "club": "Fulham",
+            "league": "Premier League",
+            "start": 2019,
+            "end": 2021
+          }
+        ],
+        "confidence": "low",
+        "note": "Scott Parker CONFIRMED as Burnley's 2025-26 manager (Championship promotion 24-25). No usable prior: he was sacked by Club Brugge in Dec 2023 so that club-season aggregate is Nicky Hayen's, not his; his immediate prior job (the Burnley Championship promotion) has no manager-prior data. Manager layer does not fire for Burnley 25-26 -- same as Cooper/Nuno/Potter."
+      },
+      "Chelsea": {
+        "manager": "Enzo Maresca",
+        "status": "established",
+        "since": "2024-06-01",
+        "prior_stints": [],
+        "note": "one full season done"
+      },
+      "Crystal Palace": {
+        "manager": "Oliver Glasner",
+        "status": "established",
+        "since": "2024-02-19",
+        "prior_stints": [],
+        "note": "1.5 seasons done"
+      },
+      "Everton": {
+        "manager": "David Moyes",
+        "status": "new",
+        "since": "2025-01-11",
+        "prior_stints": [
+          {
+            "club": "West Ham",
+            "league": "Premier League",
+            "start": 2019,
+            "end": 2024,
+            "prior_ref": "West Ham"
+          }
+        ],
+        "confidence": "medium",
+        "note": "arrived mid 24-25 -- changeover-shrink case; West Ham stint is in matches_football_data.csv"
+      },
+      "Fulham": {
+        "manager": "Marco Silva",
+        "status": "established",
+        "since": "2021-07-01",
+        "prior_stints": []
+      },
+      "Leeds United": {
+        "manager": "Daniel Farke",
+        "status": "established",
+        "since": "2023-07-04",
+        "prior_stints": [],
+        "confidence": "medium",
+        "note": "promoted club; won promotion, matches 2026-27 config"
+      },
+      "Liverpool": {
+        "manager": "Arne Slot",
+        "status": "established",
+        "since": "2024-06-01",
+        "prior_stints": [],
+        "note": "one full season done -- won the title"
+      },
+      "Manchester City": {
+        "manager": "Pep Guardiola",
+        "status": "established",
+        "since": "2016-07-01",
+        "prior_stints": []
+      },
+      "Manchester Utd": {
+        "manager": "Ruben Amorim",
+        "status": "new",
+        "since": "2024-11-11",
+        "prior_stints": [
+          {
+            "club": "Sporting CP",
+            "league": "Primeira Liga",
+            "start": 2020,
+            "end": 2024,
+            "prior": {
+              "matches": 136,
+              "ppg": 2.458,
+              "source": "FootyStats Liga Portugal 20/21-23/24 (Amorim's Sporting tenure)",
+              "xg_seasons": [
+                {
+                  "end": 2021,
+                  "xg_for": 1.41,
+                  "xg_against": 0.79
+                },
+                {
+                  "end": 2022,
+                  "xg_for": 1.82,
+                  "xg_against": 0.93
+                },
+                {
+                  "end": 2023,
+                  "xg_for": 1.81,
+                  "xg_against": 0.89
+                },
+                {
+                  "end": 2024,
+                  "xg_for": 1.73,
+                  "xg_against": 0.77
+                }
+              ]
+            }
+          }
+        ],
+        "confidence": "medium",
+        "note": "arrived mid 24-25 -- changeover-shrink; sacked ~Dec 2025 (Carrick interim in the 2026-27 config)"
+      },
+      "Newcastle Utd": {
+        "manager": "Eddie Howe",
+        "status": "established",
+        "since": "2021-11-08",
+        "prior_stints": []
+      },
+      "Nott'ham Forest": {
+        "manager": "Nuno Espirito Santo",
+        "status": "established",
+        "since": "2023-12-20",
+        "prior_stints": [],
+        "confidence": "medium",
+        "note": "one full season done -- strong 24-25"
+      },
+      "Sunderland": {
+        "manager": "Regis Le Bris",
+        "status": "new",
+        "since": "2024-07-01",
+        "prior_stints": [
+          {
+            "club": "Lorient",
+            "league": "Ligue 1",
+            "start": 2022,
+            "end": 2024,
+            "prior_ref": "Sunderland"
+          }
+        ],
+        "confidence": "low",
+        "note": "CONFIRMED. Reclassified new: promotion-winning first PL season, the fit contains no Le Bris PL data. Lorient prior reused from manager_priors.json (72 mts, 1.167 ppg)."
+      },
+      "Tottenham": {
+        "manager": "Thomas Frank",
+        "status": "new",
+        "since": "2025-06-12",
+        "prior_stints": [
+          {
+            "club": "Brentford",
+            "league": "Premier League",
+            "start": 2018,
+            "end": 2025
+          }
+        ],
+        "confidence": "medium",
+        "note": "from Brentford -- long PL stint, computable straight from matches_football_data.csv"
+      },
+      "West Ham": {
+        "manager": "Graham Potter",
+        "status": "new",
+        "since": "2025-01-09",
+        "prior_stints": [
+          {
+            "club": "Chelsea",
+            "league": "Premier League",
+            "start": 2022,
+            "end": 2023
+          },
+          {
+            "club": "Brighton",
+            "league": "Premier League",
+            "start": 2019,
+            "end": 2022
+          }
+        ],
+        "note": "CONFIRMED manager at Aug 2025 kickoff (arrived Jan 2025). Chelsea + Brighton priors both computable from matches_football_data.csv."
+      },
+      "Wolves": {
+        "manager": "Vitor Pereira",
+        "status": "new",
+        "since": "2024-12-19",
+        "prior_stints": [
+          {
+            "club": "Al-Shabab",
+            "league": "Saudi Pro League",
+            "start": 2023,
+            "end": 2024,
+            "prior": {
+              "matches": 34,
+              "ppg": 1.29,
+              "source": "FootyStats Saudi Pro League 23/24 (Pereira's Al-Shabab season)",
+              "xg_seasons": [
+                {
+                  "end": 2024,
+                  "xg_for": 1.39,
+                  "xg_against": 1.08
+                }
+              ]
+            }
+          },
+          {
+            "club": "Corinthians",
+            "league": "Brazilian Serie A",
+            "start": 2021,
+            "end": 2022
+          }
+        ],
+        "note": "CONFIRMED manager at Aug 2025 kickoff (arrived Dec 2024). Al-Shabab 23/24 prior supplied."
+      }
+    }
+  }
+}
